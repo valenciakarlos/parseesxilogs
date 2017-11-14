@@ -1,17 +1,31 @@
 import json
+import sys
 from prettytable import PrettyTable
-fn=sys.argv[0]
-print "File "+fn
+if (len(sys.argv)==1):
+   print "Please enter file netstats file to parse"
+   exit
+
 def main():
- f=open("netstats-logs")
+ if (len(sys.argv)==1):
+    print "Trying to locate local file netstats-logs"
+    f=open("netstats-logs")
+ else:
+    print "Opening file "+sys.argv[1]
+    f=open(sys.argv[1])
  theJSON=json.load(f)
  if "hostname" in theJSON["sysinfo"]:
-    print "Stats for " +  theJSON["sysinfo"]["hostname"]
-    for stat in theJSON["stats"]:
+    print "CPU stats for " +  theJSON["sysinfo"]["hostname"]
+    for stat in theJSON["stats"]: # Traversing a list
         print "Iteration Number="+ str(stat["iteration"])
-	table = PrettyTable(['Port','txpps','txmbps','txsize','rxpps','rxmbps','rxsize'])
-	for port in stat["ports"]:
-	    table.add_row([port["name"],port["txpps"],port["txmbps"],port["txsize"],port["rxpps"],port["rxmbps"],port["rxsize"]])
+	table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff'])
+	vcpus_dict=stat["vcpus"]
+	for vcpuId,vcpu_attrib in vcpus_dict.iteritems():  # Traversing a dictionary
+	    if "latencySensitivity" in vcpu_attrib:  # Some of the CPU stats dont have latency sensitivity and exclaff so need to validate for that
+	       latSen=vcpu_attrib["latencySensitivity"]
+	       exclaff=vcpu_attrib["exclaff"]
+	    else:
+	       latSen="NA"
+	    table.add_row([vcpu_attrib["name"],vcpu_attrib["id"],vcpu_attrib["used"],latSen,exclaff])
 	print table
 
     
