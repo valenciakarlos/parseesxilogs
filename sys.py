@@ -6,7 +6,6 @@ if (len(sys.argv)==1):
    exit
 
 def main():
- print "Arguments="+str(len(sys.argv))
  if (len(sys.argv)==1):
     print "Trying to locate local file netstats-logs"
     f=open("netstats-logs")
@@ -15,12 +14,13 @@ def main():
     f=open(sys.argv[1])
  theJSON=json.load(f)
  if "hostname" in theJSON["sysinfo"]:
-    print "Stats for " +  theJSON["sysinfo"]["hostname"]
-    for stat in theJSON["stats"]:
+    print "Sys stats for " +  theJSON["sysinfo"]["hostname"]
+    for stat in theJSON["stats"]: # Traversing a list
         print "Iteration Number="+ str(stat["iteration"])
-	table = PrettyTable(['Port','switch','txpps','txmbps','rxpps','rxmbps'])
-	for port in stat["ports"]:
-	    table.add_row([port["name"],port["switch"],port["txpps"],port["txmbps"],port["rxpps"],port["rxmbps"]])
+	table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff','sysoverlap'])
+	sys_dict=stat["sys"]
+	for sysId,sys_attrib in sys_dict.iteritems():  # Traversing a dictionary
+	    table.add_row([sys_attrib["name"],sys_attrib["id"],sys_attrib["used"],sys_attrib["latencySensitivity"],sys_attrib["exclaff"],sys_attrib["sysoverlap"]])
 	print table
 
     

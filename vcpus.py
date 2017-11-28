@@ -25,6 +25,7 @@ def main():
 	       exclaff=vcpu_attrib["exclaff"]
 	    else:
 	       latSen="NA"
+	       exclaff="NA"
 	    table.add_row([vcpu_attrib["name"],vcpu_attrib["id"],vcpu_attrib["used"],latSen,exclaff])
 	print table
 
