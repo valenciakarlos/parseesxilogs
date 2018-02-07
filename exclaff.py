@@ -25,16 +25,28 @@ def main():
  import pandas as pd
  df=pd.read_table(sched_stats_file,sep='\s+')
  # Exstracting the non-zero CPUs
+ thread_dict={}
+ # Threads 
+ table_sched=PrettyTable(['Cpu','Node','Thread'])
+ print "Scheduler stats"
  for idx,thread in enumerate(df.exclusiveTo):
      if not (thread==0):
-        print "Index="+str(idx)+" Thread="+str(thread)+" CPU="+str(df.cpu[idx])+" Node="+str(df.node[idx])
+        # Store info on dict with key being the thread id 
+        #print "Index="+str(idx)+" Thread="+str(thread)+" CPU="+str(df.cpu[idx])+" Node="+str(df.node[idx])
+	table_sched.add_row([str(df.cpu[idx]),str(df.node[idx]),thread])
+	thread_dict[thread]={'cpu':str(df.cpu[idx]),'node':str(df.node[idx])}
 
+ print table_sched
+ 
+ # Traversing the cpu stats
  if "hostname" in theJSON["sysinfo"]:
-    print "CPU stats for " +  theJSON["sysinfo"]["hostname"]
-    for stat in theJSON["stats"]: # Traversing a list
+    print "vCPU affinity info for " +  theJSON["sysinfo"]["hostname"]
+    for stat in theJSON["stats"]:
         print "Iteration Number="+ str(stat["iteration"])
-	table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff'])
+	table = PrettyTable(['Name','Id','used','latencySensitivity','vcpu_exclaff'])
+	#table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff_thread','cpu','node'])
 	vcpus_dict=stat["vcpus"]
+
 	for vcpuId,vcpu_attrib in vcpus_dict.iteritems():  # Traversing a dictionary
 	    if "latencySensitivity" in vcpu_attrib:  # Some of the CPU stats dont have latency sensitivity and exclaff so need to validate for that
 	       latSen=vcpu_attrib["latencySensitivity"]
@@ -43,9 +55,9 @@ def main():
 	       latSen="NA"
 	       exclaff="NA"
 	    table.add_row([vcpu_attrib["name"],vcpu_attrib["id"],vcpu_attrib["used"],latSen,exclaff])
-	print table
+        print table
 
-    
+
 if __name__ == "__main__":
   main()
  

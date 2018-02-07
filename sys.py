@@ -18,10 +18,16 @@ def main():
     for stat in theJSON["stats"]: # Traversing a list
         print "Iteration Number="+ str(stat["iteration"])
 	table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff','sysoverlap'])
+	table_exclaff = PrettyTable(['Name','Id','used','latencySensitivity','exclaff','sysoverlap'])
 	sys_dict=stat["sys"]
 	for sysId,sys_attrib in sys_dict.iteritems():  # Traversing a dictionary
 	    table.add_row([sys_attrib["name"],sys_attrib["id"],sys_attrib["used"],sys_attrib["latencySensitivity"],sys_attrib["exclaff"],sys_attrib["sysoverlap"]])
+	    if not sys_attrib["exclaff"] == -1:
+	       table_exclaff.add_row([sys_attrib["name"],sys_attrib["id"],sys_attrib["used"],sys_attrib["latencySensitivity"],sys_attrib["exclaff"],sys_attrib["sysoverlap"]])
+
 	print table
+	print "Entires with exclussive affinity"
+	print table_exclaff
 
     
 if __name__ == "__main__":

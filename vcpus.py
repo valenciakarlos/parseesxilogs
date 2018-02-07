@@ -18,6 +18,7 @@ def main():
     for stat in theJSON["stats"]: # Traversing a list
         print "Iteration Number="+ str(stat["iteration"])
 	table = PrettyTable(['Name','Id','used','latencySensitivity','exclaff'])
+	table_exclaff = PrettyTable(['Name','Id','used','latencySensitivity','exclaff'])
 	vcpus_dict=stat["vcpus"]
 	for vcpuId,vcpu_attrib in vcpus_dict.iteritems():  # Traversing a dictionary
 	    if "latencySensitivity" in vcpu_attrib:  # Some of the CPU stats dont have latency sensitivity and exclaff so need to validate for that
@@ -27,7 +28,12 @@ def main():
 	       latSen="NA"
 	       exclaff="NA"
 	    table.add_row([vcpu_attrib["name"],vcpu_attrib["id"],vcpu_attrib["used"],latSen,exclaff])
+	    if not exclaff == -1:
+	       table_exclaff.add_row([vcpu_attrib["name"],vcpu_attrib["id"],vcpu_attrib["used"],latSen,exclaff])
+
 	print table
+	print "entries with exclaff"
+	print table_exclaff
 
     
 if __name__ == "__main__":
