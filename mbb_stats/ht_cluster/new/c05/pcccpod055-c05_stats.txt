@@ -1,0 +1,1108 @@
+VMXNET 3 stats
+vdr-vdrPort
+100663336
+RSS stats
+vdr-vdrPort
+100663336
+vds-port
+vdr-vdrPort
+100663336
+packet stats {
+   pktsTx:1328
+   pktsTxMulticast:0
+   pktsTxBroadcast:1328
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:1
+   droppedRx:0
+}
+ClientStats
+vdr-vdrPort
+100663336
+port client stats {
+   pktsTxOK:162
+   bytesTxOK:9720
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+pNic Stats
+vmnic4/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic5/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic6/device {
+   -- General Statistics:
+   Rx Packets:8732027731
+   Tx Packets:8838409260
+   Rx Bytes:6336812379792
+   Tx Bytes:6188170353284
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:766051
+   Rx Broadcast:8943034
+   Tx Multicast:313601
+   Tx Broadcast:206
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=9669701 bytes=565908406 rxTail=2857 numHold=19 noBuf=0 csumErr=0
+rxq1: pkts=516674766 bytes=396149823058 rxTail=1230 numHold=7 noBuf=0 csumErr=0
+rxq2: pkts=764299 bytes=548862677 rxTail=2844 numHold=20 noBuf=0 csumErr=0
+rxq3: pkts=7316309 bytes=1962661381 rxTail=710 numHold=14 noBuf=0 csumErr=0
+rxq4: pkts=38151 bytes=44539108 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq5: pkts=34483284 bytes=32124764184 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq6: pkts=1555 bytes=219631 rxTail=1555 numHold=10 noBuf=0 csumErr=0
+rxq7: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq8: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq9: pkts=8 bytes=1024 rxTail=8 numHold=8 noBuf=0 csumErr=0
+rxq10: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq11: pkts=34 bytes=7580 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq12: pkts=8172749073 bytes=5835468276760 rxTail=273 numHold=1 noBuf=0 csumErr=0
+rxq13: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq14: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq15: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+txq0: pkts=4430396 bytes=515772742 txTail=2413 toClean=2413 pending=0
+txq1: pkts=1943812839 bytes=779194207349 txTail=650 toClean=650 pending=0
+txq2: pkts=340332 bytes=74973741 txTail=1007 toClean=1007 pending=0
+txq3: pkts=25786576 bytes=9329841825 txTail=100 toClean=100 pending=0
+txq4: pkts=6424582092 bytes=4989183137853 txTail=0 toClean=0 pending=0
+txq5: pkts=437365573 bytes=338879559564 txTail=0 toClean=0 pending=0
+txq6: pkts=2 bytes=256 txTail=2 toClean=2 pending=0
+txq7: pkts=7 bytes=896 txTail=7 toClean=7 pending=0
+txq8: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq9: pkts=8 bytes=1024 txTail=8 toClean=8 pending=0
+txq10: pkts=18 bytes=3190 txTail=0 toClean=0 pending=0
+txq11: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq12: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq13: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq14: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq15: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+VSI 12 (id 17) filter: 00:50:56:6e:bb:3c VLAN (-1) in use
+VSI 12 (id 17) filter: 00:50:56:65:95:60 VLAN (-1) in use
+VSI 12 (id 17) filter: 00:50:56:63:21:91 VLAN (-1) in use
+VSI 12 (id 17) filter: 00:50:56:6e:f3:51 VLAN (-1) in use
+VSI 12 (id 17) filter: 00:50:56:6e:04:a7 VLAN (-1) in use
+ENS Rx Queue Remap: 0 1 2 3 -1 -1 6 7 8 9 -1 -1 12 -1 -1 -1
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic7/device {
+   -- General Statistics:
+   Rx Packets:553533766887
+   Tx Packets:498192763388
+   Rx Bytes:150259960908327
+   Tx Bytes:109872827413571
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:766058
+   Rx Broadcast:8942858
+   Tx Multicast:313669
+   Tx Broadcast:76
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:4693486587
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=9669306 bytes=565866610 rxTail=698 numHold=29 noBuf=0 csumErr=0
+rxq1: pkts=17147215 bytes=4428886950 rxTail=335 numHold=27 noBuf=0 csumErr=0
+rxq2: pkts=4785380662 bytes=3678474379879 rxTail=310 numHold=9 noBuf=0 csumErr=0
+rxq3: pkts=253204527944 bytes=195317090978734 rxTail=206 numHold=14 noBuf=0 csumErr=0
+rxq4: pkts=246947642815 bytes=190951332761265 rxTail=719 numHold=24 noBuf=0 csumErr=0
+rxq5: pkts=935908704 bytes=672567433483 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq6: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq7: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq8: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq9: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq10: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq11: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq12: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq13: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq14: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq15: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+txq0: pkts=5130746 bytes=597222734 txTail=1100 toClean=1100 pending=0
+txq1: pkts=52630249916 bytes=40911179396193 txTail=908 toClean=908 pending=0
+txq2: pkts=202330251365 bytes=157387620550513 txTail=2037 toClean=2037 pending=0
+txq3: pkts=194399985113 bytes=151132383637331 txTail=514 toClean=514 pending=0
+txq4: pkts=48800127801 bytes=37927104544805 txTail=0 toClean=0 pending=0
+txq5: pkts=1927 bytes=383023 txTail=0 toClean=0 pending=0
+txq6: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq7: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq8: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq9: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq10: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq11: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq12: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq13: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq14: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq15: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+VSI 1 (id 21) filter: 00:50:56:6e:bb:3c VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:65:95:60 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:63:21:91 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:6e:f3:51 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:6e:04:a7 VLAN (-1) in use
+ENS Rx Queue Remap: 0 1 2 3 4 -1 -1 7 8 9 10 -1 -1 -1 -1 -1
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic10/device {
+   -- General Statistics:
+   Rx Packets:3143251
+   Tx Packets:0
+   Rx Bytes:1170899120
+   Tx Bytes:3830088
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:834979
+   Rx Broadcast:10543208
+   Tx Multicast:44024
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=14478717 bytes=1077692136 toFill=1404 toProc=1405 noBuf=0 irq=0 polled=0 csumErr=1366
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic11/device {
+   -- General Statistics:
+   Rx Packets:3143416
+   Tx Packets:0
+   Rx Bytes:1170925264
+   Tx Bytes:3830088
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:834989
+   Rx Broadcast:10543208
+   Tx Multicast:44024
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=14478883 bytes=1077713606 toFill=1570 toProc=1571 noBuf=0 irq=0 polled=0 csumErr=1366
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic8/device {
+   -- General Statistics:
+   Rx Packets:285391605294
+   Tx Packets:234661657403
+   Rx Bytes:222086506557778
+   Tx Bytes:183479271218419
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:766050
+   Rx Broadcast:8942935
+   Tx Multicast:313584
+   Tx Broadcast:84
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:1106867302
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=9670884 bytes=566078070 rxTail=204 numHold=8 noBuf=0 csumErr=0
+rxq1: pkts=14957914 bytes=6950309182 rxTail=3418 numHold=3 noBuf=0 csumErr=0
+rxq2: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq3: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq4: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq5: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq6: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq7: pkts=4003180081 bytes=3103893049982 rxTail=1332 numHold=12 noBuf=0 csumErr=0
+rxq8: pkts=3510251511 bytes=2308499975412 rxTail=654 numHold=22 noBuf=0 csumErr=0
+rxq9: pkts=3839366955 bytes=2931724061151 rxTail=1835 numHold=3 noBuf=0 csumErr=0
+rxq10: pkts=226064446404 bytes=174386485838153 rxTail=964 numHold=1 noBuf=0 csumErr=0
+rxq11: pkts=192953726 bytes=149063548392 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq12: pkts=3709906940 bytes=2860810637141 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq13: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq14: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq15: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+txq0: pkts=6941357 bytes=824818655 txTail=883 toClean=883 pending=0
+txq1: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq2: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq3: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq4: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq5: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq6: pkts=4022741898 bytes=3124843018223 txTail=2518 toClean=2518 pending=0
+txq7: pkts=1044784004 bytes=810637460063 txTail=361 toClean=361 pending=0
+txq8: pkts=6622977441 bytes=4410512423642 txTail=1454 toClean=1454 pending=0
+txq9: pkts=170291334929 bytes=132284115057429 txTail=1106 toClean=1106 pending=0
+txq10: pkts=49004038349 bytes=38128543277147 txTail=0 toClean=0 pending=0
+txq11: pkts=3666717013 bytes=2842212500364 txTail=0 toClean=0 pending=0
+txq12: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq13: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq14: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq15: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+VSI 1 (id 6) filter: 00:50:56:6e:bb:3c VLAN (-1) in use
+VSI 1 (id 6) filter: 00:50:56:65:95:60 VLAN (-1) in use
+VSI 1 (id 6) filter: 00:50:56:63:21:91 VLAN (-1) in use
+VSI 1 (id 6) filter: 00:50:56:6e:f3:51 VLAN (-1) in use
+VSI 1 (id 6) filter: 00:50:56:6e:04:a7 VLAN (-1) in use
+ENS Rx Queue Remap: 0 1 2 3 4 -1 -1 7 8 9 10 -1 -1 -1 -1 -1
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic9/device {
+   -- General Statistics:
+   Rx Packets:276821550619
+   Tx Packets:223415173854
+   Rx Bytes:215115217407748
+   Tx Bytes:175283498733117
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:766058
+   Rx Broadcast:8942999
+   Tx Multicast:313635
+   Tx Broadcast:112
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:3822096853
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=9669534 bytes=565886510 rxTail=2857 numHold=30 noBuf=0 csumErr=0
+rxq1: pkts=17407724 bytes=4598753403 rxTail=3820 numHold=25 noBuf=0 csumErr=0
+rxq2: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq3: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq4: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq5: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq6: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq7: pkts=231821502503 bytes=178610069723582 rxTail=2298 numHold=14 noBuf=0 csumErr=0
+rxq8: pkts=1542474075 bytes=1164823330790 rxTail=3528 numHold=32 noBuf=0 csumErr=0
+rxq9: pkts=28206096 bytes=16468979578 rxTail=1034 numHold=9 noBuf=0 csumErr=0
+rxq10: pkts=20284738 bytes=12204966114 rxTail=1346 numHold=2 noBuf=0 csumErr=0
+rxq11: pkts=133541469 bytes=40536749952 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq12: pkts=781331397 bytes=235572898021 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq13: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq14: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+rxq15: pkts=0 bytes=0 rxTail=0 numHold=0 noBuf=0 csumErr=0
+txq0: pkts=5462798 bytes=795878540 txTail=1698 toClean=1698 pending=0
+txq1: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq2: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq3: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq4: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq5: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq6: pkts=173777618686 bytes=134973432566323 txTail=2325 toClean=2325 pending=0
+txq7: pkts=49298751960 bytes=38288860612653 txTail=368 toClean=368 pending=0
+txq8: pkts=12743866 bytes=1834595975 txTail=1230 toClean=1230 pending=0
+txq9: pkts=6532817 bytes=1003262493 txTail=1267 toClean=1267 pending=0
+txq10: pkts=110164463 bytes=99685476344 txTail=0 toClean=0 pending=0
+txq11: pkts=176923376 bytes=127193704103 txTail=0 toClean=0 pending=0
+txq12: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq13: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq14: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+txq15: pkts=0 bytes=0 txTail=0 toClean=0 pending=0
+VSI 1 (id 21) filter: 00:50:56:6e:bb:3c VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:65:95:60 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:63:21:91 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:6e:f3:51 VLAN (-1) in use
+VSI 1 (id 21) filter: 00:50:56:6e:04:a7 VLAN (-1) in use
+ENS Rx Queue Remap: 0 1 2 3 4 -1 -1 7 8 9 10 -1 -1 -1 -1 -1
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic12/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic13/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq1: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq2: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq3: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq4: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq5: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq6: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq7: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq8: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq9: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq10: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq11: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq12: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq13: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq14: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+rxq15: pkts=0 bytes=0 toFill=2047 toProc=0 noBuf=0 irq=0 polled=0 csumErr=0
+txq0: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq1: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq2: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq3: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq4: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq5: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq6: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq7: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq8: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq9: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq10: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq11: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq12: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq13: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq14: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+txq15: pkts=0 bytes=0 toFill=0 toProc=0 irq=0 dropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic0/device {
+   -- General Statistics:
+   Rx Packets:12141888
+   Tx Packets:43754449
+   Rx Bytes:2312887017
+   Tx Bytes:14864339415
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:74127
+   Rx Broadcast:193011
+   Tx Multicast:6
+   Tx Broadcast:12383
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=317 next2proc=320 RDH=320 RDT=317 RXDCTL=42000000 dropped=0 rxPkts=12141888 rxBytes=2312887017 rxIrqCnt=48730078 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=69 next2proc=69 TDH=69 TDT=69 TXDCTL=02000000 dropped=0 txPkts=43754449 txBytes=14864339415 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic1/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=30000000
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=1021 next2proc=0 RDH=0 RDT=1021 RXDCTL=42000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic2/device {
+   -- General Statistics:
+   Rx Packets:16426792
+   Tx Packets:6909105
+   Rx Bytes:76755974682
+   Tx Bytes:94972014454
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1499787
+   Rx Broadcast:587443
+   Tx Multicast:43879
+   Tx Broadcast:552
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=5 next2proc=8 RDH=8 RDT=5 RXDCTL=42000000 dropped=0 rxPkts=3008408 rxBytes=4893929378 rxIrqCnt=5384457 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=676 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=12044917 rxBytes=65123007466 rxIrqCnt=2560963 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=226 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=536395 rxBytes=4636056601 rxIrqCnt=111386 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=224520 rxBytes=20227026 rxIrqCnt=92642 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=612552 rxBytes=2082754211 rxIrqCnt=218787 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=953 next2proc=953 TDH=953 TDT=953 TXDCTL=02000000 dropped=0 txPkts=6909105 txBytes=94972014454 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic3/device {
+   -- General Statistics:
+   Rx Packets:609180079
+   Tx Packets:492071015
+   Rx Bytes:1869250327543
+   Tx Bytes:1707177092718
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1499405
+   Rx Broadcast:579078
+   Tx Multicast:43879
+   Tx Broadcast:8911
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=218 next2proc=221 RDH=221 RDT=218 RXDCTL=42000000 dropped=0 rxPkts=304697022 rxBytes=1043453141455 rxIrqCnt=621141011 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=397 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=265827866 rxBytes=743427741152 rxIrqCnt=195925024 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=6879928 rxBytes=14018914165 rxIrqCnt=5867570 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=30126598 rxBytes=65782321708 rxIrqCnt=26395934 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=1 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=1648665 rxBytes=2568209063 rxIrqCnt=1482729 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=639 next2proc=639 TDH=639 TDT=639 TXDCTL=02000000 dropped=0 txPkts=492071015 txBytes=1707177092718 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+pNic Rx Features:
+vmnic4/features: 0 -> NONE
+vmnic5/features: 0 -> NONE
+vmnic6/features: 0 -> NONE
+vmnic7/features: 0 -> NONE
+vmnic10/features: 0x82 -> Pair Dynamic
+vmnic11/features: 0x82 -> Pair Dynamic
+vmnic8/features: 0 -> NONE
+vmnic9/features: 0 -> NONE
+vmnic12/features: 0 -> NONE
+vmnic13/features: 0 -> NONE
+vmnic0/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic1/features: 0 -> NONE
+vmnic2/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic3/features: 0x482 -> Pair Dynamic GenericRSS
+pNic to vNic pinnings:
+vdr-vdrPort
+100663336
+vmnic6
+pNic to NUMA node mappings:
+vmnic4/   Device NUMA Node:0
+vmnic5/   Device NUMA Node:0
+vmnic6/   Device NUMA Node:0
+vmnic7/   Device NUMA Node:0
+vmnic10/   Device NUMA Node:1
+vmnic11/   Device NUMA Node:1
+vmnic8/   Device NUMA Node:1
+vmnic9/   Device NUMA Node:1
+vmnic12/   Device NUMA Node:1
+vmnic13/   Device NUMA Node:1
+vmnic0/   Device NUMA Node:0
+vmnic1/   Device NUMA Node:0
+vmnic2/   Device NUMA Node:0
+vmnic3/   Device NUMA Node:0

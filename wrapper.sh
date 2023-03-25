@@ -1,7 +1,11 @@
-usage() {                                 # Function: Print a help message.
+export SCRIPT_PATH="/Users/vcarlos/PycharmProjects/parseesxilogs"
+
+# Function: Print a help message.
+usage() { 
   echo "Usage: $0 [ -n netstats ] [ -s schedstats ]" 1>&2 
 }
-exit_abnormal() {                         # Function: Exit with error.
+# Function: Exit with error.
+exit_abnormal() {
   usage
   exit 1
 }
@@ -26,23 +30,23 @@ else
  if [ -f "$netstat" ]; then
   echo "Executing scripts that use $netstat"
   echo "--------------------- Nic Iventory -------------------------------"
-  python3 nic_inv.py $netstat
+  python3 $SCRIPT_PATH/nic_inv.py $netstat
   echo "--------------------- Nic Stats -------------------------------"
-  python3 nic_stats.py $netstat
+  python3 $SCRIPT_PATH/nic_stats.py $netstat
   echo "--------------------- check tx and rx threads -------------------------------"
-  python3 check_txrx_threads.py $netstat
+  python3 $SCRIPT_PATH/check_txrx_threads.py $netstat
   echo "--------------------- Check for drops -------------------------------"
-  python3 check_drops.py $netstat
+  python3 $SCRIPT_PATH/check_drops.py $netstat
   echo "--------------------- Sys stats -------------------------------"
-  python3 sysstats.py $netstat
+  python3 $SCRIPT_PATH/sysstats.py $netstat
   echo "--------------------- CPU Stats -------------------------------"
-  python3 vcpus.py $netstat
+  python3 $SCRIPT_PATH/vcpus.py $netstat
   echo "--------------------- VM Stats -------------------------------"
-  python3 vm_stats.py $netstat
+  python3 $SCRIPT_PATH/vm_stats.py $netstat
   if [ -f "$schedstat" ];then
      echo "Executing scripts that use $schedstat"
      echo "--------------------- Exclussive Affinity -------------------------------"
-     python3 exclaff.py $netstat $schedstat
+     python3 $SCRIPT_PATH/exclaff.py $netstat $schedstat
 
   else
      echo "$schedstat file not specified or does not exists"

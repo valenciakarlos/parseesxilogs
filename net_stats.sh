@@ -1,7 +1,12 @@
-usage() {                                 # Function: Print a help message.
+export SCRIPT_PATH="/Users/vcarlos/PycharmProjects/parseesxilogs"
+
+# Function: Print a help message.
+usage() {
   echo "Usage: $0 [ -n netstats ] [ -s schedstats ]" 1>&2 
 }
-exit_abnormal() {                         # Function: Exit with error.
+
+# Function: Exit with error.
+exit_abnormal() {
   usage
   exit 1
 }
@@ -26,12 +31,11 @@ else
  if [ -f "$netstat" ]; then
   echo "Executing scripts that use $netstat"
   echo "--------------------- Nic Iventory -------------------------------"
-  python3 nic_inv.py $netstat
+  python3 $SCRIPT_PATH/nic_inv.py $netstat
   echo "--------------------- Nic Stats -------------------------------"
-  python3 nic_stats.py $netstat
+  python3 $SCRIPT_PATH/nic_stats.py $netstat
  echo "--------------------- Check for drops -------------------------------"
-  python3 check_drops.py $netstat
- fi
+  python3 $SCRIPT_PATH/check_drops.py $netstat
  else
   echo "$netstat file does not exists"
  fi

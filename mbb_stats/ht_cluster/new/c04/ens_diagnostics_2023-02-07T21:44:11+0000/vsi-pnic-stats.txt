@@ -1,0 +1,448 @@
+#### First sample of pNIC stats for vmnic6
+
+device {
+   -- General Statistics:
+   Rx Packets:3059232061
+   Tx Packets:2476340368
+   Rx Bytes:2257633041030
+   Tx Bytes:1860152224120
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807614
+   Rx Broadcast:10328985
+   Tx Multicast:331983
+   Tx Broadcast:28739
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:610285577
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126852 totalBytes=1137324540 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=32220861 totalBytes=4613283737 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=18190231 totalBytes=3158437098 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=54090219 totalBytes=8706668563 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2893806014 totalBytes=2195001602027 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=84 totalBytes=11424 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=57797056 totalBytes=45001008458 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=859 totalBytes=190832 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=7141248 totalBytes=1062761479 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=22575193 totalBytes=25623340564 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=2294328900 totalBytes=1711724530005 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=94904002 totalBytes=67183150173 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=104 totalBytes=13728 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=57399782 totalBytes=44632981200 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+#### First sample of pNIC stats for vmnic7
+
+device {
+   -- General Statistics:
+   Rx Packets:89434214
+   Tx Packets:81258075
+   Rx Bytes:49813644704
+   Tx Bytes:48780104421
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807728
+   Rx Broadcast:10344015
+   Tx Multicast:331882
+   Tx Broadcast:17073
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:22979493
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3285019 totalBytes=1168708860 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=62408492 totalBytes=45466623544 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=332489 totalBytes=250979541 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=21154935 totalBytes=2603874860 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2253279 totalBytes=308924498 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=10607636 totalBytes=1315290498 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=66883642 totalBytes=46362579287 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=57677 totalBytes=26065065 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=755606 totalBytes=162404328 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=2953515 totalBytes=567571809 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+#### First sample of pNIC stats for vmnic8
+
+device {
+   -- General Statistics:
+   Rx Packets:14020845
+   Tx Packets:11186275
+   Rx Bytes:3610982700
+   Tx Bytes:1567358217
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807799
+   Rx Broadcast:10346255
+   Tx Multicast:331777
+   Tx Broadcast:9579
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3129178 totalBytes=1139115202 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=10526203 totalBytes=2354177599 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=294205 totalBytes=40391192 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=61505 totalBytes=60169976 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=9754 totalBytes=2598453 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=11186277 totalBytes=1501482896 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+#### First sample of pNIC stats for vmnic9
+
+device {
+   -- General Statistics:
+   Rx Packets:191895501
+   Tx Packets:155663450
+   Rx Bytes:118025968265
+   Tx Bytes:112242457753
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807727
+   Rx Broadcast:10344118
+   Tx Multicast:331880
+   Tx Broadcast:14045
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:1618660
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126836 totalBytes=1138362700 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=130083931 totalBytes=90744872503 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=17306722 totalBytes=2845078581 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=1622747 totalBytes=273178011 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=39755265 totalBytes=23009943069 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=36231130 totalBytes=24547348034 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=424310 totalBytes=57286489 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=10113818 totalBytes=1925328252 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=29637258 totalBytes=20425381224 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=79260934 totalBytes=64643815150 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+/n/n#### Second sample of pNIC stats for vmnic6
+
+device {
+   -- General Statistics:
+   Rx Packets:3059234984
+   Tx Packets:2476345024
+   Rx Bytes:2257633488805
+   Tx Bytes:1860154181232
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807622
+   Rx Broadcast:10329139
+   Tx Multicast:331983
+   Tx Broadcast:28739
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:610285577
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126852 totalBytes=1137335164 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=32222184 totalBytes=4613449365 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=18190231 totalBytes=3158437098 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=54091819 totalBytes=8706940086 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2893806014 totalBytes=2195001602027 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=84 totalBytes=11424 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=57797056 totalBytes=45001008458 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=859 totalBytes=190832 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=7141475 totalBytes=1062788719 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=22575193 totalBytes=25623340564 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=2294332837 totalBytes=1711726376439 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=94904494 totalBytes=67183214987 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=104 totalBytes=13728 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=57399782 totalBytes=44632981200 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+/n/n#### Second sample of pNIC stats for vmnic7
+
+device {
+   -- General Statistics:
+   Rx Packets:89435096
+   Tx Packets:81258471
+   Rx Bytes:49813760316
+   Tx Bytes:48780154761
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807736
+   Rx Broadcast:10344169
+   Tx Multicast:331882
+   Tx Broadcast:17073
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:22980375
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3285019 totalBytes=1168719484 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=62408492 totalBytes=45466623544 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=332489 totalBytes=250979541 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=21155716 totalBytes=2603966208 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2253380 totalBytes=308938138 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=10607926 totalBytes=1315325460 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=66883642 totalBytes=46362579287 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=57677 totalBytes=26065065 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=755606 totalBytes=162404328 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=2953621 totalBytes=567585603 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+/n/n#### Second sample of pNIC stats for vmnic8
+
+device {
+   -- General Statistics:
+   Rx Packets:14021200
+   Tx Packets:11186757
+   Rx Bytes:3611035776
+   Tx Bytes:1567414509
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807807
+   Rx Broadcast:10346409
+   Tx Multicast:331777
+   Tx Broadcast:9579
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3129178 totalBytes=1139125826 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=10526558 totalBytes=2354220051 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=294205 totalBytes=40391192 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=61505 totalBytes=60169976 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=9754 totalBytes=2598453 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=11186759 totalBytes=1501537260 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+/n/n#### Second sample of pNIC stats for vmnic9
+
+device {
+   -- General Statistics:
+   Rx Packets:191896495
+   Tx Packets:155664484
+   Rx Bytes:118026166161
+   Tx Bytes:112242674996
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807735
+   Rx Broadcast:10344272
+   Tx Multicast:331880
+   Tx Broadcast:14045
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:1618660
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126836 totalBytes=1138373324 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=130084342 totalBytes=90744933577 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=17306722 totalBytes=2845078581 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=1622747 totalBytes=273178011 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=39755848 totalBytes=23010069267 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=36231198 totalBytes=24547356194 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=424310 totalBytes=57286489 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=10114784 totalBytes=1925533199 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=29637258 totalBytes=20425381224 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=79260934 totalBytes=64643815150 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}

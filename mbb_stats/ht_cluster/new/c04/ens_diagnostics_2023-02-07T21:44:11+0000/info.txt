@@ -1,0 +1,2346 @@
+
+#### ESXi build
+
+VMware ESXi 7.0.3 build-19193900
+
+#### ESXi Platform Info
+
+Platform Information
+   UUID: 0x4c 0x4c 0x45 0x44 0x0 0x48 0x4a 0x10 0x80 0x34 0xb4 0xc0 0x4f 0x4a 0x4e 0x32
+   Product Name: PowerEdge R740xd
+   Vendor Name: Dell Inc.
+   Serial Number: 4HJ4JN2
+   Enclosure Serial Number: 4HJ4JN2
+   BIOS Asset Tag: 
+   IPMI Supported: true
+
+#### ESXi BIOS Info
+
+BIOS Information (type 0) {
+   BIOS Vendor:Dell Inc.
+   BIOS Version:2.12.2
+   BIOS Release Date:07/09/2021
+   BIOS Major Release:2
+   BIOS Minor Release:12
+   Embedded Controller Firmware Major Release:255
+   Embedded Controller Firmware Minor Release:255
+}
+
+#### ESXi CPU Model
+
+Intel(R) Xeon(R) Platinum 8160 CPU @ 2.10GHz
+
+#### ESXi Nr of CPUs
+
+96 PCPUs
+48 cores
+ 2 LLCs
+ 2 packages
+ 2 NUMA nodes
+
+#### ESXi Hyperthreading State 
+
+CPU global information {
+   Hyperthreading state: 3 -> enabled
+   HV state: 3 -> HV Enabled
+   Number of packages:2
+   Number of dies:2
+   Number of tiles:2
+   Number of modules:2
+   Number of cores:48
+   Number of CPUs (threads):96
+   Number of licensable cores:48
+   SLC64 capable:0
+   NVOA:0
+   Hyperthreading security vulnerability mitigated:0
+}
+
+#### ESXi IOMMU Type 
+
+ 2 -> VT-d
+
+#### ESXi IOMMU Status 
+
+1
+
+#### ESXi NUMA nodes 
+
+Hardware information {
+   System type: 0 -> Unspecific
+   Number of NUMA nodes:2
+   Number of last level caches:2
+}
+
+#### ESXi Temperature
+
+Unable to get IPMI Sensor data : No records or incompatible version or read failed :
+
+#### ESXi CPU package topology relation 
+
+cpu topology relation {
+   pcpus:0-47
+}
+cpu topology relation {
+   pcpus:48-95
+}
+
+#### NSX/ENS vibs
+
+ixgben-ens                     1.5.5.0-1OEM.700.1.0.15843807          INT      VMwareCertified   2022-06-10
+nvmxnet3-ens                   2.0.0.22-1vmw.703.0.20.19193900        VMW      VMwareCertified   2022-06-10
+nsx-adf                        3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-cfgagent                   3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-context-mux                3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-cpp-libs                   3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-esx-datapath               3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-exporter                   3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-host                       3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-ids                        3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-monitoring                 3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-mpa                        3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-nestdb                     3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-netopa                     3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-opsagent                   3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-platform-client            3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-proto2-libs                3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-proxy                      3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-python-gevent              1.1.0-18242523                         VMware   VMwareCertified   2022-06-10
+nsx-python-greenlet            0.4.14-18242315                        VMware   VMwareCertified   2022-06-10
+nsx-python-logging             3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-python-protobuf            2.6.1-18242311                         VMware   VMwareCertified   2022-06-10
+nsx-python-utils               3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-sfhc                       3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-shared-libs                3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsx-vdpi                       3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+nsxcli                         3.2.0.1.0-7.0.19232397                 VMware   VMwareCertified   2022-06-10
+
+#### ESXi HostSwitch Info
+
+(vim.host.NetworkInfo) {
+   vswitch = (vim.host.VirtualSwitch) [
+      (vim.host.VirtualSwitch) {
+         name = "vSwitch0", 
+         key = "key-vim.host.VirtualSwitch-vSwitch0", 
+         numPorts = 9216, 
+         numPortsAvailable = 9167, 
+         mtu = 1500, 
+         portgroup = (vim.host.PortGroup) [
+            <vim.host.PortGroup:key-vim.host.PortGroup-Management Network>
+         ], 
+         pnic = (vim.host.PhysicalNic) [
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic0>
+         ], 
+         spec = (vim.host.VirtualSwitch.Specification) {
+            numPorts = 128, 
+            bridge = (vim.host.VirtualSwitch.BondBridge) {
+               nicDevice = (string) [
+                  "vmnic0"
+               ], 
+               beacon = (vim.host.VirtualSwitch.BeaconConfig) {
+                  interval = 1
+               }, 
+               linkDiscoveryProtocolConfig = (vim.host.LinkDiscoveryProtocolConfig) {
+                  protocol = "cdp", 
+                  operation = "listen"
+               }
+            }, 
+            policy = (vim.host.NetworkPolicy) {
+               security = (vim.host.NetworkPolicy.SecurityPolicy) {
+                  allowPromiscuous = false, 
+                  macChanges = false, 
+                  forgedTransmits = false
+               }, 
+               nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) {
+                  policy = "loadbalance_srcid", 
+                  reversePolicy = true, 
+                  notifySwitches = true, 
+                  rollingOrder = false, 
+                  failureCriteria = (vim.host.NetworkPolicy.NicFailureCriteria) {
+                     checkSpeed = "minimum", 
+                     speed = 10, 
+                     checkDuplex = false, 
+                     fullDuplex = false, 
+                     checkErrorPercent = false, 
+                     percentage = 0, 
+                     checkBeacon = false
+                  }, 
+                  nicOrder = (vim.host.NetworkPolicy.NicOrderPolicy) {
+                     activeNic = (string) [
+                        "vmnic0"
+                     ], 
+                     standbyNic = <unset>
+                  }
+               }, 
+               offloadPolicy = (vim.host.NetOffloadCapabilities) {
+                  csumOffload = true, 
+                  tcpSegmentation = true, 
+                  zeroCopyXmit = true
+               }, 
+               shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) {
+                  enabled = false, 
+                  averageBandwidth = <unset>, 
+                  peakBandwidth = <unset>, 
+                  burstSize = <unset>
+               }
+            }, 
+            mtu = <unset>
+         }
+      }
+   ], 
+   proxySwitch = (vim.host.HostProxySwitch) [
+      (vim.host.HostProxySwitch) {
+         dvsUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+         dvsName = "VDS7-TRAFFIC", 
+         key = "DvsPortset-1", 
+         numPorts = 9216, 
+         configNumPorts = 64, 
+         numPortsAvailable = 9167, 
+         uplinkPort = (vim.KeyValue) [
+            (vim.KeyValue) {
+               key = "353", 
+               value = "Uplink 1"
+            }, 
+            (vim.KeyValue) {
+               key = "354", 
+               value = "Uplink 2"
+            }, 
+            (vim.KeyValue) {
+               key = "355", 
+               value = "NUMA1-p1"
+            }, 
+            (vim.KeyValue) {
+               key = "356", 
+               value = "NUMA1-p2"
+            }
+         ], 
+         mtu = 9000, 
+         pnic = (vim.host.PhysicalNic) [
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic6>, 
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic7>, 
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic8>, 
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic9>
+         ], 
+         spec = (vim.host.HostProxySwitch.Specification) {
+            backing = (vim.dvs.HostMember.PnicBacking) {
+               pnicSpec = (vim.dvs.HostMember.PnicSpec) [
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic6", 
+                     uplinkPortKey = "353", 
+                     uplinkPortgroupKey = "dvportgroup-39", 
+                     connectionCookie = 934356666
+                  }, 
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic7", 
+                     uplinkPortKey = "354", 
+                     uplinkPortgroupKey = "dvportgroup-39", 
+                     connectionCookie = 934357051
+                  }, 
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic8", 
+                     uplinkPortKey = "355", 
+                     uplinkPortgroupKey = "dvportgroup-39", 
+                     connectionCookie = 934357425
+                  }, 
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic9", 
+                     uplinkPortKey = "356", 
+                     uplinkPortgroupKey = "dvportgroup-39", 
+                     connectionCookie = 934357799
+                  }
+               ]
+            }
+         }, 
+         hostLag = <unset>, 
+         networkReservationSupported = <unset>, 
+         nsxtEnabled = true, 
+         ensEnabled = true, 
+         ensInterruptEnabled = false, 
+         transportZones = (vim.dvs.HostMember.TransportZoneInfo) [
+            (vim.dvs.HostMember.TransportZoneInfo) {
+               uuid = "64ac7b13-8011-4c3c-8e26-b3b149330579", 
+               type = "overlay"
+            }, 
+            (vim.dvs.HostMember.TransportZoneInfo) {
+               uuid = "94707cb1-dd90-45e5-a066-46db2d23c53f", 
+               type = "vlan"
+            }
+         ], 
+         nsxUsedUplinkPort = (string) [
+            "Uplink 1", 
+            "Uplink 2", 
+            "NUMA1-p1", 
+            "NUMA1-p2"
+         ], 
+         nsxtStatus = "up", 
+         nsxtStatusDetail = "", 
+         ensInfo = (vim.host.HostProxySwitch.EnsInfo) null, 
+         networkOffloadingEnabled = <unset>
+      }, 
+      (vim.host.HostProxySwitch) {
+         dvsUuid = "50 13 fa 6f 14 61 a8 18-ca 50 4c 70 48 7a fe 89", 
+         dvsName = "VDS7-Infrastructure", 
+         key = "DvsPortset-0", 
+         numPorts = 9216, 
+         configNumPorts = 512, 
+         numPortsAvailable = 9167, 
+         uplinkPort = (vim.KeyValue) [
+            (vim.KeyValue) {
+               key = "162", 
+               value = "Uplink 1"
+            }, 
+            (vim.KeyValue) {
+               key = "163", 
+               value = "Uplink 2"
+            }
+         ], 
+         mtu = 9000, 
+         pnic = (vim.host.PhysicalNic) [
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic2>, 
+            <vim.host.PhysicalNic:key-vim.host.PhysicalNic-vmnic3>
+         ], 
+         spec = (vim.host.HostProxySwitch.Specification) {
+            backing = (vim.dvs.HostMember.PnicBacking) {
+               pnicSpec = (vim.dvs.HostMember.PnicSpec) [
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic2", 
+                     uplinkPortKey = "162", 
+                     uplinkPortgroupKey = "dvportgroup-35", 
+                     connectionCookie = 935008998
+                  }, 
+                  (vim.dvs.HostMember.PnicSpec) {
+                     pnicDevice = "vmnic3", 
+                     uplinkPortKey = "163", 
+                     uplinkPortgroupKey = "dvportgroup-35", 
+                     connectionCookie = 935009283
+                  }
+               ]
+            }
+         }, 
+         hostLag = <unset>, 
+         networkReservationSupported = <unset>, 
+         nsxtEnabled = false, 
+         ensEnabled = false, 
+         ensInterruptEnabled = false, 
+         transportZones = <unset>, 
+         nsxUsedUplinkPort = <unset>, 
+         nsxtStatus = "", 
+         nsxtStatusDetail = "", 
+         ensInfo = (vim.host.HostProxySwitch.EnsInfo) null, 
+         networkOffloadingEnabled = <unset>
+      }
+   ], 
+   portgroup = (vim.host.PortGroup) [
+      (vim.host.PortGroup) {
+         key = "key-vim.host.PortGroup-Management Network", 
+         port = (vim.host.PortGroup.Port) [
+            (vim.host.PortGroup.Port) {
+               key = "key-vim.host.PortGroup.Port-134217761", 
+               mac = (string) [
+                  "24:6e:96:6c:29:54"
+               ], 
+               type = "host"
+            }
+         ], 
+         vswitch = <vim.host.VirtualSwitch:key-vim.host.VirtualSwitch-vSwitch0>, 
+         computedPolicy = (vim.host.NetworkPolicy) {
+            security = (vim.host.NetworkPolicy.SecurityPolicy) {
+               allowPromiscuous = false, 
+               macChanges = false, 
+               forgedTransmits = false
+            }, 
+            nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) {
+               policy = "loadbalance_srcid", 
+               reversePolicy = true, 
+               notifySwitches = true, 
+               rollingOrder = false, 
+               failureCriteria = (vim.host.NetworkPolicy.NicFailureCriteria) {
+                  checkSpeed = "minimum", 
+                  speed = 10, 
+                  checkDuplex = false, 
+                  fullDuplex = false, 
+                  checkErrorPercent = false, 
+                  percentage = 0, 
+                  checkBeacon = false
+               }, 
+               nicOrder = (vim.host.NetworkPolicy.NicOrderPolicy) {
+                  activeNic = (string) [
+                     "vmnic0"
+                  ], 
+                  standbyNic = <unset>
+               }
+            }, 
+            offloadPolicy = (vim.host.NetOffloadCapabilities) {
+               csumOffload = true, 
+               tcpSegmentation = true, 
+               zeroCopyXmit = true
+            }, 
+            shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) {
+               enabled = false, 
+               averageBandwidth = <unset>, 
+               peakBandwidth = <unset>, 
+               burstSize = <unset>
+            }
+         }, 
+         spec = (vim.host.PortGroup.Specification) {
+            name = "Management Network", 
+            vlanId = 0, 
+            vswitchName = "vSwitch0", 
+            policy = (vim.host.NetworkPolicy) {
+               security = (vim.host.NetworkPolicy.SecurityPolicy) {
+                  allowPromiscuous = <unset>, 
+                  macChanges = <unset>, 
+                  forgedTransmits = <unset>
+               }, 
+               nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) {
+                  policy = "loadbalance_srcid", 
+                  reversePolicy = <unset>, 
+                  notifySwitches = true, 
+                  rollingOrder = false, 
+                  failureCriteria = (vim.host.NetworkPolicy.NicFailureCriteria) {
+                     checkSpeed = <unset>, 
+                     speed = <unset>, 
+                     checkDuplex = <unset>, 
+                     fullDuplex = <unset>, 
+                     checkErrorPercent = <unset>, 
+                     percentage = <unset>, 
+                     checkBeacon = false
+                  }, 
+                  nicOrder = (vim.host.NetworkPolicy.NicOrderPolicy) {
+                     activeNic = (string) [
+                        "vmnic0"
+                     ], 
+                     standbyNic = <unset>
+                  }
+               }, 
+               offloadPolicy = (vim.host.NetOffloadCapabilities) {
+                  csumOffload = <unset>, 
+                  tcpSegmentation = <unset>, 
+                  zeroCopyXmit = <unset>
+               }, 
+               shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) {
+                  enabled = <unset>, 
+                  averageBandwidth = <unset>, 
+                  peakBandwidth = <unset>, 
+                  burstSize = <unset>
+               }
+            }
+         }
+      }
+   ], 
+   pnic = (vim.host.PhysicalNic) [
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic0", 
+         device = "vmnic0", 
+         pci = "0000:18:00.0", 
+         driver = "ixgben", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 10000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 100, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 1000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 2500, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 5000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 10000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = true, 
+         mac = "24:6e:96:6c:29:54", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "24:6e:96:6c:29:54", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic1", 
+         device = "vmnic1", 
+         pci = "0000:18:00.1", 
+         driver = "ixgben", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 100, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 1000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 2500, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 5000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 10000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = true, 
+         mac = "24:6e:96:6c:29:55", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "24:6e:96:6c:29:55", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic10", 
+         device = "vmnic10", 
+         pci = "0000:87:00.0", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:ae:02:68", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:ae:02:68", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic11", 
+         device = "vmnic11", 
+         pci = "0000:87:00.1", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:ae:02:69", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:ae:02:69", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic12", 
+         device = "vmnic12", 
+         pci = "0000:d8:00.0", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 40000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:a8:e2:88", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:a8:e2:88", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic13", 
+         device = "vmnic13", 
+         pci = "0000:d8:00.1", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 40000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:a8:e2:89", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:a8:e2:89", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic2", 
+         device = "vmnic2", 
+         pci = "0000:19:00.0", 
+         driver = "ixgben", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 10000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 100, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 1000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 2500, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 5000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 10000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = true, 
+         mac = "24:6e:96:6c:29:56", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "24:6e:96:6c:29:56", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic3", 
+         device = "vmnic3", 
+         pci = "0000:19:00.1", 
+         driver = "ixgben", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 10000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 100, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 1000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 2500, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 5000, 
+               duplex = true
+            }, 
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 10000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = true, 
+         mac = "24:6e:96:6c:29:57", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "24:6e:96:6c:29:57", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic4", 
+         device = "vmnic4", 
+         pci = "0000:3b:00.0", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 40000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:2f:61:60", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:2f:61:60", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic5", 
+         device = "vmnic5", 
+         pci = "0000:3b:00.1", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 40000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = false, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:2f:61:62", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:2f:61:62", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic6", 
+         device = "vmnic6", 
+         pci = "0000:5e:00.0", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = true, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:b6:18:90", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:b6:18:90", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic7", 
+         device = "vmnic7", 
+         pci = "0000:5e:00.1", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = true, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:b6:18:91", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:b6:18:91", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic8", 
+         device = "vmnic8", 
+         pci = "0000:af:00.0", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = true, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:b6:1a:60", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:b6:1a:60", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }, 
+      (vim.host.PhysicalNic) {
+         key = "key-vim.host.PhysicalNic-vmnic9", 
+         device = "vmnic9", 
+         pci = "0000:af:00.1", 
+         driver = "i40en", 
+         driverVersion = <unset>, 
+         firmwareVersion = <unset>, 
+         linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) {
+            speedMb = 25000, 
+            duplex = true
+         }, 
+         validLinkSpecification = (vim.host.PhysicalNic.LinkSpeedDuplex) [
+            (vim.host.PhysicalNic.LinkSpeedDuplex) {
+               speedMb = 25000, 
+               duplex = true
+            }
+         ], 
+         spec = (vim.host.PhysicalNic.Specification) {
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "", 
+               subnetMask = "", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+            }, 
+            linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+            enableEnhancedNetworkingStack = true, 
+            ensInterruptEnabled = false
+         }, 
+         wakeOnLanSupported = false, 
+         mac = "3c:fd:fe:b6:1a:61", 
+         fcoeConfiguration = (vim.host.FcoeConfig) {
+            priorityClass = 3, 
+            sourceMac = "3c:fd:fe:b6:1a:61", 
+            vlanRange = (vim.host.FcoeConfig.VlanRange) [
+               (vim.host.FcoeConfig.VlanRange) {
+                  vlanLow = 0, 
+                  vlanHigh = 0
+               }
+            ], 
+            capabilities = (vim.host.FcoeConfig.FcoeCapabilities) {
+               priorityClass = false, 
+               sourceMacAddress = false, 
+               vlanRange = false
+            }, 
+            fcoeActive = false
+         }, 
+         vmDirectPathGen2Supported = false, 
+         vmDirectPathGen2SupportedMode = <unset>, 
+         resourcePoolSchedulerAllowed = true, 
+         resourcePoolSchedulerDisallowedReason = <unset>, 
+         autoNegotiateSupported = true, 
+         enhancedNetworkingStackSupported = true, 
+         ensInterruptSupported = false, 
+         rdmaDevice = <unset>, 
+         dpuId = <unset>
+      }
+   ], 
+   rdmaDevice = <unset>, 
+   vnic = (vim.host.VirtualNic) [
+      (vim.host.VirtualNic) {
+         device = "vmk0", 
+         key = "key-vim.host.VirtualNic-vmk0", 
+         portgroup = "Management Network", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "10.132.39.4", 
+               subnetMask = "255.255.255.224", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::266e:96ff:fe6c:2954", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = true, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "24:6e:96:6c:29:54", 
+            distributedVirtualPort = (vim.dvs.PortConnection) null, 
+            portgroup = "Management Network", 
+            mtu = 1500, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "defaultTcpipStack", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = <unset>, 
+            dpuId = <unset>
+         }, 
+         port = <vim.host.PortGroup.Port:key-vim.host.PortGroup.Port-134217761>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk1", 
+         key = "key-vim.host.VirtualNic-vmk1", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.11.107", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = <unset>, 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:65:d9:7b", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 fa 6f 14 61 a8 18-ca 50 4c 70 48 7a fe 89", 
+               portgroupKey = "dvportgroup-36", 
+               portKey = "138", 
+               connectionCookie = 1585233408
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "defaultTcpipStack", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = <unset>, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk3", 
+         key = "key-vim.host.VirtualNic-vmk3", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.13.107", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = <unset>, 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:64:ef:11", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 fa 6f 14 61 a8 18-ca 50 4c 70 48 7a fe 89", 
+               portgroupKey = "dvportgroup-42", 
+               portKey = "147", 
+               connectionCookie = 1585254011
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "defaultTcpipStack", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = <unset>, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk10", 
+         key = "key-vim.host.VirtualNic-vmk10", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.41.133", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::250:56ff:fe68:5b40", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:68:5b:40", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+               portgroupKey = <unset>, 
+               portKey = "9d68a405-65bc-4e55-a37f-7289697566f3", 
+               connectionCookie = 1665652214
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "vxlan", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = true, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk11", 
+         key = "key-vim.host.VirtualNic-vmk11", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.41.134", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::250:56ff:fe6d:e4f", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:6d:0e:4f", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+               portgroupKey = <unset>, 
+               portKey = "ba5cd3ef-e179-415e-bcc5-a35b90c48ecc", 
+               connectionCookie = 1665652215
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "vxlan", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = true, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk12", 
+         key = "key-vim.host.VirtualNic-vmk12", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.41.136", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::250:56ff:fe65:e84e", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:65:e8:4e", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+               portgroupKey = <unset>, 
+               portKey = "007d11f4-c885-4026-a3b7-a6611d955dd3", 
+               connectionCookie = 1665652223
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "vxlan", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = true, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk13", 
+         key = "key-vim.host.VirtualNic-vmk13", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.41.135", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::250:56ff:fe64:6dce", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:64:6d:ce", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+               portgroupKey = <unset>, 
+               portKey = "d4e66f14-8e0c-432f-9f81-b1da966714fd", 
+               connectionCookie = 1665652223
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "vxlan", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = true, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk50", 
+         key = "key-vim.host.VirtualNic-vmk50", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = false, 
+               ipAddress = "169.254.1.1", 
+               subnetMask = "255.255.0.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = (vim.host.IpConfig.IpV6Address) [
+                     (vim.host.IpConfig.IpV6Address) {
+                        ipAddress = "fe80::250:56ff:fe63:1d44", 
+                        prefixLength = 64, 
+                        origin = "other", 
+                        dadState = "preferred", 
+                        lifetime = <unset>, 
+                        operation = <unset>
+                     }
+                  ], 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:63:1d:44", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 75 d0 e8 15 c9 d4-b6 84 b9 a8 2d ea a7 c8", 
+               portgroupKey = <unset>, 
+               portKey = "5e590e91-0944-4777-8c86-c77ec6e1c356", 
+               connectionCookie = 1665652224
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "hyperbus", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = true, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }, 
+      (vim.host.VirtualNic) {
+         device = "vmk2", 
+         key = "key-vim.host.VirtualNic-vmk2", 
+         portgroup = "", 
+         spec = (vim.host.VirtualNic.Specification) {
+            dynamicProperty = <unset>, 
+            ip = (vim.host.IpConfig) {
+               dhcp = true, 
+               ipAddress = "192.168.12.107", 
+               subnetMask = "255.255.255.0", 
+               ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) {
+                  ipV6Address = <unset>, 
+                  autoConfigurationEnabled = false, 
+                  dhcpV6Enabled = false
+               }
+            }, 
+            mac = "00:50:56:61:c8:72", 
+            distributedVirtualPort = (vim.dvs.PortConnection) {
+               switchUuid = "50 13 fa 6f 14 61 a8 18-ca 50 4c 70 48 7a fe 89", 
+               portgroupKey = "dvportgroup-37", 
+               portKey = "154", 
+               connectionCookie = 1585276443
+            }, 
+            portgroup = <unset>, 
+            mtu = 9000, 
+            tsoEnabled = true, 
+            netStackInstanceKey = "vmotion", 
+            opaqueNetwork = (vim.host.VirtualNic.OpaqueNetworkSpec) null, 
+            externalId = <unset>, 
+            pinnedPnic = <unset>, 
+            ipRouteSpec = (vim.host.VirtualNic.IpRouteSpec) null, 
+            systemOwned = <unset>, 
+            dpuId = <unset>
+         }, 
+         port = <unset>
+      }
+   ], 
+   consoleVnic = <unset>, 
+   dnsConfig = (vim.host.DnsConfig) {
+      dhcp = true, 
+      virtualNicDevice = "vmk0", 
+      ipv6VirtualNicDevice = <unset>, 
+      hostName = "pcccpod055-c04", 
+      domainName = "seln.ete.ericsson.se", 
+      address = (string) [
+         "132.196.216.26", 
+         "132.196.216.43"
+      ], 
+      searchDomain = (string) [
+         "seln.ete.ericsson.se"
+      ]
+   }, 
+   ipRouteConfig = (vim.host.IpRouteConfig) {
+      defaultGateway = "10.132.39.30", 
+      gatewayDevice = <unset>, 
+      ipV6DefaultGateway = <unset>, 
+      ipV6GatewayDevice = <unset>
+   }, 
+   consoleIpRouteConfig = (vim.host.IpRouteConfig) null, 
+   routeTableInfo = (vim.host.IpRouteTableInfo) {
+      ipRoute = (vim.host.IpRouteEntry) [
+         (vim.host.IpRouteEntry) {
+            network = "0.0.0.0", 
+            prefixLength = 0, 
+            gateway = "10.132.39.30", 
+            deviceName = "vmk0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "10.132.39.0", 
+            prefixLength = 27, 
+            gateway = "0.0.0.0", 
+            deviceName = "vmk0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "192.168.11.0", 
+            prefixLength = 24, 
+            gateway = "0.0.0.0", 
+            deviceName = "vmk1"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "192.168.13.0", 
+            prefixLength = 24, 
+            gateway = "0.0.0.0", 
+            deviceName = "vmk3"
+         }
+      ], 
+      ipv6Route = (vim.host.IpRouteEntry) [
+         (vim.host.IpRouteEntry) {
+            network = "fe80::", 
+            prefixLength = 64, 
+            gateway = "::", 
+            deviceName = "lo0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "fe80::", 
+            prefixLength = 64, 
+            gateway = "::", 
+            deviceName = "vmk0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "ff01::", 
+            prefixLength = 32, 
+            gateway = "::1", 
+            deviceName = "lo0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "ff01::", 
+            prefixLength = 32, 
+            gateway = "fe80::266e:96ff:fe6c:2954", 
+            deviceName = "vmk0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "ff02::", 
+            prefixLength = 32, 
+            gateway = "::1", 
+            deviceName = "lo0"
+         }, 
+         (vim.host.IpRouteEntry) {
+            network = "ff02::", 
+            prefixLength = 32, 
+            gateway = "fe80::266e:96ff:fe6c:2954", 
+            deviceName = "vmk0"
+         }
+      ]
+   }, 
+   dhcp = <unset>, 
+   nat = <unset>, 
+   ipV6Enabled = true, 
+   atBootIpV6Enabled = true, 
+   netStackInstance = (vim.host.NetStackInstance) [
+      (vim.host.NetStackInstance) {
+         key = "vSphereProvisioning", 
+         name = <unset>, 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = false, 
+            virtualNicDevice = <unset>, 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "", 
+            domainName = "", 
+            address = <unset>, 
+            searchDomain = <unset>
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = <unset>, 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) null
+      }, 
+      (vim.host.NetStackInstance) {
+         key = "vmotion", 
+         name = "vmotion", 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = false, 
+            virtualNicDevice = <unset>, 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "", 
+            domainName = "", 
+            address = <unset>, 
+            searchDomain = <unset>
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = "192.168.12.1", 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) {
+            ipRoute = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "0.0.0.0", 
+                     prefixLength = 0, 
+                     gateway = "192.168.12.1", 
+                     deviceName = "vmk2"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "192.168.12.0", 
+                     prefixLength = 24, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk2"
+                  }
+               }
+            ], 
+            ipv6Route = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }
+            ]
+         }
+      }, 
+      (vim.host.NetStackInstance) {
+         key = "mirror", 
+         name = "mirror", 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = false, 
+            virtualNicDevice = <unset>, 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "", 
+            domainName = "", 
+            address = <unset>, 
+            searchDomain = <unset>
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = <unset>, 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) {
+            ipRoute = <unset>, 
+            ipv6Route = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }
+            ]
+         }
+      }, 
+      (vim.host.NetStackInstance) {
+         key = "hyperbus", 
+         name = "nsx-hyperbus", 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = false, 
+            virtualNicDevice = <unset>, 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "", 
+            domainName = "", 
+            address = <unset>, 
+            searchDomain = <unset>
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = <unset>, 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) {
+            ipRoute = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "169.254.0.0", 
+                     prefixLength = 16, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk50"
+                  }
+               }
+            ], 
+            ipv6Route = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk50"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe63:1d44", 
+                     deviceName = "vmk50"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe63:1d44", 
+                     deviceName = "vmk50"
+                  }
+               }
+            ]
+         }
+      }, 
+      (vim.host.NetStackInstance) {
+         key = "vxlan", 
+         name = "nsx-overlay", 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = false, 
+            virtualNicDevice = <unset>, 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "", 
+            domainName = "", 
+            address = <unset>, 
+            searchDomain = <unset>
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = "192.168.41.1", 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) {
+            ipRoute = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "0.0.0.0", 
+                     prefixLength = 0, 
+                     gateway = "192.168.41.1", 
+                     deviceName = "vmk10"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "192.168.41.0", 
+                     prefixLength = 24, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk11"
+                  }
+               }
+            ], 
+            ipv6Route = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk10"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk11"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk12"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk13"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe68:5b40", 
+                     deviceName = "vmk10"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe6d:e4f", 
+                     deviceName = "vmk11"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe65:e84e", 
+                     deviceName = "vmk12"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe64:6dce", 
+                     deviceName = "vmk13"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe68:5b40", 
+                     deviceName = "vmk10"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe6d:e4f", 
+                     deviceName = "vmk11"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe65:e84e", 
+                     deviceName = "vmk12"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::250:56ff:fe64:6dce", 
+                     deviceName = "vmk13"
+                  }
+               }
+            ]
+         }
+      }, 
+      (vim.host.NetStackInstance) {
+         key = "defaultTcpipStack", 
+         name = "defaultTcpipStack", 
+         dnsConfig = (vim.host.DnsConfig) {
+            dhcp = true, 
+            virtualNicDevice = "vmk0", 
+            ipv6VirtualNicDevice = <unset>, 
+            hostName = "pcccpod055-c04", 
+            domainName = "seln.ete.ericsson.se", 
+            address = (string) [
+               "132.196.216.26", 
+               "132.196.216.43"
+            ], 
+            searchDomain = (string) [
+               "seln.ete.ericsson.se"
+            ]
+         }, 
+         ipRouteConfig = (vim.host.IpRouteConfig) {
+            defaultGateway = "10.132.39.30", 
+            gatewayDevice = <unset>, 
+            ipV6DefaultGateway = <unset>, 
+            ipV6GatewayDevice = <unset>
+         }, 
+         requestedMaxNumberOfConnections = 11000, 
+         congestionControlAlgorithm = "newreno", 
+         ipV6Enabled = true, 
+         routeTableConfig = (vim.host.IpRouteTableConfig) {
+            ipRoute = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "0.0.0.0", 
+                     prefixLength = 0, 
+                     gateway = "10.132.39.30", 
+                     deviceName = "vmk0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "10.132.39.0", 
+                     prefixLength = 27, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "192.168.11.0", 
+                     prefixLength = 24, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk1"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "192.168.13.0", 
+                     prefixLength = 24, 
+                     gateway = "0.0.0.0", 
+                     deviceName = "vmk3"
+                  }
+               }
+            ], 
+            ipv6Route = (vim.host.IpRouteOp) [
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "fe80::", 
+                     prefixLength = 64, 
+                     gateway = "::", 
+                     deviceName = "vmk0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff01::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::266e:96ff:fe6c:2954", 
+                     deviceName = "vmk0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "::1", 
+                     deviceName = "lo0"
+                  }
+               }, 
+               (vim.host.IpRouteOp) {
+                  changeOperation = "ignore", 
+                  route = (vim.host.IpRouteEntry) {
+                     network = "ff02::", 
+                     prefixLength = 32, 
+                     gateway = "fe80::266e:96ff:fe6c:2954", 
+                     deviceName = "vmk0"
+                  }
+               }
+            ]
+         }
+      }
+   ], 
+   opaqueSwitch = <unset>, 
+   opaqueNetwork = <unset>, 
+   nsxTransportNodeId = "94f13734-f2ea-49d1-9158-4cb764cfbd70", 
+   nvdsToVdsMigrationRequired = false, 
+   migrationStatus = <unset>
+}
+
+######## Get VM's NUMA node / PPD / VPD Data 
+
+DICT                   memSize = "128"
+DICT               displayName = "vCLS-07e30856-7df6-4cbf-a129-241c37ac9103"
+DICT      numa.autosize.cookie = "10001"
+DICT numa.autosize.vcpu.maxPerVirtualNode = "1"
+numaHost: NUMA config: consolidation= 1 preferHT= 0 partitionByMemory = 0
+numaHost: 1 VCPUs 1 VPDs 1 PPDs
+numaHost: VCPU 0 VPD 0 PPD 0 NodeMask ffffffffffffffff
+
+DICT                  numvcpus = "16"
+DICT                   memSize = "24576"
+DICT               displayName = "VSFO-2-4qcC"
+DICT      numa.autosize.cookie = "160001"
+DICT numa.autosize.vcpu.maxPerVirtualNode = "16"
+numaHost: NUMA config: consolidation= 1 preferHT= 0 partitionByMemory = 0
+numa: Resuming from checkpoint using VPD = 16
+numaHost: 16 VCPUs 1 VPDs 1 PPDs
+numaHost: VCPU 0 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 1 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 2 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 3 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 4 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 5 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 6 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 7 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 8 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 9 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 10 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 11 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 12 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 13 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 14 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 15 VPD 0 PPD 0 NodeMask ffffffffffffffff
+
+DICT                  numvcpus = "16"
+DICT                   memSize = "24576"
+DICT               displayName = "VSFO-1-Hx0t"
+DICT      numa.autosize.cookie = "160001"
+DICT numa.autosize.vcpu.maxPerVirtualNode = "16"
+numaHost: NUMA config: consolidation= 1 preferHT= 0 partitionByMemory = 0
+numa: Resuming from checkpoint using VPD = 16
+numaHost: 16 VCPUs 1 VPDs 1 PPDs
+numaHost: VCPU 0 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 1 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 2 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 3 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 4 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 5 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 6 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 7 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 8 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 9 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 10 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 11 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 12 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 13 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 14 VPD 0 PPD 0 NodeMask ffffffffffffffff
+numaHost: VCPU 15 VPD 0 PPD 0 NodeMask ffffffffffffffff
+

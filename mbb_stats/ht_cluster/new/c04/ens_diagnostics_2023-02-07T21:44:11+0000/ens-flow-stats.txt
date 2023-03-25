@@ -1,0 +1,100 @@
+
+#### First sample for lcore 0:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+0        0          26823371       144148904      0              61089905       0                    0             
+
+#### First sample for lcore 1:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+1        1          64017654       4439826        0              13691635       0                    0             
+
+#### First sample for lcore 2:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+2        8          999101128      44050960       0              1412280376     0                    0             
+
+#### First sample for lcore 3:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+3        0          170842858      102815700      0              2117877793     0                    0             
+
+#### First sample for lcore 5:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+5        0          64174145       24463565       0              29402412       0                    0             
+
+#### First sample for lcore 6:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+6        3          34604732       14840986       0              20009443       0                    0             
+
+#### First sample for lcore 7:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+7        0          101750358      6442748        0              23865655       0                    0             
+
+#### First sample for lcore 8:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+8        4          17659271       5913764        0              2582486        0                    0             
+
+
+######################## Waiting 15 seconds ########################
+
+
+#### Second sample for lcore 0:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+0        0          26823371       144151583      0              61089905       0                    0             
+
+#### Second sample for lcore 1:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+1        0          64017655       4439913        0              13691635       0                    0             
+
+#### Second sample for lcore 2:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+2        9          999105704      44051463       0              1412280394     0                    0             
+
+#### Second sample for lcore 3:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+3        0          170842858      102816153      0              2117877793     0                    0             
+
+#### Second sample for lcore 5:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+5        0          64174145       24463565       0              29402412       0                    0             
+
+#### Second sample for lcore 6:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+6        3          34605299       14840995       0              20009443       0                    0             
+
+#### Second sample for lcore 7:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+7        0          101750358      6442768        0              23865655       0                    0             
+
+#### Second sample for lcore 8:
+
+lcoreID  numFlows   hits           miss           fpoHits        localHits      keyInsertFailCount   latSampleCount
+-------------------------------------------------------------------------------------------------------------------
+8        5          17660074       5913971        0              2582487        0                    0             

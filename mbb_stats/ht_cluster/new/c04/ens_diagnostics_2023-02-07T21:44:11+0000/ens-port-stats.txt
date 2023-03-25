@@ -1,0 +1,796 @@
+
+#### First sample for port 5:
+
+txPkts                 146837166
+txBytes                109872764732
+txMcastPkts            53327
+txMcastBytes           7852856
+txBcastPkts            13948
+txBcastBytes           836880
+txDrops                36
+txErrors               0
+rxPkts                 190273876
+rxBytes                115475627751
+rxMcastPkts            765823
+rxMcastBytes           67802230
+rxBcastPkts            10343810
+rxBcastBytes           583941520
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               21839080
+spTxBytes              3229722791
+spTxMcastPkts          53327
+spTxMcastBytes         7852856
+spTxBcastPkts          13948
+spTxBcastBytes         836880
+spTxDrops              36
+spTxErrors             0
+spRxPkts               59111467
+spRxBytes              32414043584
+spRxMcastPkts          765823
+spRxMcastBytes         67802230
+spRxBcastPkts          10343810
+spRxBcastBytes         583941520
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 6:
+
+txPkts                 25680
+txBytes                2821968
+txMcastPkts            44
+txMcastBytes           6516
+txBcastPkts            22
+txBcastBytes           1320
+txDrops                0
+txErrors               0
+rxPkts                 17484
+rxBytes                1950270
+rxMcastPkts            648
+rxMcastBytes           57376
+rxBcastPkts            8803
+rxBcastBytes           493944
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               25680
+spTxBytes              2821968
+spTxMcastPkts          44
+spTxMcastBytes         6516
+spTxBcastPkts          22
+spTxBcastBytes         1320
+spTxDrops              0
+spTxErrors             0
+spRxPkts               17484
+spRxBytes              1950270
+spRxMcastPkts          648
+spRxMcastBytes         57376
+spRxBcastPkts          8803
+spRxBcastBytes         493944
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 7:
+
+txPkts                 81234451
+txBytes                48097000520
+txMcastPkts            53328
+txMcastBytes           7853017
+txBcastPkts            17073
+txBcastBytes           1024380
+txDrops                77
+txErrors               0
+rxPkts                 66453529
+rxBytes                45734409353
+rxMcastPkts            765840
+rxMcastBytes           67803748
+rxBcastPkts            10343976
+rxBcastBytes           583950992
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               15226694
+spTxBytes              1850836944
+spTxMcastPkts          53328
+spTxMcastBytes         7853017
+spTxBcastPkts          17073
+spTxBcastBytes         1024380
+spTxDrops              77
+spTxErrors             0
+spRxPkts               28100620
+spRxBytes              18801602295
+spRxMcastPkts          765840
+spRxMcastBytes         67803748
+spRxBcastPkts          10343976
+spRxBcastBytes         583950992
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 8:
+
+txPkts                 2443147382
+txBytes                1836194621620
+txMcastPkts            53406
+txMcastBytes           7859966
+txBcastPkts            28739
+txBcastBytes           1724340
+txDrops                71
+txErrors               0
+rxPkts                 2448946307
+rxBytes                1772762323702
+rxMcastPkts            765741
+rxMcastBytes           67794846
+rxBcastPkts            10328926
+rxBcastBytes           583048504
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               33083225
+spTxBytes              5731709603
+spTxMcastPkts          53406
+spTxMcastBytes         7859966
+spTxBcastPkts          28739
+spTxBcastBytes         1724340
+spTxDrops              71
+spTxErrors             0
+spRxPkts               157035290
+spRxBytes              87311010293
+spRxMcastPkts          765741
+spRxMcastBytes         67794846
+spRxBcastPkts          10328926
+spRxBcastBytes         583048504
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 9:
+
+txPkts                 4354
+txBytes                1188551
+txMcastPkts            39
+txMcastBytes           2942
+txBcastPkts            3833
+txBcastBytes           1056458
+txDrops                0
+txErrors               0
+rxPkts                 6465
+rxBytes                806225
+rxMcastPkts            21
+rxMcastBytes           1834
+rxBcastPkts            107
+rxBcastBytes           18438
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               250
+spTxBytes              64990
+spTxMcastPkts          39
+spTxMcastBytes         2942
+spTxBcastPkts          3833
+spTxBcastBytes         1056458
+spTxDrops              0
+spTxErrors             0
+spRxPkts               3162
+spRxBytes              232882
+spRxMcastPkts          21
+spRxMcastBytes         1834
+spRxBcastPkts          107
+spRxBcastBytes         18438
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 10:
+
+txPkts                 1
+txBytes                60
+txMcastPkts            0
+txMcastBytes           0
+txBcastPkts            103
+txBcastBytes           6720
+txDrops                0
+txErrors               0
+rxPkts                 0
+rxBytes                0
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            75
+rxBcastBytes           4950
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               1
+spTxBytes              60
+spTxMcastPkts          0
+spTxMcastBytes         0
+spTxBcastPkts          103
+spTxBcastBytes         6720
+spTxDrops              0
+spTxErrors             0
+spRxPkts               0
+spRxBytes              0
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          75
+spRxBcastBytes         4950
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 14:
+
+txPkts                 48278014
+txBytes                4717312678
+txMcastPkts            57014
+txMcastBytes           4394444
+txBcastPkts            8020805
+txBcastBytes           779671965
+txDrops                0
+txErrors               0
+rxPkts                 83365350
+rxBytes                67994023180
+rxMcastPkts            9688
+rxMcastBytes           1026532
+rxBcastPkts            1299982
+rxBcastBytes           404849579
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               1960680
+spTxBytes              144406955
+spTxMcastPkts          57014
+spTxMcastBytes         4394444
+spTxBcastPkts          8020805
+spTxBcastBytes         779671965
+spTxDrops              0
+spTxErrors             0
+spRxPkts               4911972
+spRxBytes              741909970
+spRxMcastPkts          9688
+spRxMcastBytes         1026532
+spRxBcastPkts          1299982
+spRxBcastBytes         404849579
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 15:
+
+txPkts                 30535
+txBytes                3391270
+txMcastPkts            0
+txMcastBytes           0
+txBcastPkts            916149
+txBcastBytes           60353484
+txDrops                0
+txErrors               0
+rxPkts                 0
+rxBytes                0
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            478758
+rxBcastBytes           31598028
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               10241
+spTxBytes              1118842
+spTxMcastPkts          0
+spTxMcastBytes         0
+spTxBcastPkts          916149
+spTxBcastBytes         60353484
+spTxDrops              0
+spTxErrors             0
+spRxPkts               0
+spRxBytes              0
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          478758
+spRxBcastBytes         31598028
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 16:
+
+txPkts                 6
+txBytes                366
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            2351135
+txBcastBytes           141068100
+txDrops                0
+txErrors               0
+rxPkts                 2328431
+rxBytes                155758799
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            105557
+rxBcastBytes           5911192
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               4
+spTxBytes              258
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          2351135
+spTxBcastBytes         141068100
+spTxDrops              0
+spTxErrors             0
+spRxPkts               2259892
+spRxBytes              149689847
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          105557
+spRxBcastBytes         5911192
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 17:
+
+txPkts                 14
+txBytes                846
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            164
+txBcastBytes           9840
+txDrops                0
+txErrors               0
+rxPkts                 90648
+rxBytes                5992020
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            607107
+rxBcastBytes           33997992
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               10
+spTxBytes              630
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          164
+spTxBcastBytes         9840
+spTxDrops              0
+spTxErrors             0
+spRxPkts               90397
+spRxBytes              5970776
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          607107
+spRxBcastBytes         33997992
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for port 18:
+
+txPkts                 9070310
+txBytes                606549509
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            4732788
+txBcastBytes           283967280
+txDrops                0
+txErrors               0
+rxPkts                 10246498
+rxBytes                676603104
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            1328
+rxBcastBytes           74368
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               7709426
+spTxBytes              514591303
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          4732788
+spTxBcastBytes         283967280
+spTxDrops              0
+spTxErrors             0
+spRxPkts               10235469
+spRxBytes              675746405
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          1328
+spRxBcastBytes         74368
+spRxDrops              0
+spRxErrors             0
+
+
+######################## Waiting 15 seconds ########################
+
+
+#### Second sample for port 5:
+
+txPkts                 146838185
+txBytes                109872970479
+txMcastPkts            53327
+txMcastBytes           7852856
+txBcastPkts            13948
+txBcastBytes           836880
+txDrops                36
+txErrors               0
+rxPkts                 190274875
+rxBytes                115475806749
+rxMcastPkts            765829
+rxMcastBytes           67802754
+rxBcastPkts            10343962
+rxBcastBytes           583950032
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               21839376
+spTxBytes              3229774677
+spTxMcastPkts          53327
+spTxMcastBytes         7852856
+spTxBcastPkts          13948
+spTxBcastBytes         836880
+spTxDrops              36
+spTxErrors             0
+spRxPkts               59111900
+spRxBytes              32414104204
+spRxMcastPkts          765829
+spRxMcastBytes         67802754
+spRxBcastPkts          10343962
+spRxBcastBytes         583950032
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 6:
+
+txPkts                 26186
+txBytes                2877652
+txMcastPkts            44
+txMcastBytes           6516
+txBcastPkts            22
+txBcastBytes           1320
+txDrops                0
+txErrors               0
+rxPkts                 17822
+rxBytes                1987980
+rxMcastPkts            654
+rxMcastBytes           57900
+rxBcastPkts            8955
+rxBcastBytes           502456
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               26186
+spTxBytes              2877652
+spTxMcastPkts          44
+spTxMcastBytes         6516
+spTxBcastPkts          22
+spTxBcastBytes         1320
+spTxDrops              0
+spTxErrors             0
+spRxPkts               17822
+spRxBytes              1987980
+spRxMcastPkts          654
+spRxMcastBytes         57900
+spRxBcastPkts          8955
+spRxBcastBytes         502456
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 7:
+
+txPkts                 81234834
+txBytes                48097046148
+txMcastPkts            53328
+txMcastBytes           7853017
+txBcastPkts            17073
+txBcastBytes           1024380
+txDrops                77
+txErrors               0
+rxPkts                 66453529
+rxBytes                45734409353
+rxMcastPkts            765849
+rxMcastBytes           67804538
+rxBcastPkts            10344127
+rxBcastBytes           583959448
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               15227076
+spTxBytes              1850882432
+spTxMcastPkts          53328
+spTxMcastBytes         7853017
+spTxBcastPkts          17073
+spTxBcastBytes         1024380
+spTxDrops              77
+spTxErrors             0
+spRxPkts               28100620
+spRxBytes              18801602295
+spRxMcastPkts          765849
+spRxMcastBytes         67804538
+spRxBcastPkts          10344127
+spRxBcastBytes         583959448
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 8:
+
+txPkts                 2443151500
+txBytes                1836196464392
+txMcastPkts            53406
+txMcastBytes           7859966
+txBcastPkts            28739
+txBcastBytes           1724340
+txDrops                71
+txErrors               0
+rxPkts                 2448949176
+rxBytes                1772762729505
+rxMcastPkts            765749
+rxMcastBytes           67795550
+rxBcastPkts            10329081
+rxBcastBytes           583057184
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               33084138
+spTxBytes              5731837437
+spTxMcastPkts          53406
+spTxMcastBytes         7859966
+spTxBcastPkts          28739
+spTxBcastBytes         1724340
+spTxDrops              71
+spTxErrors             0
+spRxPkts               157036920
+spRxBytes              87311205579
+spRxMcastPkts          765749
+spRxMcastBytes         67795550
+spRxBcastPkts          10329081
+spRxBcastBytes         583057184
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 9:
+
+txPkts                 5030
+txBytes                1287149
+txMcastPkts            40
+txMcastBytes           3028
+txBcastPkts            4191
+txBcastBytes           1088818
+txDrops                0
+txErrors               0
+rxPkts                 7452
+rxBytes                948022
+rxMcastPkts            21
+rxMcastBytes           1834
+rxBcastPkts            128
+rxBcastBytes           22338
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               282
+spTxBytes              67544
+spTxMcastPkts          40
+spTxMcastBytes         3028
+spTxBcastPkts          4191
+spTxBcastBytes         1088818
+spTxDrops              0
+spTxErrors             0
+spRxPkts               3346
+spRxBytes              251528
+spRxMcastPkts          21
+spRxMcastBytes         1834
+spRxBcastPkts          128
+spRxBcastBytes         22338
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 10:
+
+txPkts                 1
+txBytes                60
+txMcastPkts            0
+txMcastBytes           0
+txBcastPkts            146
+txBcastBytes           9546
+txDrops                0
+txErrors               0
+rxPkts                 0
+rxBytes                0
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            95
+rxBcastBytes           6270
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               1
+spTxBytes              60
+spTxMcastPkts          0
+spTxMcastBytes         0
+spTxBcastPkts          146
+spTxBcastBytes         9546
+spTxDrops              0
+spTxErrors             0
+spRxPkts               0
+spRxBytes              0
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          95
+spRxBcastBytes         6270
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 14:
+
+txPkts                 48279309
+txBytes                4717461041
+txMcastPkts            57015
+txMcastBytes           4394530
+txBcastPkts            8021162
+txBcastBytes           779704235
+txDrops                0
+txErrors               0
+rxPkts                 83368792
+rxBytes                67995578884
+rxMcastPkts            9688
+rxMcastBytes           1026532
+rxBcastPkts            1300003
+rxBcastBytes           404853509
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               1960731
+spTxBytes              144410453
+spTxMcastPkts          57015
+spTxMcastBytes         4394530
+spTxBcastPkts          8021162
+spTxBcastBytes         779704235
+spTxDrops              0
+spTxErrors             0
+spRxPkts               4912140
+spRxBytes              741927816
+spRxMcastPkts          9688
+spRxMcastBytes         1026532
+spRxBcastPkts          1300003
+spRxBcastBytes         404853509
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 15:
+
+txPkts                 30535
+txBytes                3391270
+txMcastPkts            0
+txMcastBytes           0
+txBcastPkts            916192
+txBcastBytes           60356310
+txDrops                0
+txErrors               0
+rxPkts                 0
+rxBytes                0
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            478779
+rxBcastBytes           31599414
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               10241
+spTxBytes              1118842
+spTxMcastPkts          0
+spTxMcastBytes         0
+spTxBcastPkts          916192
+spTxBcastBytes         60356310
+spTxDrops              0
+spTxErrors             0
+spRxPkts               0
+spRxBytes              0
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          478779
+spRxBcastBytes         31599414
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 16:
+
+txPkts                 6
+txBytes                366
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            2351277
+txBcastBytes           141076620
+txDrops                0
+txErrors               0
+rxPkts                 2328513
+rxBytes                155764223
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            105563
+rxBcastBytes           5911528
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               4
+spTxBytes              258
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          2351277
+spTxBcastBytes         141076620
+spTxDrops              0
+spTxErrors             0
+spRxPkts               2259973
+spRxBytes              149695193
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          105563
+spRxBcastBytes         5911528
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 17:
+
+txPkts                 14
+txBytes                846
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            164
+txBcastBytes           9840
+txDrops                0
+txErrors               0
+rxPkts                 90648
+rxBytes                5992020
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            607133
+rxBcastBytes           33999448
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               10
+spTxBytes              630
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          164
+spTxBcastBytes         9840
+spTxDrops              0
+spTxErrors             0
+spRxPkts               90397
+spRxBytes              5970776
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          607133
+spRxBcastBytes         33999448
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for port 18:
+
+txPkts                 9070699
+txBytes                606575401
+txMcastPkts            30648000
+txMcastBytes           2298600000
+txBcastPkts            4733071
+txBcastBytes           283984260
+txDrops                0
+txErrors               0
+rxPkts                 10246932
+rxBytes                676631786
+rxMcastPkts            0
+rxMcastBytes           0
+rxBcastPkts            1328
+rxBcastBytes           74368
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               7709750
+spTxBytes              514612897
+spTxMcastPkts          30648000
+spTxMcastBytes         2298600000
+spTxBcastPkts          4733071
+spTxBcastBytes         283984260
+spTxDrops              0
+spTxErrors             0
+spRxPkts               10235903
+spRxBytes              675775087
+spRxMcastPkts          0
+spRxMcastBytes         0
+spRxBcastPkts          1328
+spRxBcastBytes         74368
+spRxDrops              0
+spRxErrors             0

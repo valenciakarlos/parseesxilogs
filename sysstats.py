@@ -22,18 +22,24 @@ def main():
         print("Sys stats for " + theJSON["sysinfo"]["hostname"])
         for stat in theJSON["stats"]:  # Traversing a list
             print("Iteration Number=" + str(stat["iteration"]))
-            table = PrettyTable(['Name', 'Id', 'used', 'latencySensitivity', 'exclaff', 'sysoverlap'])
-            table_exclaff = PrettyTable(['Name', 'Id', 'used', 'latencySensitivity', 'exclaff', 'sysoverlap'])
+            table = PrettyTable(['Name', 'Id', 'used', 'latencySensitivity', 'exclaff', 'sysoverlap','lcoreusage','pps'])
+            table_exclaff = PrettyTable(['Name', 'Id', 'used', 'latencySensitivity', 'exclaff', 'sysoverlap','lcoreusage','pps'])
             sys_dict = stat["sys"]
 
-            for sysId, sys_attrib in sys_dict.items():  # Traversing a dictionary
+            for sysId, sys_attrib in sys_dict.items():  # Traversing the sys dictionary sysId is the Key sys_attrib is the associated attributes
+                if "lcoreusage" in sys_attrib:
+                    lcoreusage=sys_attrib["lcoreusage"]
+                else:
+                    lcoreusage="-"
+                if "pps" in sys_attrib:
+                    pps=sys_attrib["pps"]
                 table.add_row(
                     [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
-                     sys_attrib["exclaff"], sys_attrib["sysoverlap"]])
+                     sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
                 if not sys_attrib["exclaff"] == -1:
                     table_exclaff.add_row(
                         [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
-                         sys_attrib["exclaff"], sys_attrib["sysoverlap"]])
+                         sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
 
             print(table)
             print("Entires with exclussive affinity")

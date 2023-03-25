@@ -1,0 +1,2026 @@
+VMXNET 3 stats
+vdr-vdrPort
+100663338
+VSFO-2-4qcC.eth6
+100663640
+VSFO-2-4qcC.eth5
+100663641
+VSFO-2-4qcC.eth4
+100663642
+VSFO-2-4qcC.eth3
+100663643
+VSFO-2-4qcC.eth2
+100663644
+VSFO-2-4qcC.eth1
+100663645
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:492
+   bytes rx ok:32310
+   unicast pkts rx ok:2
+   unicast bytes rx ok:120
+   multicast pkts rx ok:0
+   multicast bytes rx ok:0
+   broadcast pkts rx ok:490
+   broadcast bytes rx ok:32190
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:1024
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-2-4qcC.eth0
+100663646
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:15257
+   bytes rx ok:2826036
+   unicast pkts rx ok:9040
+   unicast bytes rx ok:1815144
+   multicast pkts rx ok:48
+   multicast bytes rx ok:3662
+   broadcast pkts rx ok:6169
+   broadcast bytes rx ok:1007230
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:256
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-1-Hx0t.eth6
+100663647
+VSFO-1-Hx0t.eth5
+100663648
+VSFO-1-Hx0t.eth4
+100663649
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:44403659
+   bytes rx ok:3363354866
+   unicast pkts rx ok:9061208
+   unicast bytes rx ok:642198002
+   multicast pkts rx ok:30616000
+   multicast bytes rx ok:2418664000
+   broadcast pkts rx ok:4726451
+   broadcast bytes rx ok:302492864
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:1024
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-1-Hx0t.eth3
+100663650
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:30616178
+   bytes rx ok:2418675426
+   unicast pkts rx ok:14
+   unicast bytes rx ok:930
+   multicast pkts rx ok:30616000
+   multicast bytes rx ok:2418664000
+   broadcast pkts rx ok:164
+   broadcast bytes rx ok:10496
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:1024
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-1-Hx0t.eth2
+100663651
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:32963977
+   bytes rx ok:2568934548
+   unicast pkts rx ok:6
+   unicast bytes rx ok:404
+   multicast pkts rx ok:30616000
+   multicast bytes rx ok:2418664000
+   broadcast pkts rx ok:2347971
+   broadcast bytes rx ok:150270144
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:1024
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-1-Hx0t.eth1
+100663652
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:945825
+   bytes rx ok:63688216
+   unicast pkts rx ok:30535
+   unicast bytes rx ok:3391270
+   multicast pkts rx ok:0
+   multicast bytes rx ok:0
+   broadcast pkts rx ok:915290
+   broadcast bytes rx ok:60296946
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:1024
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+VSFO-1-Hx0t.eth0
+100663653
+stats of a vmxnet3 vNIC rx queue {
+   LRO pkts rx ok:0
+   LRO bytes rx ok:0
+   pkts rx ok:56302623
+   bytes rx ok:5496153780
+   unicast pkts rx ok:48232399
+   unicast bytes rx ok:4712948107
+   multicast pkts rx ok:56960
+   multicast bytes rx ok:4390258
+   broadcast pkts rx ok:8013264
+   broadcast bytes rx ok:778815415
+   running out of buffers:0
+   pkts receive error:0
+   1st ring size:1024
+   2nd ring size:256
+   # of times the 1st ring is full:0
+   # of times the 2nd ring is full:0
+   fail to map a rx buffer:0
+   request to page in a buffer:0
+   # of times rx queue is stopped:0
+   failed when copying into the guest buffer:0
+   # of pkts dropped due to large hdrs:0
+   # of pkts dropped due to max number of SG limits:0
+   pkts rx via data ring ok:0
+   bytes rx via data ring ok:0
+   Whether rx burst queuing is enabled:0
+   current backend burst queue length:0
+   maximum backend burst queue length so far:0
+   aggregate number of times packets are requeued:0
+   aggregate number of times packets are dropped by PktAgingList:0
+   # of pkts dropped due to large inner (encap) hdrs:0
+   number of times packets are dropped by burst queue:0
+   number of times packets are dropped by rx try lock queueing:0
+   number of packets delivered by burst queue:0
+   number of packets dropped by packet steering:0
+   number of memory region lookup pass in Rx.:0
+   number of packets dropped due to pkt length exceeds vNic mtu:0
+   number of packets dropped due to pkt truncation:0
+}
+RSS stats
+vdr-vdrPort
+100663338
+VSFO-2-4qcC.eth6
+100663640
+VSFO-2-4qcC.eth5
+100663641
+VSFO-2-4qcC.eth4
+100663642
+VSFO-2-4qcC.eth3
+100663643
+VSFO-2-4qcC.eth2
+100663644
+VSFO-2-4qcC.eth1
+100663645
+0/
+VSFO-2-4qcC.eth0
+100663646
+0/
+1/
+2/
+3/
+4/
+5/
+6/
+7/
+VSFO-1-Hx0t.eth6
+100663647
+VSFO-1-Hx0t.eth5
+100663648
+VSFO-1-Hx0t.eth4
+100663649
+0/
+VSFO-1-Hx0t.eth3
+100663650
+0/
+VSFO-1-Hx0t.eth2
+100663651
+0/
+VSFO-1-Hx0t.eth1
+100663652
+0/
+VSFO-1-Hx0t.eth0
+100663653
+0/
+1/
+2/
+3/
+4/
+5/
+6/
+7/
+vds-port
+vdr-vdrPort
+100663338
+packet stats {
+   pktsTx:6198
+   pktsTxMulticast:0
+   pktsTxBroadcast:6198
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:0
+   droppedRx:0
+}
+VSFO-2-4qcC.eth6
+100663640
+packet stats {
+   pktsTx:0
+   pktsTxMulticast:0
+   pktsTxBroadcast:0
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:0
+   droppedRx:0
+}
+VSFO-2-4qcC.eth5
+100663641
+packet stats {
+   pktsTx:0
+   pktsTxMulticast:0
+   pktsTxBroadcast:0
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:0
+   droppedRx:0
+}
+VSFO-2-4qcC.eth4
+100663642
+packet stats {
+   pktsTx:251357695538
+   pktsTxMulticast:0
+   pktsTxBroadcast:233649
+   pktsRx:254609029575
+   pktsRxMulticast:52995264
+   pktsRxBroadcast:139216
+   droppedTx:5952
+   droppedRx:32208989
+}
+VSFO-2-4qcC.eth3
+100663643
+packet stats {
+   pktsTx:254922995548
+   pktsTxMulticast:0
+   pktsTxBroadcast:325412
+   pktsRx:259909510554
+   pktsRxMulticast:52995328
+   pktsRxBroadcast:1921573
+   droppedTx:5939
+   droppedRx:111576594
+}
+VSFO-2-4qcC.eth2
+100663644
+packet stats {
+   pktsTx:1215534933
+   pktsTxMulticast:0
+   pktsTxBroadcast:324762
+   pktsRx:925706380
+   pktsRxMulticast:52995328
+   pktsRxBroadcast:431618
+   droppedTx:6756
+   droppedRx:30792155
+}
+VSFO-2-4qcC.eth1
+100663645
+packet stats {
+   pktsTx:2745559158
+   pktsTxMulticast:14036
+   pktsTxBroadcast:1281729
+   pktsRx:3990960640
+   pktsRxMulticast:25026
+   pktsRxBroadcast:2649497
+   droppedTx:20
+   droppedRx:16746
+}
+VSFO-2-4qcC.eth0
+100663646
+packet stats {
+   pktsTx:1304142177
+   pktsTxMulticast:58802
+   pktsTxBroadcast:1664710
+   pktsRx:1330937661
+   pktsRxMulticast:190733
+   pktsRxBroadcast:22700131
+   droppedTx:11812208
+   droppedRx:4087
+}
+VSFO-1-Hx0t.eth6
+100663647
+packet stats {
+   pktsTx:0
+   pktsTxMulticast:0
+   pktsTxBroadcast:0
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:0
+   droppedRx:0
+}
+VSFO-1-Hx0t.eth5
+100663648
+packet stats {
+   pktsTx:0
+   pktsTxMulticast:0
+   pktsTxBroadcast:0
+   pktsRx:0
+   pktsRxMulticast:0
+   pktsRxBroadcast:0
+   droppedTx:0
+   droppedRx:0
+}
+VSFO-1-Hx0t.eth4
+100663649
+packet stats {
+   pktsTx:233544001450
+   pktsTxMulticast:0
+   pktsTxBroadcast:211702
+   pktsRx:243892194312
+   pktsRxMulticast:83757440
+   pktsRxBroadcast:4902526
+   droppedTx:1702
+   droppedRx:129308
+}
+VSFO-1-Hx0t.eth3
+100663650
+packet stats {
+   pktsTx:226806782140
+   pktsTxMulticast:0
+   pktsTxBroadcast:865046
+   pktsRx:234234537129
+   pktsRxMulticast:83757440
+   pktsRxBroadcast:1987881
+   droppedTx:1700
+   droppedRx:8011337
+}
+VSFO-1-Hx0t.eth2
+100663651
+packet stats {
+   pktsTx:1219538080
+   pktsTxMulticast:0
+   pktsTxBroadcast:425530
+   pktsRx:936151796
+   pktsRxMulticast:83757440
+   pktsRxBroadcast:2777488
+   droppedTx:1699
+   droppedRx:16030
+}
+VSFO-1-Hx0t.eth1
+100663652
+packet stats {
+   pktsTx:4159301795
+   pktsTxMulticast:328
+   pktsTxBroadcast:1311221
+   pktsRx:3824820232
+   pktsRxMulticast:932
+   pktsRxBroadcast:2649382
+   droppedTx:1
+   droppedRx:3
+}
+VSFO-1-Hx0t.eth0
+100663653
+packet stats {
+   pktsTx:1352246067
+   pktsTxMulticast:104805
+   pktsTxBroadcast:2409544
+   pktsRx:1384026567
+   pktsRxMulticast:132683
+   pktsRxBroadcast:22586992
+   droppedTx:11719
+   droppedRx:2
+}
+ClientStats
+vdr-vdrPort
+100663338
+port client stats {
+   pktsTxOK:6198
+   bytesTxOK:371880
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth6
+100663640
+port client stats {
+   pktsTxOK:0
+   bytesTxOK:0
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth5
+100663641
+port client stats {
+   pktsTxOK:0
+   bytesTxOK:0
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth4
+100663642
+port client stats {
+   pktsTxOK:1783973
+   bytesTxOK:117017147
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:11285881
+   bytesRxOK:890081525
+   droppedRx:30792308
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth3
+100663643
+port client stats {
+   pktsTxOK:29396523
+   bytesTxOK:18453003872
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:14725425
+   droppedTxExceedMTU:0
+   pktsRxOK:41141779
+   bytesRxOK:19329653078
+   droppedRx:30792415
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth2
+100663644
+port client stats {
+   pktsTxOK:1464218
+   bytesTxOK:94068245
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:11901746
+   bytesRxOK:990219602
+   droppedRx:30792155
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth1
+100663645
+port client stats {
+   pktsTxOK:15251108
+   bytesTxOK:5614832682
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:3142872
+   droppedTxExceedMTU:0
+   pktsRxOK:16092602
+   bytesRxOK:6203734815
+   droppedRx:16746
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-2-4qcC.eth0
+100663646
+port client stats {
+   pktsTxOK:72784099
+   bytesTxOK:38898378703
+   droppedTx:0
+   pktsTsoTxOK:1690773
+   bytesTsoTxOK:21257896582
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:27231826
+   droppedTxExceedMTU:0
+   pktsRxOK:89119785
+   bytesRxOK:41949485492
+   droppedRx:4087
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth6
+100663647
+port client stats {
+   pktsTxOK:0
+   bytesTxOK:0
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth5
+100663648
+port client stats {
+   pktsTxOK:0
+   bytesTxOK:0
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:0
+   bytesRxOK:0
+   droppedRx:0
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth4
+100663649
+port client stats {
+   pktsTxOK:2223608114
+   bytesTxOK:1510881994899
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:1204596500
+   droppedTxExceedMTU:0
+   pktsRxOK:1977443387
+   bytesRxOK:1185047089053
+   droppedRx:16000
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth3
+100663650
+port client stats {
+   pktsTxOK:2386369
+   bytesTxOK:142184564
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:0
+   droppedTxExceedMTU:0
+   pktsRxOK:43107121
+   bytesRxOK:3387295778
+   droppedRx:16121
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth2
+100663651
+port client stats {
+   pktsTxOK:11569716
+   bytesTxOK:876592522
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:2
+   droppedTxExceedMTU:0
+   pktsRxOK:49589494
+   bytesRxOK:4131927133
+   droppedRx:16030
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth1
+100663652
+port client stats {
+   pktsTxOK:70260065
+   bytesTxOK:46405631562
+   droppedTx:0
+   pktsTsoTxOK:0
+   bytesTsoTxOK:0
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:34191295
+   droppedTxExceedMTU:0
+   pktsRxOK:376879470
+   bytesRxOK:403978921843
+   droppedRx:3
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+VSFO-1-Hx0t.eth0
+100663653
+port client stats {
+   pktsTxOK:137979353
+   bytesTxOK:49399746598
+   droppedTx:0
+   pktsTsoTxOK:6461638
+   bytesTsoTxOK:78886292024
+   droppedTsoTx:0
+   pktsSwTsoTx:0
+   droppedSwTsoTx:0
+   pktsZerocopyTxOK:32704323
+   droppedTxExceedMTU:0
+   pktsRxOK:120999033
+   bytesRxOK:43385982454
+   droppedRx:2
+   pktsSwTsoRx:0
+   droppedSwTsoRx:0
+   actions:0
+   uplinkRxPkts:0
+   clonedRxPkts:0
+   pksBilled:0
+   droppedRxDueToPageAbsent:0
+   droppedTxDueToPageAbsent:0
+}
+pNic Stats
+vmnic4/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic5/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic6/device {
+   -- General Statistics:
+   Rx Packets:3059151977
+   Tx Packets:2476211944
+   Rx Bytes:2257620963243
+   Tx Bytes:1860074118863
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807318
+   Rx Broadcast:10325256
+   Tx Multicast:331873
+   Tx Broadcast:28735
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:610285577
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126852 totalBytes=1137058210 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=32190766 totalBytes=4609361719 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=18190231 totalBytes=3158437098 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=54040230 totalBytes=8698784329 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2893806014 totalBytes=2195001602027 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=84 totalBytes=11424 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=57797056 totalBytes=45001008458 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=859 totalBytes=190832 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=7136122 totalBytes=1062144215 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=22575193 totalBytes=25623340564 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=2294216374 totalBytes=1711648980821 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=94893230 totalBytes=67181731738 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=104 totalBytes=13728 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=57399782 totalBytes=44632981200 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic7/device {
+   -- General Statistics:
+   Rx Packets:89414377
+   Tx Packets:81249667
+   Rx Bytes:49811017149
+   Tx Bytes:48779026423
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807432
+   Rx Broadcast:10340286
+   Tx Multicast:331772
+   Tx Broadcast:17067
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:22959656
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3285019 totalBytes=1168442530 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=62408492 totalBytes=45466623544 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=332489 totalBytes=250979541 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=21137297 totalBytes=2601815620 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=2251080 totalBytes=308627718 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=10601386 totalBytes=1314533638 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=66883642 totalBytes=46362579287 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=57677 totalBytes=26065065 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=755606 totalBytes=162404328 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=2951357 totalBytes=567290989 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic10/device {
+   -- General Statistics:
+   Rx Packets:7504690
+   Tx Packets:0
+   Rx Bytes:8254388152
+   Tx Bytes:25985421
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:5695266
+   Rx Broadcast:66423381
+   Tx Multicast:298683
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=79330080 totalBytes=7772087564 nonEopDescs=0 allocRxBuffFailed=0 csumErr=30943
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic11/device {
+   -- General Statistics:
+   Rx Packets:19257269
+   Tx Packets:0
+   Rx Bytes:16760171477
+   Tx Bytes:25984290
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:5695772
+   Rx Broadcast:66440143
+   Tx Multicast:298670
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=91096521 totalBytes=16178208470 nonEopDescs=0 allocRxBuffFailed=0 csumErr=25426
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic8/device {
+   -- General Statistics:
+   Rx Packets:14013144
+   Tx Packets:11175787
+   Rx Bytes:3609790561
+   Tx Bytes:1566123607
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807503
+   Rx Broadcast:10342526
+   Tx Multicast:331667
+   Tx Broadcast:9575
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3129178 totalBytes=1138848872 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=10518502 totalBytes=2353256995 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=294205 totalBytes=40391192 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=61505 totalBytes=60169976 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=9754 totalBytes=2598453 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=11175789 totalBytes=1500296916 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic9/device {
+   -- General Statistics:
+   Rx Packets:191876379
+   Tx Packets:155646031
+   Rx Bytes:118021560291
+   Tx Bytes:112239118246
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:807431
+   Rx Broadcast:10340389
+   Tx Multicast:331767
+   Tx Broadcast:14041
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:1618660
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=3126836 totalBytes=1138096370 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=130074310 totalBytes=90743248551 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=17306722 totalBytes=2845078581 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=1622747 totalBytes=273178011 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=39745764 totalBytes=23007430582 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=36229538 totalBytes=24547153264 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=424310 totalBytes=57286489 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=10108318 totalBytes=1924234872 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=29637258 totalBytes=20425381224 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=79250607 totalBytes=64641840408 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic12/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic13/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:Number of packets assigned to an invalid queue: 0
+
+rxq0: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq1: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq2: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq3: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq4: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq5: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq6: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq7: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq8: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq9: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq10: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq11: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq12: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq13: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq14: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq15: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq16: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq17: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq18: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq19: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq20: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq21: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq22: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+rxq23: totalPkts=0 totalBytes=0 nonEopDescs=0 allocRxBuffFailed=0 csumErr=0
+txq0: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq1: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq2: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq3: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq4: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq5: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq6: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq7: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq8: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq9: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq10: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq11: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq12: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq13: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq14: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq15: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq16: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq17: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq18: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq19: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq20: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq21: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq22: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+txq23: totalPkts=0 totalBytes=0 restartQueue=0 txBusy=0 queueFull=0 pktDropped=0
+RxXon: 0
+RxXoff: 0
+TxXon: 0
+TxXoff: 0
+
+}
+vmnic0/device {
+   -- General Statistics:
+   Rx Packets:84029354
+   Tx Packets:338501434
+   Rx Bytes:17549386041
+   Tx Bytes:107516455109
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:502942
+   Rx Broadcast:214760
+   Tx Multicast:6
+   Tx Broadcast:12420
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=935 next2proc=938 RDH=938 RDT=935 RXDCTL=42000000 dropped=0 rxPkts=84029354 rxBytes=17549386041 rxIrqCnt=384186478 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=337 next2proc=337 TDH=337 TDT=337 TXDCTL=02000000 dropped=0 txPkts=338501434 txBytes=107516455109 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic1/device {
+   -- General Statistics:
+   Rx Packets:0
+   Tx Packets:0
+   Rx Bytes:0
+   Tx Bytes:0
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:0
+   Rx Broadcast:0
+   Tx Multicast:0
+   Tx Broadcast:0
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=30000000
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=1021 next2proc=0 RDH=0 RDT=1021 RXDCTL=42000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=00000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic2/device {
+   -- General Statistics:
+   Rx Packets:11895692
+   Tx Packets:297817
+   Rx Bytes:939695516
+   Tx Bytes:50019240
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:10175235
+   Rx Broadcast:1568122
+   Tx Multicast:297682
+   Tx Broadcast:135
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000000
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=148 next2proc=151 RDH=151 RDT=148 RXDCTL=42000000 dropped=0 rxPkts=11895692 rxBytes=939695516 rxIrqCnt=11810021 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=942 next2proc=942 TDH=942 TDT=942 TXDCTL=02000000 dropped=0 txPkts=297817 txBytes=50019240 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+vmnic3/device {
+   -- General Statistics:
+   Rx Packets:3529894057
+   Tx Packets:2707569613
+   Rx Bytes:9273370283663
+   Tx Bytes:12442099080246
+   Rx Errors:0
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:10172640
+   Rx Broadcast:1554606
+   Tx Multicast:297682
+   Tx Broadcast:13645
+   Collisions:0
+   Rx Length Errors:0
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+txXon=0
+txXoff=0
+rxXon=0
+rxXoff=0
+RXCTRL=00000001
+TXCTRL=81000115
+MRQC=00f3000a
+MTQC=0000000a
+LINKS=70000080
+VFRE[0]=ffffffff
+VFTE[0]=ffffffff
+MPSAR[0]=00000000:00000000
+MPSAR[1]=00000000:00000100
+MPSAR[2]=00000000:00000000
+MPSAR[3]=00000000:00000000
+PFVML2FLT[0]=1f800000
+PFVML2FLT[1]=01800000
+PFVML2FLT[2]=01800000
+PFVML2FLT[3]=01800000
+rxq0 (hwq0): ringSize=1024 next2fill=160 next2proc=163 RDH=163 RDT=160 RXDCTL=42000000 dropped=0 rxPkts=1806867962 rxBytes=5026602339453 rxIrqCnt=3244656305 rxITR=50
+rxq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 RDH=0 RDT=0 RXDCTL=40000000 dropped=0 rxPkts=0 rxBytes=0 rxIrqCnt=0 rxITR=50
+rxq8 (hwq32): ringSize=1024 next2fill=416 next2proc=419 RDH=419 RDT=416 RXDCTL=42000000 dropped=0 rxPkts=1654378831 rxBytes=4007710591730 rxIrqCnt=983863147 rxITR=50
+rxq9 (hwq33): ringSize=1024 next2fill=253 next2proc=256 RDH=256 RDT=253 RXDCTL=42000000 dropped=0 rxPkts=14366367 rxBytes=29788360588 rxIrqCnt=12125251 rxITR=50
+rxq10 (hwq34): ringSize=1024 next2fill=966 next2proc=969 RDH=969 RDT=966 RXDCTL=42000000 dropped=0 rxPkts=47830180 rxBytes=175122837595 rxIrqCnt=36109088 rxITR=50
+rxq11 (hwq35): ringSize=1024 next2fill=538 next2proc=541 RDH=541 RDT=538 RXDCTL=42000000 dropped=0 rxPkts=6450717 rxBytes=34146154297 rxIrqCnt=2849102 rxITR=50
+txq0 (hwq0): ringSize=1024 next2fill=615 next2proc=615 TDH=615 TDT=615 TXDCTL=02000000 dropped=0 txPkts=2707569613 txBytes=12442099080246 txIrqCnt=0 txITR=50
+txq1 (hwq4): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq2 (hwq8): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq3 (hwq12): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq4 (hwq16): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq5 (hwq20): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq6 (hwq24): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq7 (hwq28): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq8 (hwq32): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq9 (hwq33): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq10 (hwq34): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+txq11 (hwq35): ringSize=1024 next2fill=0 next2proc=0 TDH=0 TDT=0 TXDCTL=02000000 dropped=0 txPkts=0 txBytes=0 txIrqCnt=0 txITR=50
+
+}
+pNic Rx Features:
+vmnic4/features: 0 -> NONE
+vmnic5/features: 0 -> NONE
+vmnic6/features: 0 -> NONE
+vmnic7/features: 0 -> NONE
+vmnic10/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic11/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic8/features: 0 -> NONE
+vmnic9/features: 0 -> NONE
+vmnic12/features: 0 -> NONE
+vmnic13/features: 0 -> NONE
+vmnic0/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic1/features: 0 -> NONE
+vmnic2/features: 0x482 -> Pair Dynamic GenericRSS
+vmnic3/features: 0x482 -> Pair Dynamic GenericRSS
+pNic to vNic pinnings:
+vdr-vdrPort
+100663338
+vmnic7
+VSFO-2-4qcC.eth6
+100663640
+vmnic6
+VSFO-2-4qcC.eth5
+100663641
+vmnic6
+VSFO-2-4qcC.eth4
+100663642
+vmnic6
+VSFO-2-4qcC.eth3
+100663643
+vmnic6
+VSFO-2-4qcC.eth2
+100663644
+vmnic8
+VSFO-2-4qcC.eth1
+100663645
+vmnic8
+VSFO-2-4qcC.eth0
+100663646
+vmnic9
+VSFO-1-Hx0t.eth6
+100663647
+vmnic9
+VSFO-1-Hx0t.eth5
+100663648
+vmnic6
+VSFO-1-Hx0t.eth4
+100663649
+vmnic6
+VSFO-1-Hx0t.eth3
+100663650
+vmnic7
+VSFO-1-Hx0t.eth2
+100663651
+vmnic7
+VSFO-1-Hx0t.eth1
+100663652
+vmnic6
+VSFO-1-Hx0t.eth0
+100663653
+vmnic6
+pNic to NUMA node mappings:
+vmnic4/   Device NUMA Node:0
+vmnic5/   Device NUMA Node:0
+vmnic6/   Device NUMA Node:0
+vmnic7/   Device NUMA Node:0
+vmnic10/   Device NUMA Node:1
+vmnic11/   Device NUMA Node:1
+vmnic8/   Device NUMA Node:1
+vmnic9/   Device NUMA Node:1
+vmnic12/   Device NUMA Node:1
+vmnic13/   Device NUMA Node:1
+vmnic0/   Device NUMA Node:0
+vmnic1/   Device NUMA Node:0
+vmnic2/   Device NUMA Node:0
+vmnic3/   Device NUMA Node:0
