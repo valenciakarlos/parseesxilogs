@@ -1,6 +1,6 @@
 Set of scripts to parse esxi stats generated with net-stats (json format) and sched-stats (text format) command.
 To use these scripts ssh into an ESXi host and execute the following commands:
-
+**************** COMMANDS TO RUN *****************************************
 net-stats -i 120 -t WicQv -A > `hostname -s`_netstats.logs
 sched-stats -t pcpu-stats > `hostname -s`_schedstats.logs
 
