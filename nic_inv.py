@@ -47,6 +47,9 @@ def main():
             table.float_format = '.1'
 
             #table.set_style(PLAIN_COLUMNS)
+
+            from prettytable import MSWORD_FRIENDLY
+            table.set_style(MSWORD_FRIENDLY)
             print(table.get_string(fields=["Port","switch","rxmode","tunemode","ens","uplink","mac"]))
 
 

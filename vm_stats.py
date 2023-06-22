@@ -35,6 +35,8 @@ def main():
                         [port["name"], port["switch"], devname, port["txpps"], txpps_drv, port["txeps"], txeps_drv,
                          port["txmbps"], txmbps_drv, port["rxpps"], rxpps_drv, port["rxeps"], rxeps_drv, port["rxmbps"],
                          rxmbps_drv])
+        from prettytable import MSWORD_FRIENDLY
+        table.set_style(MSWORD_FRIENDLY)
         print(table)
 
 

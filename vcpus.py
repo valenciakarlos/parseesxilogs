@@ -34,8 +34,12 @@ def main():
                     table_exclaff.add_row(
                         [vcpu_attrib["name"], vcpu_attrib["id"], vcpu_attrib["used"], latSen, exclaff])
 
-        #print(table)
+        from prettytable import MSWORD_FRIENDLY
+        table.set_style(MSWORD_FRIENDLY)
+        print(table)
         print("entries with exclaff")
+
+        table_exclaff.set_style(MSWORD_FRIENDLY)
         print(table_exclaff)
 
 

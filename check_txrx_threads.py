@@ -47,10 +47,14 @@ def main():
                                                    sys_dict[thread]["used"], sys_dict[thread]["ready"],
                                                    sys_dict[thread]["cstp"], sys_dict[thread]["latencySensitivity"],
                                                    sys_dict[thread]["exclaff"],lcoreusage,pps])
+
+            from prettytable import MSWORD_FRIENDLY
+            table.set_style(MSWORD_FRIENDLY)
+
             print(table.get_string(sortby="Thread Id"))
 
             print("Entries with Exclusive affinity")
-
+            table_exclaff.set_style(MSWORD_FRIENDLY)
             print(table_exclaff.get_string(sortby="Thread Id"))
 
 if __name__ == "__main__":

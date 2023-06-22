@@ -2,7 +2,47 @@ Set of scripts to parse esxi stats generated with net-stats (json format) and sc
 To use these scripts ssh into an ESXi host and execute the following commands:
 
 net-stats -i 120 -t WicQv -A > `hostname -s`_netstats.logs
+
+
 sched-stats -t pcpu-stats > `hostname -s`_schedstats.logs
+
+
+Recommended script by Sorin:
+
+net-stats -i $DUR1 -t WicQvE -S $switch
+WicQvE
+W : world stats for the tx, vmnic/vmknic worlds
+i : Interrupt stats: Only for vmnics
+c : Coalesce Stats: Only for vnics
+Q : Detailed Queue stats for the port/nic
+v : virtual nic stats
+E : Enable stats collection for ENS module
+
+Some others I could add: (*) Done (?) Candidate
+         -d <level>         : verbose/debug level
+         -V <vmname>        : VM name                                                               (**)
+                 Find switches that contains the VM's ports. Print stats for VM's ports and uplinks
+
+                 c : Coalesce Stats: Only for vnics                     
+                 i : Interrupt stats: Only for vmnics                   (*)         
+                 h : Cluster and Packet size histograms                 
+                 v : virtual nic stats                                  (*)
+                 e : Detailed error stats                         (?)      
+                 q : Queue Stats for port/nic                     (?)      
+                 Q : Detailed Queue stats for the port/nic              (*)
+                 f : Detailed Queue filter information for port/nic (?)
+                 W : world stats for the tx, vmnic/vmknic worlds        (*)
+                 V : vcpu histograms                                (?)
+                 S : System time breakdown by pcpus                 (?)
+                 n : NIOC stats                                     
+                 p : Passthru/sriov stats
+                 P : Detailed sriov/passthru stats
+                 E : Enable stats collection for ENS module             (*)
+                     For ENS lcore stats:
+                         lcore in  : vnic tx/pnic rx
+                         lcore out : vnic rx/pnic tx
+                 I : IOChain InputFilters stats
+                 O : IOChain OutputFilters stats
 
 Once collected, stats can be analyzed using:
 
@@ -105,3 +145,132 @@ Iteration Number=0
 |       --      |    --    |              --              |   --  |    --   |
 +---------------+----------+------------------------------+-------+---------+
 
+
+Help for each command:
+
+net-stats:
+
+[root@telco-res-esx-1:~] net-stats --help
+Usage:
+         -l                 : List ports in system
+         -a                 : Print absolute counts instead of per second counts
+         -c <start>:<end>   : specify vsi-cache files instead of live kernel
+         -d <level>         : verbose/debug level
+         -f                 : ignore version check
+         -h                 : this message
+         -i <interval>      : Interval for stats collection (default=30 seconds)
+         -n <iterations>    : number of iterations to run (default = 1)
+         -o <outfile>       : output file
+
+ Specify ports of interest as one of (Prioritized List of options)
+         -A                 : Get stats for all ports on host
+         -S <switchName>    : switch name
+                 Lists stats for all non mgmt/test ports
+         -N <pnicName>      : pnic name
+                 List stats for all ports on switch that contains 'N'
+         -V <vmname>        : VM name
+                 Find switches that contains the VM's ports. Print stats for VM's ports and uplinks
+         -s                 : Get storage world stats
+         -I                 : Get SCSI and VSCSI storage I/O stats
+         -D <name>          : Name of SCSI device/adapter/path or VM
+                              To be used along with storage stat specs
+                              Can be used multiple times
+                              eg: net-stats -I -ta -D vmhba0 -D vmhba1
+ OR specify port spec on command line
+         -p <portid>        : portNum
+         -t <type>          : specify a string with types of stats needed
+ OR specify port spec in a config file
+         -C <cfgFile>       : config file to read stats from
+                 File Format: <portNum/switchName> <StatsSpec>
+
+Stats Spec can contain one or more of these characters
+                 c : Coalesce Stats: Only for vnics
+                 i : Interrupt stats: Only for vmnics
+                 h : Cluster and Packet size histograms
+                 v : virtual nic stats
+                 e : Detailed error stats
+                 q : Queue Stats for port/nic
+                 Q : Detailed Queue stats for the port/nic
+                 f : Detailed Queue filter information for port/nic
+                 W : world stats for the tx, vmnic/vmknic worlds
+                 V : vcpu histograms
+                 S : System time breakdown by pcpus
+                 n : NIOC stats
+                 p : Passthru/sriov stats
+                 P : Detailed sriov/passthru stats
+                 E : Enable stats collection for ENS module
+                     For ENS lcore stats:
+                         lcore in  : vnic tx/pnic rx
+                         lcore out : vnic rx/pnic tx
+                 I : IOChain InputFilters stats
+                 O : IOChain OutputFilters stats
+Stats Spec for Storage stats (-I)
+                 d : SCSI Device Stats
+                 a : SCSI Adapter Stats
+                 t : SCSI Path Stats
+                 s : VSCSI Stats
+
+Note:
+        net-stats reads multiple vsi nodes, one at a time, using system calls
+        As data in the vsi nodes are continuously updated, there is going to
+        be some inconsistency in numbers, hopefully, not a lot
+
+         For ENS lcore stats:
+                 lcore in  : vnic tx/pnic rx
+                 lcore out : vnic rx/pnic tx
+
+
+sched-stats:
+[root@telco-res-esx-1:~] sched-stats --help
+Usage:
+         -c <file>   : use vsi-cache <file> instead of live kernel
+         -t <type>   : specify the output type from the following list
+                  :    vcpu-state-times
+                  :    vcpu-run-times
+                  :    vcpu-state-counts
+                  :    vcpu-run-states
+                  :    vcpu-alloc
+                  :    vcpu-migration-stats
+                  :    vcpu-load
+                  :    vcpu-comminfo
+                  :    vcpu-node-run-times
+                  :    ncpus
+                  :    cpu
+                  :    pcpu-stats
+                  :    pcpu-load
+                  :    llc-load
+                  :    qos-monitor
+                  :    qos-enforcement
+                  :    overhead-histo
+                  :    sys-service-stats
+                  :    run-state-histo
+                  :    wait-state-histo
+                  :    groups
+                  :    power-pstates
+                  :    power-cstates
+                  :    numa-clients
+                  :    numa-migration
+                  :    numa-cnode
+                  :    numa-pnode
+                  :    numa-latency
+         -f          : ignore version check
+         -w          : only show stats of the specified world
+         -g          : only show stats of the specified group
+         -p          : only show stats of the specified pcpu
+         -m          : only show stats of the specified module
+         -r          : reset scheduler statistics
+         -s <enable> : 1 to enable advanced cpu sched stats gathering, 0 to disable.
+         -l <id>,<id> : comma separated list of ids to restrict the report to;
+                        (not supported by all reports)
+         -k          : check the correctness of scheduling stats
+         -v          : verbose
+         -q          : setting CSV Mode on
+         -z          : Column selection filter
+         -h          : print friendly help message
+
+Note:
+        Sched-stats reads the stats data from vmkernel for each vcpu one
+        by one via the VSI interface. Since the scheduling stats may
+        continue to change during the VSI calls, what's reported by
+        sched-stats is not a consistent snapshot of the kernel stats.
+        But the inconsistency is expected to be small.

@@ -33,6 +33,8 @@ def main():
                     lcoreusage="-"
                 if "pps" in sys_attrib:
                     pps=sys_attrib["pps"]
+                else:
+                    pps="-"
                 table.add_row(
                     [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
                      sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
@@ -41,8 +43,12 @@ def main():
                         [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
                          sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
 
+            from prettytable import MSWORD_FRIENDLY
+            table.set_style(MSWORD_FRIENDLY)
             print(table)
             print("Entires with exclussive affinity")
+
+            table_exclaff.set_style(MSWORD_FRIENDLY)
             print(table_exclaff)
 
 
