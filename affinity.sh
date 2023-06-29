@@ -6,6 +6,7 @@ exit_abnormal() {                         # Function: Exit with error.
   exit 1
 }
 
+
 while getopts n:s:h flag
 do
     case "${flag}" in

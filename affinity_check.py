@@ -5,7 +5,7 @@ from typing import Dict, Any
 from prettytable import PrettyTable
 
 if (len(sys.argv) != 3):
-    print("Usage : exclaff.py <sched_stats_file> <netstats_file>")
+    print("Usage : exclaff.py <netstats_file> <sched_stats_file> ")
     exit()
 
 def build_cpu_to_node_dict(sched_stats_file):

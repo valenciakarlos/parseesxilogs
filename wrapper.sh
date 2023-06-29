@@ -49,7 +49,10 @@ else
   if [ -f "$schedstat" ];then
      echo "Executing scripts that use $schedstat"
      echo "--------------------- Exclussive Affinity -------------------------------"
-     python3 $SCRIPT_PATH/exclaff.py $netstat $schedstat
+     python3 $SCRIPT_PATH/exclaff.py $netstat $schedstat | tee exclaff_$schedstat
+     echo "---------------------  Affinity Checker -------------------------------"
+     python3 $SCRIPT_PATH/affinity_check.py $netstat $schedstat | tee affinity_check_$schedstat
+
 
   else
      echo "$schedstat file not specified or does not exists"
