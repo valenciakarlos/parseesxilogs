@@ -41,13 +41,14 @@ def main():
                         print(" Lcore Usage:" + str(stat['sys'][thread]['lcoreusage']))
                     else:
                         print(stat['sys'][thread]['name'])
-
+            ''' # Really no need to print vCPU information as it's always the same
             if "vcpu" in port:
                 print("\tVcpu:", end="")
                 print(port["vcpu"])
                 for thread in port["vcpu"]:
                     print("\t\tVcpu: " + thread + " Name: ", end="")
                     print(stat['vcpus'][thread]['name'])
+            '''
             if "lcore" in port:
                 print("\tLcore:",end="")
                 print(port["lcore"])

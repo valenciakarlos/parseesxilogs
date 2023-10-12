@@ -88,13 +88,17 @@ def main():
             print ("\tChecking port :", end="")
             print(port["name"])
             print("\t\tLcores:",end="")
-            print(port["lcore"])
-            # Print vCPUs
+            if "lcore" in port:
+                print(port["lcore"])
+            else:
+                print("No mapped lcores")
+            # Print vCPUs. Really no need here as this repeats for each port. Figure out how to present this later. 
+            '''
             for thread in port["vcpu"]:
                 print("\t\tVcpu: " + thread + " Name: ", end="")
                 thread_name=stat['vcpus'][thread]['name']
                 print(thread_name)
-
+            '''
 
 
 

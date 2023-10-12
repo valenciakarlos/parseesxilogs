@@ -55,9 +55,9 @@ else
 
 
   else
-     echo "$schedstat file not specified or does not exists"
+     echo "$schedstat file with scheduler stats not specified or does not exists"
   fi
  else
-  echo "$netstat file does not exists"
+  echo "$netstat file with net-stats does not exists"
  fi
 fi

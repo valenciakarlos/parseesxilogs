@@ -68,6 +68,7 @@ def main():
                     mappedNode=(thread_dict[vcpu_attrib["id"]]["node"])
                 except KeyError:
                     mappedNode="NA"
+
                 vmx_cpu_thread_table.add_row([vcpu_attrib["name"], vcpu_attrib["id"], vcpu_attrib["used"], latSen, exclaff,mappedNode])
             print(vmx_cpu_thread_table)
 

@@ -24,7 +24,8 @@ def build_cpu_to_node_dict(sched_stats_file):
             # Store info on dict with key being the thread id
             # print("Index=" + str(idx) + " Thread=" + str(thread) + " CPU=" + str(df.cpu[idx]) + " Node=" + str(df.node[idx]))
             table_sched.add_row([str(df.cpu[idx]), str(df.node[idx]), thread])
-            cpu_to_node_dict[thread] = {'cpu': str(df.cpu[idx]), 'node': str(df.node[idx])}
+            used_pct=df.usedsec[idx]/df.elapsedsec[idx]
+            cpu_to_node_dict[thread] = {'cpu': str(df.cpu[idx]), 'node': str(df.node[idx]), 'usedsec':df.usedsec[idx], 'elapsedsec':df.elapsedsec[idx],'idlesec':df.idlesec[idx],'used_pct':used_pct}
 
     #    print(table_sched)
     return cpu_to_node_dict
@@ -64,6 +65,7 @@ def main():
                     try:
                         mappedCpu=thread_dict[int(thread)]["cpu"]
                         mappedNode=thread_dict[int(thread)]["node"]
+
                     except KeyError:
                         mappedNode = "NA"
                         mappedCpu="NA"
@@ -83,9 +85,11 @@ def main():
                     try:
                         mappedCpu=thread_dict[int(thread)]["cpu"]
                         mappedNode=thread_dict[int(thread)]["node"]
+
                     except KeyError:
                         mappedNode = "NA"
                         mappedCpu="NA"
+
                     print("\t\tVcpu: " + thread +" Mapped Cpu: "+ mappedCpu +" Mapped Node: "+ mappedNode + " Name: ", end="")
                     print(stat['vcpus'][thread]['name'])
             if "lcore" in port:
