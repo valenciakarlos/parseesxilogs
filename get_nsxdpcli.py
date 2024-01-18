@@ -64,11 +64,13 @@ def find_number(string):
 integer_regex = r'^[+-]?\d+$'
 
 args = validate_arguments()
+HOSTNAME = args.name
+# Example n294-esxi-ht-01.sc.sero.gic.ericsson.se
 
 # Connect to the remote server
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect('n294-esxi-ht-01.sc.sero.gic.ericsson.se',
+ssh.connect(HOSTNAME,
             port='22', username='root', password='N294-admin')
 # COMMAND='netstat -i'
 # COMMAND='netstat -i| egrep "eno1|lo"'
