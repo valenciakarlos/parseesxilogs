@@ -6,6 +6,14 @@ import json
 import re
 import json
 import pandas as pd
+import argparse
+
+
+def validate_arguments():
+    parser = argparse.ArgumentParser(description="Arguments")
+    parser.add_argument("-n", "--hostname", help="Hostname to check", required=True)
+    args = parser.parse_args()
+    return args
 
 # Does some calculations if the DF has all the info we need
 # Receives two data frames and provides the ratio of slow path to misses
@@ -55,6 +63,7 @@ def find_number(string):
 
 integer_regex = r'^[+-]?\d+$'
 
+args = validate_arguments()
 
 # Connect to the remote server
 ssh = paramiko.SSHClient()
