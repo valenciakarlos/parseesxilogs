@@ -64,7 +64,7 @@ def find_number(string):
 integer_regex = r'^[+-]?\d+$'
 
 args = validate_arguments()
-HOSTNAME = args.name
+HOSTNAME = args.hostname
 # Example n294-esxi-ht-01.sc.sero.gic.ericsson.se
 
 # Connect to the remote server
