@@ -75,8 +75,8 @@ ssh.connect(HOSTNAME,
 # COMMAND='netstat -i'
 # COMMAND='netstat -i| egrep "eno1|lo"'
 # COMMAND='netstat -s | grep -A5 Tcp'
-COMMAND = 'nsxdp-cli ens flow-stats get'
-#COMMAND = 'nsxdp-cli ens flow-stats get -l 9'
+#COMMAND = 'nsxdp-cli ens flow-stats get'
+COMMAND = 'nsxdp-cli ens flow-stats get -l 6'
 #COMMAND = 'vsish -e get /net/portsets/DvsPortset-2/stats'
 
 # Caveat: Doesnt handle scroll well
