@@ -7,6 +7,7 @@ import re
 import json
 import pandas as pd
 import argparse
+import prettytable
 
 
 def validate_arguments():
@@ -18,6 +19,8 @@ def validate_arguments():
 # Does some calculations if the DF has all the info we need
 # Receives two data frames and provides the ratio of slow path to misses
 def get_ratios(df_one,df_two):
+    # Returns a dictionary with all the ratios calculated
+    dict_ratios={}
     try:
         # Try to extract the value for the indexes we need
         hits=df_two.loc['hits',0]-df_one.loc['hits',0]
@@ -30,15 +33,24 @@ def get_ratios(df_one,df_two):
         # hits_ratio=(diff of hits + Diff of local hits) / (diff of hits + diff of localHits + diff of misses + diff of slowpath)
         # slowpath_ratio= slowpath / (diff of hits + diff of localHits + diff of misses + diff of slowpath)
         total_events=hits+miss+slowpath+localHits
+        dict_ratios['total_events']=total_events
         slowpath_ratio=slowpath/total_events
+        dict_ratios['slowpath_ratio']=slowpath_ratio
         hits_ratio=(hits+localHits)/total_events
+        dict_ratios['hits_ratio']=hits_ratio
         miss_ratio=miss/total_events
+        dict_ratios['miss_ratio']=miss_ratio
         hits_to_miss_ratio=(hits+localHits)/(hits+localHits+miss)
+        dict_ratios['hits_to_miss_ratio']=hits_to_miss_ratio
         miss_to_hits_ratio=miss/(hits+localHits+miss)
+        dict_ratios['miss_to_hits_ratio']=miss_to_hits_ratio
         print(f"Hits Ratio={hits_ratio:.2%} Slowpath ratio={slowpath_ratio:.2%} Miss ratio={miss_ratio:.2%} Hits to Miss ratio={hits_to_miss_ratio:.2%} Miss to Hits ratio={miss_to_hits_ratio:.2%} ")
+
     except KeyError:
         # Handle the case where the index does not exist
         print("Error could not extract some indexes")
+    return dict_ratios
+
 
 # Checks if input_str is json formatted and returns a dictionary if it is. Otherwise it returns an empty dictionary
 def is_json(input_str):
