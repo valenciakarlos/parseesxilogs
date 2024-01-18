@@ -15,15 +15,18 @@ integer_regex = r'^[+-]?\d+$'
 # Connect to the remote server
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect('192.168.1.16', port='22223', username='carlos', password='vale5152')
+ssh.connect('192.168.1.6', port='22', username='ubuntu', password='vale5152')
+#ssh.connect('192.168.1.16', port='22223', username='carlos', password='vale5152')
 #COMMAND='netstat -i'
 #COMMAND='netstat -i| egrep "eno1|lo"'
 #COMMAND='netstat -s | grep -A5 Tcp'
-COMMAND='ethtool -S eno1 | egrep "NIC|rx_packets|tx_packets"'
+COMMAND='cat /proc/softirqs'
+#COMMAND='ethtool -S eno1 | egrep "NIC|rx_packets|tx_packets"'
 
 # Caveat: Doesnt handle scroll well
+# Cant do tables with multiple values at the moment
 
-ITERATIONS=4
+ITERATIONS=20
 DURATION=5
 
 
@@ -60,7 +63,7 @@ for ctr in range (1,ITERATIONS+1):
 		matcher = difflib.SequenceMatcher(None, lines1, lines2)
 		# Print the diff
 
-		#print("This is the diff output:")
+		print("This is the diff output:")
 		#print('\n'.join(diff))
 		#print('Diff:\n'.join(diff))
 		#print('Running Matcher!')
@@ -101,7 +104,9 @@ for ctr in range (1,ITERATIONS+1):
 				org_lines=lines1[i1:i2]
 				#print('\n'.join(org_lines))
 				print('\033[33m' + '\n'.join(diff_lines) + '\033[0m')
+				'''
 				index=0
+                # This only works on files for the type: "attrib: value" 
 				while index < len(diff_lines):
 					#print('Original: \t'+org_lines[index])
 					#print('New: \t\t'+ diff_lines[index])
@@ -113,8 +118,11 @@ for ctr in range (1,ITERATIONS+1):
 					if (org_counter==diff_counter):
 						print("Diff" +org_counter+ ": " + str(diff_value-org_value))
 					index+=1
-
 				# Let's traverse each different line and find the difference in more detail (how to store so we can calculate difference?)
+
+
+				'''
+
 
 
 	"""
@@ -154,6 +162,7 @@ for ctr in range (1,ITERATIONS+1):
 				org_lines=lines1[i1:i2]
 				#print('\n'.join(org_lines))
 				print('\033[33m' + '\n'.join(diff_lines) + '\033[0m')
+				'''     
 				index=0
 				while index < len(diff_lines):
 					#print('Original: \t'+org_lines[index])
@@ -166,7 +175,7 @@ for ctr in range (1,ITERATIONS+1):
 					if (org_counter==diff_counter):
 						print("Diff" +org_counter+ ": " + str(diff_value-org_value))
 					index+=1
-
+				'''     
 
 # Close the SSH connection
 time.sleep(2)

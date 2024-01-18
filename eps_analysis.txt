@@ -1,0 +1,50 @@
+<class 'argparse.Namespace'>
+Processing
+Filename: /Users/vcarlos/Library/CloudStorage/Box-Box/Partners/Ericsson/PCG TCP Core 3.0 Perf numbers/Work with Rosa/TCP 3.0 PCG Perf Test/n294_1dp_16vcpu_6lcore_pnicrsson_netqrss_5gudp_cpu_ctx3_20230929_0920/n294_1dp_16vcpu_6lcore_pnicrsson_netqrss_5gudp_cpu_ctx3_20230929_0920_pm.csv
+Hostname: n294-esxi-ht-04.sc.sero.gic.ericsson.se
+Worker:  standard5gc-htnp-b9f7d6d9b-hcczp
+Lines matching Physical NIC EPS:Time|pNIC Driver [T|R]X Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se.*|pNIC [T|R]X Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se.*
+Number of columns=17
+Index 0: Time
+Max:10:10:00 position:50 At time :10:10:00
+Index 1: pNIC TX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic4-txeps
+Max:0 position:0 At time :09:20:00
+Index 2: pNIC TX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic5-txeps
+Max:0 position:0 At time :09:20:00
+Index 3: pNIC TX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic8-txeps
+Max:0 position:0 At time :09:20:00
+Index 4: pNIC TX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic9-txeps
+Max:0 position:0 At time :09:20:00
+Index 5: pNIC RX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic4-rxeps
+Max:0 position:0 At time :09:20:00
+Index 6: pNIC RX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic5-rxeps
+Max:0 position:0 At time :09:20:00
+Index 7: pNIC RX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic8-rxeps
+Max:0 position:0 At time :09:20:00
+Index 8: pNIC RX Drop Rate net-stats:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic9-rxeps
+Max:0 position:0 At time :09:20:00
+Index 9: pNIC Driver RX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic4-rxeps
+Max:0 position:0 At time :09:20:00
+Index 10: pNIC Driver RX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic5-rxeps
+Max:0 position:0 At time :09:20:00
+Index 11: pNIC Driver RX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic8-rxeps
+Max:0 position:0 At time :09:20:00
+Index 12: pNIC Driver RX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic9-rxeps
+Max:0 position:0 At time :09:20:00
+Index 13: pNIC Driver TX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic4-txeps
+Max:0 position:0 At time :09:20:00
+Index 14: pNIC Driver TX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic5-txeps
+Max:0 position:0 At time :09:20:00
+Index 15: pNIC Driver TX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic8-txeps
+Max:0 position:0 At time :09:20:00
+Index 16: pNIC Driver TX Drop Rate net-s:n294-esxi-ht-04.sc.sero.gic.ericsson.se-vmnic9-txeps
+Max:0 position:0 At time :09:20:00
+---------------------------------------------------
+per VM EPS pattern=Time|.*standard5gc-htnp-b9f7d6d9b-hcczp.*eps$
+Number of columns=3
+Index 0: Time
+Max:10:10:00 position:50 At time :10:10:00
+Index 1: VM vnic TX Drop Rate netstats:standard5gc-htnp-b9f7d6d9b-hcczp.eth1-txeps
+Max:0 position:0 At time :09:20:00
+Index 2: VM vnic RX Drop Rate netstats:standard5gc-htnp-b9f7d6d9b-hcczp.eth1-rxeps
+Max:418.36 position:41 At time :10:01:00

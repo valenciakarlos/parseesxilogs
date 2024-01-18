@@ -1,0 +1,45 @@
+Opening file net-stats-DvsPortset-2-30sec.txt
+Checking VM: standard5gc-htnp-b9f7d6d9b-dgf66
+	Checking port :standard5gc-htnp-b9f7d6d9b-dgf66.eth3
+		Lcores:No mapped lcores
+		Sys: 29867498 Name: NetWorld-VM-29867497
+	Checking port :standard5gc-htnp-b9f7d6d9b-dgf66.eth2
+		Lcores:No mapped lcores
+		Sys: 29867498 Name: NetWorld-VM-29867497
+	Checking port :standard5gc-htnp-b9f7d6d9b-dgf66.eth1
+		Lcores:No mapped lcores
+		Sys: 29867498 Name: NetWorld-VM-29867497
+Checking VM: standard5gc-htnp-b9f7d6d9b-z574b
+	Checking port :standard5gc-htnp-b9f7d6d9b-z574b.eth3
+		Lcores:No mapped lcores
+		Sys: 29912089 Name: NetWorld-VM-29912088
+	Checking port :standard5gc-htnp-b9f7d6d9b-z574b.eth2
+		Lcores:[{'in': ['5', '4'], 'out': ['3', '1', '0', '4', '0', '0', '0']}]
+		Sys: 29912089 Name: NetWorld-VM-29912088
+		Sys: 29920276 Name: NetWorld-Dev-134217865-0-Tx
+		Sys: 29920277 Name: NetWorld-Dev-134217865-1-Tx
+		Sys: 29920278 Name: NetWorld-Dev-134217865-2-Tx
+		Sys: 29920279 Name: NetWorld-Dev-134217865-3-Tx
+		Sys: 29920280 Name: NetWorld-Dev-134217865-4-Tx
+		Sys: 29920281 Name: NetWorld-Dev-134217865-5-Tx
+		Sys: 29920282 Name: NetWorld-Dev-134217865-6-Tx
+		Sys: 2103970 Name: Ens-Lcore-5 Lcore Usage:100.0
+		Sys: 2103968 Name: Ens-Lcore-3 Lcore Usage:100.0
+		Sys: 2103969 Name: Ens-Lcore-4 Lcore Usage:100.0
+		Sys: 2103966 Name: Ens-Lcore-1 Lcore Usage:100.0
+		Sys: 2103965 Name: Ens-Lcore-0 Lcore Usage:74.4
+	Checking port :standard5gc-htnp-b9f7d6d9b-z574b.eth1
+		Lcores:[{'in': ['3', '1'], 'out': ['4', '3', '2', '5', '2', '2', '2']}]
+		Sys: 29912089 Name: NetWorld-VM-29912088
+		Sys: 29919294 Name: NetWorld-Dev-134217866-0-Tx
+		Sys: 29919295 Name: NetWorld-Dev-134217866-1-Tx
+		Sys: 29919296 Name: NetWorld-Dev-134217866-2-Tx
+		Sys: 29919297 Name: NetWorld-Dev-134217866-3-Tx
+		Sys: 29919298 Name: NetWorld-Dev-134217866-4-Tx
+		Sys: 29919299 Name: NetWorld-Dev-134217866-5-Tx
+		Sys: 29919300 Name: NetWorld-Dev-134217866-6-Tx
+		Sys: 2103968 Name: Ens-Lcore-3 Lcore Usage:100.0
+		Sys: 2103969 Name: Ens-Lcore-4 Lcore Usage:100.0
+		Sys: 2103966 Name: Ens-Lcore-1 Lcore Usage:100.0
+		Sys: 2103967 Name: Ens-Lcore-2 Lcore Usage:70.99
+		Sys: 2103970 Name: Ens-Lcore-5 Lcore Usage:100.0

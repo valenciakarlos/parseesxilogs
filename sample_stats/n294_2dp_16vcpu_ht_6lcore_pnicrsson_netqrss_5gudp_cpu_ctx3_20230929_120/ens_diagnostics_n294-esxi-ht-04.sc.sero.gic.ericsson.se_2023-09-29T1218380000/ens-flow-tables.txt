@@ -1,0 +1,96 @@
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 0:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:2b:45  2204  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):119 cg:4122 dp:0x2 len:704;   0  0
+L2  01:00:5e:00:00:16  00:50:56:b0:eb:6a  1002  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              MC: inval(s):142 cg:4122 len:704; flag 0x440 n_ag:1 n_dp:1  0  0
+L2  01:00:5e:06:07:08  00:50:56:b0:f0:f0  1002  2        0.0.0.0                                        0.0.0.0                                        0      0        0             0              MC: inval(s):94 cg:4122 len:704; flag 0x440 n_ag:1 n_dp:1  0  0
+L2  ba:ba:fa:ce:22:02  00:50:56:b0:2b:45  2202  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):128 cg:4122 dp:0x2 len:704;   0  0
+L2  01:00:5e:06:07:08  00:50:56:b0:f0:f0  1002  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              MC: inval(s):141 cg:4122 len:704; flag 0x440 n_ag:1 n_dp:1  0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:2b:45  2205  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):120 cg:4122 dp:0x2 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 1:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:05  2205  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):98 cg:4122 dp:0x6 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:2b:45  2204  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):94 cg:4122 dp:0x2 len:704;   0  0
+L2  00:50:56:b0:ce:a4  00:50:56:b0:2b:45  2210  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):146 cg:4122 dp:0x6 len:704;   0  0
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:04  2204  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):115 cg:4122 dp:0x6 len:704;   0  0
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:02  2202  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):119 cg:4122 dp:0x6 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:2b:45  2205  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):97 cg:4122 dp:0x2 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 2:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:ce:a4  2204  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):131 cg:4122 dp:0x3 len:704;   0  0
+L2  ba:ba:fa:ce:22:02  00:50:56:b0:ce:a4  2202  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):108 cg:4122 dp:0x3 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:ce:a4  2205  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):132 cg:4122 dp:0x3 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 3:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  00:50:56:b0:2b:45  00:50:56:b0:ce:a4  2210  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):103 cg:4122 dp:0x5 len:704;   0  0
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:04  2204  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):100 cg:4122 dp:0x6 len:704;   0  0
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:02  2202  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):104 cg:4122 dp:0x6 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:2b:45  2205  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):110 cg:4122 dp:0x2 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:ce:a4  2205  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):116 cg:4122 dp:0x3 len:704;   0  0
+L2  ba:ba:fa:ce:22:02  00:50:56:b0:2b:45  2202  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):134 cg:4122 dp:0x2 len:704;   0  0
+L2  00:50:56:b0:ce:a4  ba:ba:fa:ce:22:05  2205  3        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):117 cg:4122 dp:0x6 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:2b:45  2204  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):113 cg:4122 dp:0x2 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:ce:a4  2204  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):115 cg:4122 dp:0x3 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 4:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  ba:ba:fa:ce:22:02  00:50:56:b0:2b:45  2202  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):97 cg:4122 dp:0x2 len:704;   0  0
+L2  00:50:56:b0:2b:45  ba:ba:fa:ce:22:04  2204  2        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):152 cg:4122 dp:0x5 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:2b:45  2204  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):150 cg:4122 dp:0x2 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:ce:a4  2204  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):140 cg:4122 dp:0x3 len:704;   0  0
+L2  00:50:56:b0:2b:45  00:50:56:b0:ce:a4  2210  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):128 cg:4122 dp:0x5 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:2b:45  2205  5        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):153 cg:4122 dp:0x2 len:704;   0  0
+L2  00:50:56:b0:2b:45  ba:ba:fa:ce:22:05  2205  2        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):137 cg:4122 dp:0x5 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:ce:a4  2205  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):139 cg:4122 dp:0x3 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 5:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+L2  00:50:56:b0:2b:45  ba:ba:fa:ce:22:05  2205  2        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):137 cg:4122 dp:0x5 len:704;   0  0
+L2  ba:ba:fa:ce:22:05  00:50:56:b0:ce:a4  2205  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):139 cg:4122 dp:0x3 len:704;   0  0
+L2  00:50:56:b0:2b:45  ba:ba:fa:ce:22:04  2204  2        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):152 cg:4122 dp:0x5 len:704;   0  0
+L2  ba:ba:fa:ce:22:04  00:50:56:b0:ce:a4  2204  6        0.0.0.0                                        0.0.0.0                                        0      0        0             0              bmap:0x80 inval(s):140 cg:4122 dp:0x3 len:704;   0  0
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 6:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 7:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 8:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 9:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 10:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Flow table dump for lcore switch DvsPortset-2 (0) lcore 11:
+
+FT  dstMAC             srcMAC             VLAN  srcPort  srcIP                                          dstIP                                          proto  VNI      srcPort/type  dstPort/code  Actions hwHits               hwBytes             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

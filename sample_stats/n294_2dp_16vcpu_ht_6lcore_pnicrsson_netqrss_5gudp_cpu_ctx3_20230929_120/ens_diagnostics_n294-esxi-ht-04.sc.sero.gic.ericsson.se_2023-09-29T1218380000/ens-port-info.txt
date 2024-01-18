@@ -1,0 +1,254 @@
+#### vSwitch instance list
+DvsPortset-1 (vDS VDS7-Traffic)   50 30 4b 1d a4 20 cd 50-7f 7d 00 74 52 da e6 f3
+Total Ports:9216 Available:9175
+  Client                         PortID          DVPortID                             MAC                  Uplink         
+  Management                     100663309                                            00:00:00:00:00:00    n/a            
+  vmnic3                         2248146964      147                                  00:00:00:00:00:00                   
+  Shadow of vmnic3               100663317                                            00:50:56:5d:5b:69    n/a            
+  vmnic2                         2248146966      146                                  00:00:00:00:00:00                   
+  Shadow of vmnic2               100663319                                            00:50:56:53:dd:da    n/a            
+  vmk10                          100663334       febdc601-704d-41eb-9671-7f1c597af3ec 00:50:56:66:99:63    vmnic2         
+  vmk11                          100663335       8293dd97-c936-422e-a197-4f3e3133fdbf 00:50:56:69:3c:f0    vmnic3         
+  vmk50                          100663337       d7fed447-401c-4bf7-b516-8637f79688f4 00:50:56:6d:6d:cf    void           
+  vdr-vdrPort                    100663338       vdrPort                              02:50:56:56:44:52    vmnic2         
+  standard5gc-                   100663423       67367285-8f36-4cbc-8db0-0159d41def95 00:50:56:b0:c4:3e    vmnic2         
+  htnp-b9f7d6d9b-dgf66.eth0                                                                                               
+  standard5gc-                   100663435       f1b53809-d2d0-4b46-8042-edce0cd67d8e 00:50:56:b0:96:cb    vmnic3         
+  htnp-b9f7d6d9b-z574b.eth0                                                                                               
+
+DvsPortset-2 (VDS7-HT-Traffic-EDP)   50 30 b9 db 9b ef 17 d5-98 5c 0f a6 55 e2 39 ce
+Total Ports:9216 Available:9175
+  Client                         PortID          DVPortID                             MAC                  Uplink         
+  Management                     134217742                                            00:00:00:00:00:00    n/a            
+  vmnic5                         2281701404      1                                    00:00:00:00:00:00                   
+  Shadow of vmnic5               134217757                                            00:50:56:5a:9c:8f    n/a            
+  vmnic4                         2281701406      0                                    00:00:00:00:00:00                   
+  Shadow of vmnic4               134217759                                            00:50:56:5e:26:a3    n/a            
+  vmnic9                         2281701408      3                                    00:00:00:00:00:00                   
+  Shadow of vmnic9               134217761                                            00:50:56:5d:b8:8e    n/a            
+  vmnic8                         2281701410      2                                    00:00:00:00:00:00                   
+  Shadow of vmnic8               134217763                                            00:50:56:5f:88:93    n/a            
+  vdr-vdrPort                    134217771       vdrPort                              02:50:56:56:44:52    vmnic5         
+  standard5gc-                   134217852       cc08f8b3-b6a3-4080-9583-c54a0b5dd4b4 00:50:56:b0:29:50    vmnic8         
+  htnp-b9f7d6d9b-dgf66.eth3                                                                                               
+  standard5gc-                   134217853       18cf7f0f-17d9-48ea-b95f-78b714ee283b 00:50:56:b0:8c:20    vmnic8         
+  htnp-b9f7d6d9b-dgf66.eth2                                                                                               
+  standard5gc-                   134217854       3f915740-b287-49c3-bd23-b17eb5a896a8 00:50:56:b0:56:5a    vmnic9         
+  htnp-b9f7d6d9b-dgf66.eth1                                                                                               
+  standard5gc-                   134217864       bbf78cf0-c5f4-461b-91e5-eefb5bd0caf5 00:50:56:b0:bf:e6    vmnic4         
+  htnp-b9f7d6d9b-z574b.eth3                                                                                               
+  standard5gc-                   134217865       e720be02-457b-45e4-ae00-971aa03bf389 00:50:56:b0:2b:45    vmnic4         
+  htnp-b9f7d6d9b-z574b.eth2                                                                                               
+  standard5gc-                   134217866       89ef4e42-8111-478b-8bb1-aad90f7d138c 00:50:56:b0:ce:a4    vmnic5         
+  htnp-b9f7d6d9b-z574b.eth1                                                                                               
+
+#### ENS port list per Switch
+
+#### ENS port list for Switch DvsPortset-2 
+
+portID      ensPID TxQ RxQ hwMAC             numMACs  type         Queue Placement(tx|rx)
+------------------------------------------------------------------------------
+2281701410  0      48  48  b8:3f:d2:24:0b:28 0        UPLINK       0 1 2 3 4 5 6 7 8 9 10 11 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |8 0 1 2 3 4 5 6 7 8 9 10 11 5 4 3 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+2281701408  1      48  48  b8:3f:d2:24:0b:29 0        UPLINK       0 1 2 3 4 5 6 7 8 9 10 11 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |8 0 1 2 3 4 5 6 7 8 9 10 11 5 4 3 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+2281701406  2      48  48  b8:3f:d2:24:1a:48 0        UPLINK       0 1 2 3 4 5 6 7 8 9 10 11 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |0 0 1 2 3 4 5 6 7 8 9 10 11 5 4 3 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+2281701404  3      48  48  b8:3f:d2:24:1a:49 0        UPLINK       0 1 2 3 4 5 6 7 8 9 10 11 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |0 0 1 2 3 4 5 6 7 8 9 10 11 5 4 3 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+134217865   5      2   7   00:50:56:b0:2b:45 0        VNIC         5 4 |3 1 0 4 0 0 0 
+134217866   6      2   7   00:50:56:b0:ce:a4 0        VNIC         3 1 |4 3 2 5 2 2 2 
+
+#### ENS pNIC rings for vmnic4
+
+Tx Ring Size: 2048
+Rx Ring Size: 1024
+
+#### ENS pNIC rings for vmnic5
+
+Tx Ring Size: 2048
+Rx Ring Size: 1024
+
+#### ENS pNIC rings for vmnic8
+
+Tx Ring Size: 2048
+Rx Ring Size: 1024
+
+#### ENS pNIC rings for vmnic9
+
+Tx Ring Size: 2048
+Rx Ring Size: 1024
+
+#### vmnic properties for vmnic4
+
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseX/Full, 10000BaseX/Full, 40000XLPPI/Full, 25000BaseCR1/Full, 50000BaseKR2/Full, 100000BaseCR4/Full
+   Auto Negotiation: true
+   Backing DPUId: N/A
+   Cable Type: 
+   Current Message Level: -1
+   Driver Info: 
+         Bus Info: 0000:4b:00:0
+         Driver: nmlx5_core
+         Firmware Version: 22.35.1012
+         Version: 4.23.0.36
+   Link Detected: true
+   Link Status: Up 
+   Name: vmnic4
+   PHYAddress: 0
+   Pause Autonegotiate: false
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: DA
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: false
+   Transceiver: internal
+   Virtual Address: 00:50:56:5e:26:a3
+   Wakeon: None
+
+#### vmnic properties for vmnic5
+
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseX/Full, 10000BaseX/Full, 40000XLPPI/Full, 25000BaseCR1/Full, 50000BaseKR2/Full, 100000BaseCR4/Full
+   Auto Negotiation: true
+   Backing DPUId: N/A
+   Cable Type: 
+   Current Message Level: -1
+   Driver Info: 
+         Bus Info: 0000:4b:00:1
+         Driver: nmlx5_core
+         Firmware Version: 22.35.1012
+         Version: 4.23.0.36
+   Link Detected: true
+   Link Status: Up 
+   Name: vmnic5
+   PHYAddress: 0
+   Pause Autonegotiate: false
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: DA
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: false
+   Transceiver: internal
+   Virtual Address: 00:50:56:5a:9c:8f
+   Wakeon: None
+
+#### vmnic properties for vmnic8
+
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseX/Full, 10000BaseX/Full, 40000XLPPI/Full, 25000BaseCR1/Full, 50000BaseKR2/Full, 100000BaseCR4/Full
+   Auto Negotiation: true
+   Backing DPUId: N/A
+   Cable Type: 
+   Current Message Level: -1
+   Driver Info: 
+         Bus Info: 0000:b1:00:0
+         Driver: nmlx5_core
+         Firmware Version: 22.35.1012
+         Version: 4.23.0.36
+   Link Detected: true
+   Link Status: Up 
+   Name: vmnic8
+   PHYAddress: 0
+   Pause Autonegotiate: false
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: DA
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: false
+   Transceiver: internal
+   Virtual Address: 00:50:56:5f:88:93
+   Wakeon: None
+
+#### vmnic properties for vmnic9
+
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseX/Full, 10000BaseX/Full, 40000XLPPI/Full, 25000BaseCR1/Full, 50000BaseKR2/Full, 100000BaseCR4/Full
+   Auto Negotiation: true
+   Backing DPUId: N/A
+   Cable Type: 
+   Current Message Level: -1
+   Driver Info: 
+         Bus Info: 0000:b1:00:1
+         Driver: nmlx5_core
+         Firmware Version: 22.35.1012
+         Version: 4.23.0.36
+   Link Detected: true
+   Link Status: Up 
+   Name: vmnic9
+   PHYAddress: 0
+   Pause Autonegotiate: false
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: DA
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: false
+   Transceiver: internal
+   Virtual Address: 00:50:56:5d:b8:8e
+   Wakeon: None
+
+#### vmnic RSS Config for vmnic4
+
+ID   Type     PriQ NumQ h-Func h-Type keySz  IndSz  SecQs 
+------------------------------------------------------------------------------
+0    OFLRSS   13   2    2      63     40     128    14 
+1    OFLRSS   15   2    2      63     40     128    16 
+
+#### vmnic RSS Config for vmnic5
+
+ID   Type     PriQ NumQ h-Func h-Type keySz  IndSz  SecQs 
+------------------------------------------------------------------------------
+0    OFLRSS   13   2    2      63     40     128    14 
+1    OFLRSS   15   2    2      63     40     128    16 
+
+#### vmnic RSS Config for vmnic8
+
+ID   Type     PriQ NumQ h-Func h-Type keySz  IndSz  SecQs 
+------------------------------------------------------------------------------
+0    OFLRSS   13   2    2      63     40     128    14 
+1    OFLRSS   15   2    2      63     40     128    16 
+
+#### vmnic RSS Config for vmnic9
+
+ID   Type     PriQ NumQ h-Func h-Type keySz  IndSz  SecQs 
+------------------------------------------------------------------------------
+0    OFLRSS   13   2    2      63     40     128    14 
+1    OFLRSS   15   2    2      63     40     128    16 
+#### ENS NUMA affiniy
+Lcore ID  Switch        Affinity
+--------  ------------  --------
+       0  DvsPortset-2         0
+       1  DvsPortset-2         0
+       2  DvsPortset-2         0
+       3  DvsPortset-2         0
+       4  DvsPortset-2         0
+       5  DvsPortset-2         0
+       6  DvsPortset-2         1
+       7  DvsPortset-2         1
+       8  DvsPortset-2         1
+       9  DvsPortset-2         1
+      10  DvsPortset-2         1
+      11  DvsPortset-2         1
+#### ENS lcore affiniy
+Dev                Affinity
+------------------------------------------------------------
+vmnic4             0     
+vmnic5             0     
+vmnic8             1     
+vmnic9             1     
+
+#### ENS pcore affiniy
+
+sched-stats -t cpu | grep -i Ens-Lcore-
+2103965     2103965     S    Ens-Lcore-0                    1215048.571   RUN      1214587.142   0.000      NONE            0.000         0.000         2.060         0      -1     pct      1000   net          22   0   0   0    4    0              
+2103966     2103966     S    Ens-Lcore-1                    1215048.539   RUN      1214719.068   0.000      NONE            0.000         0.000         1.638         0      -1     pct      1000   net          22   3   0   0    4    3              
+2103967     2103967     S    Ens-Lcore-2                    1215048.506   RUN      1214714.936   0.000      NONE            0.000         0.000         1.761         0      -1     pct      1000   net          22   12  0   0    4    12             
+2103968     2103968     S    Ens-Lcore-3                    1215048.474   RUN      1214722.903   0.000      NONE            0.000         0.000         1.748         0      -1     pct      1000   net          22   39  0   0    4    39             
+2103969     2103969     S    Ens-Lcore-4                    1215048.442   RUN      1214721.072   0.000      NONE            0.000         0.000         1.613         0      -1     pct      1000   net          22   22  0   0    4    22             
+2103970     2103970     S    Ens-Lcore-5                    1215048.410   RUN      1214720.784   0.000      NONE            0.000         0.000         1.699         0      -1     pct      1000   net          22   9   0   0    4    9              
+2103971     2103971     S    Ens-Lcore-6                    1215048.378   RUN      1214635.525   0.000      NONE            0.000         0.000         2.549         0      -1     pct      1000   net          22   99  1   0    4    99             
+2103972     2103972     S    Ens-Lcore-7                    1215048.346   RUN      1214640.058   0.000      NONE            0.000         0.000         1.535         0      -1     pct      1000   net          22   86  1   0    4    86             
+2103973     2103973     S    Ens-Lcore-8                    1215048.314   RUN      1214636.395   0.000      NONE            0.000         0.000         1.508         0      -1     pct      1000   net          22   92  1   0    4    92             
+2103974     2103974     S    Ens-Lcore-9                    1215048.281   RUN      1214641.485   0.000      NONE            0.000         0.000         1.492         0      -1     pct      1000   net          22   79  1   0    4    79             
+2103975     2103975     S    Ens-Lcore-10                   1215048.249   RUN      1214641.779   0.000      NONE            0.000         0.000         1.798         0      -1     pct      1000   net          22   56  1   0    4    56             
+2103976     2103976     S    Ens-Lcore-11                   1215048.217   RUN      1214641.404   0.000      NONE            0.000         0.000         1.449         0      -1     pct      1000   net          22   71  1   0    4    71             

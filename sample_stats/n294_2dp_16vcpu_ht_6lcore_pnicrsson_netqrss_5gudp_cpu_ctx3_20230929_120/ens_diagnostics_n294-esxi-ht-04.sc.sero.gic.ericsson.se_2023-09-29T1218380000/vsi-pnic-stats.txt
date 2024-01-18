@@ -1,0 +1,1761 @@
+#### First sample of pNIC stats for vmnic4
+
+device {
+   -- General Statistics:
+   Rx Packets:14004072933
+   Tx Packets:14002327698
+   Rx Bytes:9984284082633
+   Tx Bytes:10138964210931
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1345984
+   Rx Broadcast:396490
+   Tx Multicast:684
+   Tx Broadcast:1094
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 87
+rxSwPackets: 14004072933
+rxSwBytes: 9984284082633
+txSwPackets: 14002327698
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 14004072933
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 14002327698
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 3511030
+downOutOfBuffer: 0
+rxVportUnicastPackets: 14005837513
+rxVportUnicastBytes: 10098692601249
+txVportUnicastPackets: 14002321017
+txVportUnicastBytes: 10138964004463
+rxVportMulticastPackets: 1345984
+rxVportMulticastBytes: 126714715
+txVportMulticastPackets: 684
+txVportMulticastBytes: 136636
+rxVportBroadcastPackets: 396490
+rxVportBroadcastBytes: 25395360
+txVportBroadcastPackets: 1094
+txVportBroadcastBytes: 69832
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 14002323150
+rxPacketsPhy: 14007580288
+rxCrcErrorsPhy: 0
+txBytesPhy: 10194973603071
+rxBytesPhy: 10098844947396
+txMulticastPhy: 971
+txBroadcastPhy: 1094
+rxMulticastPhy: 1345984
+rxBroadcastPhy: 396490
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 391770
+rx_65_to_127_bytesPhy: 1551486
+rx_128_to_255_bytesPhy: 5879615376
+rx_256_to_511_bytesPhy: 10605
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 8126011513
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 10098846082924
+rxPrio0_packets: 14007581888
+txPrio0_bytes: 10194974891479
+txPrio0_packets: 14002324972
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x68
+RX0_cqn: 0x425
+RX0_packets: 1745002
+RX0_bytes: 138452724
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x6b
+RX1_cqn: 0x427
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x6e
+RX2_cqn: 0x429
+RX2_packets: 5
+RX2_bytes
+}
+#### First sample of pNIC stats for vmnic5
+
+device {
+   -- General Statistics:
+   Rx Packets:14025301360
+   Tx Packets:14023555214
+   Rx Bytes:9999393491532
+   Tx Bytes:10154306755416
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1345390
+   Rx Broadcast:396444
+   Tx Multicast:1072
+   Tx Broadcast:1127
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 87
+rxSwPackets: 14025301360
+rxSwBytes: 9999393491532
+txSwPackets: 14023555214
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 14025301360
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 14023555214
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 65354
+downOutOfBuffer: 0
+rxVportUnicastPackets: 14023621084
+rxVportUnicastBytes: 10111487895814
+txVportUnicastPackets: 14023548467
+txVportUnicastBytes: 10154306511868
+rxVportMulticastPackets: 1345390
+rxVportMulticastBytes: 126658836
+txVportMulticastPackets: 1072
+txVportMulticastBytes: 171556
+rxVportBroadcastPackets: 396444
+rxVportBroadcastBytes: 25392404
+txVportBroadcastPackets: 1127
+txVportBroadcastBytes: 71992
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 14023551102
+rxPacketsPhy: 14025363179
+rxCrcErrorsPhy: 0
+txBytesPhy: 10210401117880
+rxBytesPhy: 10111640143418
+txMulticastPhy: 1359
+txBroadcastPhy: 1127
+rxMulticastPhy: 1345390
+rxBroadcastPhy: 396445
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 391764
+rx_65_to_127_bytesPhy: 1592991
+rx_128_to_255_bytesPhy: 5887061606
+rx_256_to_511_bytesPhy: 14499
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 8136302796
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 10111641254006
+rxPrio0_packets: 14025364726
+txPrio0_bytes: 10210402181572
+txPrio0_packets: 14023552569
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x168
+RX0_cqn: 0x1465
+RX0_packets: 1746549
+RX0_bytes: 138554770
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x16b
+RX1_cqn: 0x1467
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x16e
+RX2_cqn: 0x1469
+RX2_packets: 1634
+
+}
+#### First sample of pNIC stats for vmnic8
+
+device {
+   -- General Statistics:
+   Rx Packets:3841701250
+   Tx Packets:3839827824
+   Rx Bytes:2738498145289
+   Tx Bytes:2780746202507
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1345625
+   Rx Broadcast:397092
+   Tx Multicast:660
+   Tx Broadcast:16554
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 85
+rxSwPackets: 3841701250
+rxSwBytes: 2738498145289
+txSwPackets: 3839827824
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 3841701250
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 3839827824
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 82960854
+downOutOfBuffer: 0
+rxVportUnicastPackets: 3922919802
+rxVportUnicastBytes: 2828531016722
+txVportUnicastPackets: 3839810610
+txVportUnicastBytes: 2780745008623
+rxVportMulticastPackets: 1345625
+rxVportMulticastBytes: 126680838
+txVportMulticastPackets: 660
+txVportMulticastBytes: 134476
+rxVportBroadcastPackets: 397092
+rxVportBroadcastBytes: 25436732
+txVportBroadcastPackets: 16554
+txVportBroadcastBytes: 1059408
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 3839828111
+rxPacketsPhy: 3924662519
+rxCrcErrorsPhy: 0
+txBytesPhy: 2796105539059
+rxBytesPhy: 2828683134292
+txMulticastPhy: 947
+txBroadcastPhy: 16554
+rxMulticastPhy: 1345625
+rxBroadcastPhy: 397092
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 391614
+rx_65_to_127_bytesPhy: 1436565
+rx_128_to_255_bytesPhy: 1646807009
+rx_256_to_511_bytesPhy: 37949
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 2275989378
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 2828683134292
+rxPrio0_packets: 3924662519
+txPrio0_bytes: 2796105539059
+txPrio0_packets: 3839828111
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x68
+RX0_cqn: 0x425
+RX0_packets: 1750395
+RX0_bytes: 138821561
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x6b
+RX1_cqn: 0x427
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x6e
+RX2_cqn: 0x429
+RX2_packets: 5
+RX2_bytes: 326
+RX2_c
+}
+#### First sample of pNIC stats for vmnic9
+
+device {
+   -- General Statistics:
+   Rx Packets:1746347
+   Tx Packets:558
+   Rx Bytes:138535736
+   Tx Bytes:124996
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1345591
+   Rx Broadcast:397328
+   Tx Multicast:548
+   Tx Broadcast:10
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 85
+rxSwPackets: 1746347
+rxSwBytes: 138535736
+txSwPackets: 558
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 1746347
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 558
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 0
+downOutOfBuffer: 0
+rxVportUnicastPackets: 3792
+rxVportUnicastBytes: 406080
+txVportUnicastPackets: 0
+txVportUnicastBytes: 0
+rxVportMulticastPackets: 1345591
+rxVportMulticastBytes: 126677706
+txVportMulticastPackets: 548
+txVportMulticastBytes: 124396
+rxVportBroadcastPackets: 397328
+rxVportBroadcastBytes: 25452936
+txVportBroadcastPackets: 10
+txVportBroadcastBytes: 600
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 845
+rxPacketsPhy: 1746712
+rxCrcErrorsPhy: 0
+txBytesPhy: 152484
+rxBytesPhy: 152536786
+txMulticastPhy: 835
+txBroadcastPhy: 10
+rxMulticastPhy: 1345591
+rxBroadcastPhy: 397329
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 391485
+rx_65_to_127_bytesPhy: 1351120
+rx_128_to_255_bytesPhy: 4101
+rx_256_to_511_bytesPhy: 2
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 0
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 152536786
+rxPrio0_packets: 1746712
+txPrio0_bytes: 152484
+txPrio0_packets: 845
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x168
+RX0_cqn: 0x1465
+RX0_packets: 1746200
+RX0_bytes: 138526056
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x16b
+RX1_cqn: 0x1467
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x16e
+RX2_cqn: 0x1469
+RX2_packets: 5
+RX2_bytes: 326
+RX2_csumComplete: 0
+RX2_csumUnnecessaryInner: 0
+RX2_csumNone: 0
+RX2_wqeErr: 0
+RX2_buffAllocErr: 0
+RX2_encap: 0
+RX2_dropped: 0
+RX3_rqn: 
+}
+/n/n#### Second sample of pNIC stats for vmnic4
+
+device {
+   -- General Statistics:
+   Rx Packets:14081041690
+   Tx Packets:14079291930
+   Rx Bytes:10039162781762
+   Tx Bytes:10194693520734
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1349464
+   Rx Broadcast:397543
+   Tx Multicast:686
+   Tx Broadcast:1101
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 87
+rxSwPackets: 14081041690
+rxSwBytes: 10039162781762
+txSwPackets: 14079291930
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 14081041690
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 14079291930
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 3609680
+downOutOfBuffer: 0
+rxVportUnicastPackets: 14082900345
+rxVportUnicastBytes: 10154257693213
+txVportUnicastPackets: 14079285210
+txVportUnicastBytes: 10194693313501
+rxVportMulticastPackets: 1349464
+rxVportMulticastBytes: 127042350
+txVportMulticastPackets: 686
+txVportMulticastBytes: 136953
+rxVportBroadcastPackets: 397543
+rxVportBroadcastBytes: 25462800
+txVportBroadcastPackets: 1101
+txVportBroadcastBytes: 70280
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 14079287561
+rxPacketsPhy: 14084647602
+rxCrcErrorsPhy: 0
+txBytesPhy: 10251010894550
+rxBytesPhy: 10154410366151
+txMulticastPhy: 974
+txBroadcastPhy: 1101
+rxMulticastPhy: 1349464
+rxBroadcastPhy: 397543
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 392811
+rx_65_to_127_bytesPhy: 1555847
+rx_128_to_255_bytesPhy: 5911966308
+rx_256_to_511_bytesPhy: 10605
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 8170722490
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 10154411486131
+rxPrio0_packets: 14084649164
+txPrio0_bytes: 10251012042470
+txPrio0_packets: 14079289173
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x68
+RX0_cqn: 0x425
+RX0_packets: 1749543
+RX0_bytes: 138812017
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x6b
+RX1_cqn: 0x427
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x6e
+RX2_cqn: 0x429
+RX2_packets: 5
+RX2_byte
+}
+/n/n#### Second sample of pNIC stats for vmnic5
+
+device {
+   -- General Statistics:
+   Rx Packets:14103441936
+   Tx Packets:14101690996
+   Rx Bytes:10055107526352
+   Tx Bytes:10210883987508
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1348987
+   Rx Broadcast:397512
+   Tx Multicast:1075
+   Tx Broadcast:1135
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 87
+rxSwPackets: 14103441936
+rxSwBytes: 10055107526352
+txSwPackets: 14101690996
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 14103441936
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 14101690996
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 66365
+downOutOfBuffer: 0
+rxVportUnicastPackets: 14101757476
+rxVportUnicastBytes: 10167826969008
+txVportUnicastPackets: 14101683835
+txVportUnicastBytes: 10210883742904
+rxVportMulticastPackets: 1348987
+rxVportMulticastBytes: 126997510
+txVportMulticastPackets: 1075
+txVportMulticastBytes: 172100
+rxVportBroadcastPackets: 397512
+rxVportBroadcastBytes: 25460800
+txVportBroadcastPackets: 1135
+txVportBroadcastBytes: 72504
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 14101686550
+rxPacketsPhy: 14103504244
+rxCrcErrorsPhy: 0
+txBytesPhy: 10267290916308
+rxBytesPhy: 10167979630094
+txMulticastPhy: 1363
+txBroadcastPhy: 1135
+rxMulticastPhy: 1348987
+rxBroadcastPhy: 397513
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 392821
+rx_65_to_127_bytesPhy: 1597633
+rx_128_to_255_bytesPhy: 5919863218
+rx_256_to_511_bytesPhy: 14499
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 8181636589
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 10167980838026
+rxPrio0_packets: 14103505919
+txPrio0_bytes: 10267292183184
+txPrio0_packets: 14101688270
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x168
+RX0_cqn: 0x1465
+RX0_packets: 1751090
+RX0_bytes: 138914134
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x16b
+RX1_cqn: 0x1467
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x16e
+RX2_cqn: 0x1469
+RX2_packets: 1634
+}
+/n/n#### Second sample of pNIC stats for vmnic8
+
+device {
+   -- General Statistics:
+   Rx Packets:3841705679
+   Tx Packets:3839827826
+   Rx Bytes:2738498494978
+   Tx Bytes:2780746202961
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1348994
+   Rx Broadcast:398152
+   Tx Multicast:662
+   Tx Broadcast:16554
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 85
+rxSwPackets: 3841705679
+rxSwBytes: 2738498494978
+txSwPackets: 3839827826
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 3841705679
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 3839827826
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 82960854
+downOutOfBuffer: 0
+rxVportUnicastPackets: 3922919802
+rxVportUnicastBytes: 2828531016722
+txVportUnicastPackets: 3839810610
+txVportUnicastBytes: 2780745008623
+rxVportMulticastPackets: 1348994
+rxVportMulticastBytes: 126998039
+txVportMulticastPackets: 662
+txVportMulticastBytes: 134930
+rxVportBroadcastPackets: 398152
+rxVportBroadcastBytes: 25504648
+txVportBroadcastPackets: 16554
+txVportBroadcastBytes: 1059408
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 3839828114
+rxPacketsPhy: 3924666948
+rxCrcErrorsPhy: 0
+txBytesPhy: 2796105539609
+rxBytesPhy: 2828683519409
+txMulticastPhy: 950
+txBroadcastPhy: 16554
+rxMulticastPhy: 1348994
+rxBroadcastPhy: 398152
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 392655
+rx_65_to_127_bytesPhy: 1439943
+rx_128_to_255_bytesPhy: 1646807019
+rx_256_to_511_bytesPhy: 37949
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 2275989378
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 2828683519409
+rxPrio0_packets: 3924666948
+txPrio0_bytes: 2796105539609
+txPrio0_packets: 3839828114
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x68
+RX0_cqn: 0x425
+RX0_packets: 1754946
+RX0_bytes: 139181472
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x6b
+RX1_cqn: 0x427
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x6e
+RX2_cqn: 0x429
+RX2_packets: 5
+RX2_bytes: 326
+RX2_c
+}
+/n/n#### Second sample of pNIC stats for vmnic9
+
+device {
+   -- General Statistics:
+   Rx Packets:1750961
+   Tx Packets:560
+   Rx Bytes:138900915
+   Tx Bytes:125450
+   Rx Errors:2934
+   Tx Errors:0
+   Rx Dropped:0
+   Tx Dropped:0
+   Rx Multicast:1349131
+   Rx Broadcast:398402
+   Tx Multicast:550
+   Tx Broadcast:10
+   Collisions:0
+   Rx Length Errors:2934
+   Rx Over Errors:0
+   Rx CRC Errors:0
+   Rx Frame Errors:0
+   Rx Fifo Errors:0
+   Rx Missed Errors:0
+   Tx Aborted Errors:0
+   Tx Carrier Errors:0
+   Tx Fifo Errors:0
+   Tx Heartbeat Errors:0
+   Tx Window Errors:0
+   Module Interface Rx packets:0
+   Module Interface Tx packets:0
+   Module Interface Rx dropped:0
+   Module Interface Tx dropped:0
+   -- Driver Specific Statistics:
+PSID: DEL0000000027
+asicSensorTemperature: 84
+rxSwPackets: 1750961
+rxSwBytes: 138900915
+txSwPackets: 560
+txSwTsoPackets: 0
+txSwTsoBytes: 0
+txSwTsoInnerPackets: 0
+txSwTsoInnerBytes: 0
+rxSwCsumUnnecessary: 1750961
+rxSwCsumNone: 0
+rxSwCsumComplete: 0
+rxSwCsumUnnecessaryInner: 0
+txSwCsumPartial: 560
+txSwCsumPartialInner: 0
+txSwQueueStopped: 0
+txSwQueueWake: 0
+txSwQueueDropped: 0
+txSwXmitMore: 0
+rxSwWqeErr: 0
+rxSwBuffAllocErr: 0
+linkDownEventsPhy: 0
+watchdogReset: 0
+outOfBuffer: 0
+downOutOfBuffer: 0
+rxVportUnicastPackets: 3792
+rxVportUnicastBytes: 406080
+txVportUnicastPackets: 0
+txVportUnicastBytes: 0
+rxVportMulticastPackets: 1349131
+rxVportMulticastBytes: 127010981
+txVportMulticastPackets: 550
+txVportMulticastBytes: 124850
+rxVportBroadcastPackets: 398402
+rxVportBroadcastBytes: 25521748
+txVportBroadcastPackets: 10
+txVportBroadcastBytes: 600
+rxVportRdmaUnicastPackets: 0
+rxVportRdmaUnicastBytes: 0
+txVportRdmaUnicastPackets: 0
+txVportRdmaUnicastBytes: 0
+rxVportRdmaMulticastPackets: 0
+rxVportRdmaMulticastBytes: 0
+txVportRdmaMulticastPackets: 0
+txVportRdmaMulticastBytes: 0
+txPacketsPhy: 848
+rxPacketsPhy: 1751326
+rxCrcErrorsPhy: 0
+txBytesPhy: 153034
+rxBytesPhy: 152938873
+txMulticastPhy: 838
+txBroadcastPhy: 10
+rxMulticastPhy: 1349131
+rxBroadcastPhy: 398403
+rxInRangeLenErrorsPhy: 0
+rxOutOfRangeLenPhy: 0
+rxOversizePktsPhy: 2934
+rxSymbolErrPhy: 0
+txMacControlPhy: 0
+rxMacControlPhy: 0
+rxUnsupportedOpPhy: 0
+rxPauseCtrlPhy: 0
+txPauseCtrlPhy: 0
+rxDiscardsPhy: 0
+txDiscardsPhy: 0
+txErrorsPhy: 0
+rxUndersizePktsPhy: 0
+rxFragmentsPhy: 0
+rxJabbersPhy: 0
+rx_64_bytesPhy: 392540
+rx_65_to_127_bytesPhy: 1354669
+rx_128_to_255_bytesPhy: 4111
+rx_256_to_511_bytesPhy: 2
+rx_512_to_1023_bytesPhy: 0
+rx_1024_to_1518_bytesPhy: 0
+rx_1519_to_2047_bytesPhy: 4
+rx_2048_to_4095_bytesPhy: 0
+rx_4096_to_8191_bytesPhy: 0
+rx_8192_to_10239_bytesPhy: 0
+rxSymbolErrorsPhy: 0
+rxCorrectedBitsPhy: 0
+rxErrLane_0_Phy: 0
+rxErrLane_1_Phy: 0
+rxErrLane_2_Phy: 0
+rxErrLane_3_Phy: 0
+rxBufferPassedThresPhy: 0
+rxPciSignalIntegrity: 0
+txPciSignalIntegrity: 1
+outboundPciBufferOverflow: 0
+outboundPciStalledRd: 0
+outboundPciStalledWr: 0
+outboundPciStalledRdEvents: 0
+outboundPciStalledWrEvents: 0
+txPciTransportNonfatalMsg: 0
+txPciTransportFatalMsg: 0
+rxPrio0_bytes: 152938873
+rxPrio0_packets: 1751326
+txPrio0_bytes: 153034
+txPrio0_packets: 848
+rxPrio0_buf_discard: 0
+rxPrio0_cong_discard: 0
+rxPrio0_marked: 0
+rxPrio1_bytes: 0
+rxPrio1_packets: 0
+txPrio1_bytes: 0
+txPrio1_packets: 0
+rxPrio1_buf_discard: 0
+rxPrio1_cong_discard: 0
+rxPrio1_marked: 0
+rxPrio2_bytes: 0
+rxPrio2_packets: 0
+txPrio2_bytes: 0
+txPrio2_packets: 0
+rxPrio2_buf_discard: 0
+rxPrio2_cong_discard: 0
+rxPrio2_marked: 0
+rxPrio3_bytes: 0
+rxPrio3_packets: 0
+txPrio3_bytes: 0
+txPrio3_packets: 0
+rxPrio3_buf_discard: 0
+rxPrio3_cong_discard: 0
+rxPrio3_marked: 0
+rxPrio4_bytes: 0
+rxPrio4_packets: 0
+txPrio4_bytes: 0
+txPrio4_packets: 0
+rxPrio4_buf_discard: 0
+rxPrio4_cong_discard: 0
+rxPrio4_marked: 0
+rxPrio5_bytes: 0
+rxPrio5_packets: 0
+txPrio5_bytes: 0
+txPrio5_packets: 0
+rxPrio5_buf_discard: 0
+rxPrio5_cong_discard: 0
+rxPrio5_marked: 0
+rxPrio6_bytes: 0
+rxPrio6_packets: 0
+txPrio6_bytes: 0
+txPrio6_packets: 0
+rxPrio6_buf_discard: 0
+rxPrio6_cong_discard: 0
+rxPrio6_marked: 0
+rxPrio7_bytes: 0
+rxPrio7_packets: 0
+txPrio7_bytes: 0
+txPrio7_packets: 0
+rxPrio7_buf_discard: 0
+rxPrio7_cong_discard: 0
+rxPrio7_marked: 0
+rx_global_pause: 0
+rx_global_pause_duration: 0
+tx_global_pause: 0
+tx_global_pause_duration: 0
+rx_global_pause_transition: 0
+txPauseStormWarningEvents: 0
+txPauseStormErrorEvents: 0
+RX0_rqn: 0x168
+RX0_cqn: 0x1465
+RX0_packets: 1750751
+RX0_bytes: 138885967
+RX0_csumComplete: 0
+RX0_csumUnnecessaryInner: 0
+RX0_csumNone: 0
+RX0_wqeErr: 0
+RX0_buffAllocErr: 0
+RX0_encap: 0
+RX0_dropped: 0
+RX1_rqn: 0x16b
+RX1_cqn: 0x1467
+RX1_packets: 0
+RX1_bytes: 0
+RX1_csumComplete: 0
+RX1_csumUnnecessaryInner: 0
+RX1_csumNone: 0
+RX1_wqeErr: 0
+RX1_buffAllocErr: 0
+RX1_encap: 0
+RX1_dropped: 0
+RX2_rqn: 0x16e
+RX2_cqn: 0x1469
+RX2_packets: 5
+RX2_bytes: 326
+RX2_csumComplete: 0
+RX2_csumUnnecessaryInner: 0
+RX2_csumNone: 0
+RX2_wqeErr: 0
+RX2_buffAllocErr: 0
+RX2_encap: 0
+RX2_dropped: 0
+RX3_rqn: 
+}

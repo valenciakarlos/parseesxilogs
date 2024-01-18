@@ -1,0 +1,700 @@
+
+#### First sample for Switch 0 lcore 0:
+
+{
+   "lcoreID": 0,
+   "numFlows": 6,
+   "numFlowsCreated": 20282,
+   "hits": 1318473938,
+   "miss": 949259,
+   "slowpath": 199080846,
+   "fpoHits": 0,
+   "localHits": 159119954,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 1:
+
+{
+   "lcoreID": 1,
+   "numFlows": 6,
+   "numFlowsCreated": 12360,
+   "hits": 206822705,
+   "miss": 1080802,
+   "slowpath": 43669029,
+   "fpoHits": 0,
+   "localHits": 2303881162,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 2:
+
+{
+   "lcoreID": 2,
+   "numFlows": 3,
+   "numFlowsCreated": 16955,
+   "hits": 1320581813,
+   "miss": 303195,
+   "slowpath": 74605501,
+   "fpoHits": 0,
+   "localHits": 3595314559,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 3:
+
+{
+   "lcoreID": 3,
+   "numFlows": 9,
+   "numFlowsCreated": 22350,
+   "hits": 3478797996,
+   "miss": 986378,
+   "slowpath": 19787392,
+   "fpoHits": 0,
+   "localHits": 976896933,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 4:
+
+{
+   "lcoreID": 4,
+   "numFlows": 9,
+   "numFlowsCreated": 10073,
+   "hits": 3459322066,
+   "miss": 921931,
+   "slowpath": 18543123,
+   "fpoHits": 0,
+   "localHits": 813665394,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 5:
+
+{
+   "lcoreID": 5,
+   "numFlows": 6,
+   "numFlowsCreated": 23289,
+   "hits": 3285104121,
+   "miss": 222652,
+   "slowpath": 23101387,
+   "fpoHits": 0,
+   "localHits": 669594938,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 6:
+
+{
+   "lcoreID": 6,
+   "numFlows": 0,
+   "numFlowsCreated": 10769,
+   "hits": 930991204,
+   "miss": 745667,
+   "slowpath": 187549719,
+   "fpoHits": 0,
+   "localHits": 1551026834,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 7:
+
+{
+   "lcoreID": 7,
+   "numFlows": 0,
+   "numFlowsCreated": 11393,
+   "hits": 3772962536,
+   "miss": 35910,
+   "slowpath": 22799145,
+   "fpoHits": 0,
+   "localHits": 1455471863,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 8:
+
+{
+   "lcoreID": 8,
+   "numFlows": 0,
+   "numFlowsCreated": 7212,
+   "hits": 1496853571,
+   "miss": 32818,
+   "slowpath": 17670986,
+   "fpoHits": 0,
+   "localHits": 500837054,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 9:
+
+{
+   "lcoreID": 9,
+   "numFlows": 0,
+   "numFlowsCreated": 7976,
+   "hits": 3998927660,
+   "miss": 87266,
+   "slowpath": 31993614,
+   "fpoHits": 0,
+   "localHits": 2574497125,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 10:
+
+{
+   "lcoreID": 10,
+   "numFlows": 0,
+   "numFlowsCreated": 7538,
+   "hits": 782419839,
+   "miss": 169411,
+   "slowpath": 52931417,
+   "fpoHits": 0,
+   "localHits": 1701838216,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### First sample for Switch 0 lcore 11:
+
+{
+   "lcoreID": 11,
+   "numFlows": 0,
+   "numFlowsCreated": 6788,
+   "hits": 3021613786,
+   "miss": 6841,
+   "slowpath": 9284214,
+   "fpoHits": 0,
+   "localHits": 1149943316,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+
+######################## Waiting 30 seconds ########################
+
+
+#### Second sample for Switch 0 lcore 0:
+
+{
+   "lcoreID": 0,
+   "numFlows": 6,
+   "numFlowsCreated": 20284,
+   "hits": 1327083869,
+   "miss": 949261,
+   "slowpath": 199090737,
+   "fpoHits": 0,
+   "localHits": 201628676,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 1:
+
+{
+   "lcoreID": 1,
+   "numFlows": 6,
+   "numFlowsCreated": 12361,
+   "hits": 216341656,
+   "miss": 1080803,
+   "slowpath": 43669656,
+   "fpoHits": 0,
+   "localHits": 2338625613,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 2:
+
+{
+   "lcoreID": 2,
+   "numFlows": 3,
+   "numFlowsCreated": 16955,
+   "hits": 1329515686,
+   "miss": 303195,
+   "slowpath": 74606164,
+   "fpoHits": 0,
+   "localHits": 3637803189,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 3:
+
+{
+   "lcoreID": 3,
+   "numFlows": 9,
+   "numFlowsCreated": 22353,
+   "hits": 3487473458,
+   "miss": 986381,
+   "slowpath": 19788178,
+   "fpoHits": 0,
+   "localHits": 1020722603,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 4:
+
+{
+   "lcoreID": 4,
+   "numFlows": 8,
+   "numFlowsCreated": 10074,
+   "hits": 3465951819,
+   "miss": 921932,
+   "slowpath": 18543749,
+   "fpoHits": 0,
+   "localHits": 865820753,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 5:
+
+{
+   "lcoreID": 5,
+   "numFlows": 4,
+   "numFlowsCreated": 23290,
+   "hits": 3293129061,
+   "miss": 222653,
+   "slowpath": 23101897,
+   "fpoHits": 0,
+   "localHits": 713265638,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 6:
+
+{
+   "lcoreID": 6,
+   "numFlows": 0,
+   "numFlowsCreated": 10769,
+   "hits": 930991204,
+   "miss": 745667,
+   "slowpath": 187549719,
+   "fpoHits": 0,
+   "localHits": 1551026834,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 7:
+
+{
+   "lcoreID": 7,
+   "numFlows": 0,
+   "numFlowsCreated": 11393,
+   "hits": 3772962536,
+   "miss": 35910,
+   "slowpath": 22799145,
+   "fpoHits": 0,
+   "localHits": 1455471863,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 8:
+
+{
+   "lcoreID": 8,
+   "numFlows": 0,
+   "numFlowsCreated": 7212,
+   "hits": 1496853571,
+   "miss": 32836,
+   "slowpath": 17680114,
+   "fpoHits": 0,
+   "localHits": 500837054,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 9:
+
+{
+   "lcoreID": 9,
+   "numFlows": 0,
+   "numFlowsCreated": 7976,
+   "hits": 3998927660,
+   "miss": 87266,
+   "slowpath": 31993614,
+   "fpoHits": 0,
+   "localHits": 2574497125,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 10:
+
+{
+   "lcoreID": 10,
+   "numFlows": 0,
+   "numFlowsCreated": 7538,
+   "hits": 782419839,
+   "miss": 169411,
+   "slowpath": 52931417,
+   "fpoHits": 0,
+   "localHits": 1701838216,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+#### Second sample for Switch 0 lcore 11:
+
+{
+   "lcoreID": 11,
+   "numFlows": 0,
+   "numFlowsCreated": 6788,
+   "hits": 3021613786,
+   "miss": 6841,
+   "slowpath": 9284214,
+   "fpoHits": 0,
+   "localHits": 1149943316,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}

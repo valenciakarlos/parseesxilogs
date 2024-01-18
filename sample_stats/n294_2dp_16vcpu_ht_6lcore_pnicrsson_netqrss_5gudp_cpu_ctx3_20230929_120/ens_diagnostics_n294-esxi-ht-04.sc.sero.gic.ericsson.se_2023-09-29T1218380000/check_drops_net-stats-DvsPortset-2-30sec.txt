@@ -1,0 +1,8 @@
+Opening file net-stats-DvsPortset-2-30sec.txt
+Stats for n294-esxi-ht-04.sc.sero.gic.ericsson.se	pps=Packets Per Second	eps=Errors per Second
+Iteration Number=0
+|  Port  |    switch    |      vnic_dev     |  txpps  | txpps_drv | txeps | txeps_drv |  txmbps | txmbps_drv |  rxpps  | rxpps_drv | rxeps | rxeps_drv |  rxmbps | rxmbps_drv |
+| vmnic5 | DvsPortset-2 | vmnic5.nmlx5_core | 2042190 |  2018981  |  0.0  |    0.0    | 11764.5 |  11695.5   | 2042309 |  2019101  |  0.0  |    0.0    | 11649.3 |  11516.9   |
+| vmnic4 | DvsPortset-2 | vmnic4.nmlx5_core | 2039697 |  2051255  |  0.0  |    0.0    | 11750.2 |  11882.4   | 2039814 |  2051373  |  0.0  |    0.0    | 11635.1 |  11701.0   |
+| vmnic9 | DvsPortset-2 | vmnic9.nmlx5_core |    0    |     0     |  0.0  |    0.0    |   0.0   |    0.0     |   119   |    119    |  0.0  |    0.0    |   0.1   |    0.1     |
+| vmnic8 | DvsPortset-2 | vmnic8.nmlx5_core |    0    |     0     |  0.0  |    0.0    |   0.0   |    0.0     |   119   |    119    |  0.0  |    0.0    |   0.1   |    0.1     |

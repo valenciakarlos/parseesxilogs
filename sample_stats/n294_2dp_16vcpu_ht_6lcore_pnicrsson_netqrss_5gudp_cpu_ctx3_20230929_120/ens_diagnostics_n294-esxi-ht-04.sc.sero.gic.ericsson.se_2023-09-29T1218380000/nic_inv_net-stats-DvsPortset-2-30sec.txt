@@ -1,0 +1,16 @@
+Arguments=2
+Opening file net-stats-DvsPortset-2-30sec.txt
+Stats for n294-esxi-ht-04.sc.sero.gic.ericsson.se
+Iteration Number=0
+|                  Port                 |    switch    | rxmode | tunemode |  ens  | uplink |        mac        |
+|                 vmnic5                | DvsPortset-2 |   0    |    2     |  true |  true  | b8:3f:d2:24:1a:49 |
+|                 vmnic4                | DvsPortset-2 |   0    |    2     |  true |  true  | b8:3f:d2:24:1a:48 |
+|                 vmnic9                | DvsPortset-2 |   0    |    2     |  true |  true  | b8:3f:d2:24:0b:29 |
+|                 vmnic8                | DvsPortset-2 |   0    |    2     |  true |  true  | b8:3f:d2:24:0b:28 |
+|              vdr-vdrPort              | DvsPortset-2 |   0    |    2     | false | false  | 02:50:56:56:44:52 |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth3 | DvsPortset-2 |   0    |    0     | false | false  | 00:50:56:b0:29:50 |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth2 | DvsPortset-2 |   0    |    0     | false | false  | 00:50:56:b0:8c:20 |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth1 | DvsPortset-2 |   0    |    0     | false | false  | 00:50:56:b0:56:5a |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth3 | DvsPortset-2 |   0    |    0     | false | false  | 00:50:56:b0:bf:e6 |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth2 | DvsPortset-2 |   0    |    0     |  true | false  | 00:50:56:b0:2b:45 |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth1 | DvsPortset-2 |   0    |    0     |  true | false  | 00:50:56:b0:ce:a4 |

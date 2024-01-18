@@ -1,0 +1,436 @@
+
+#### First sample for Switch 0 port 0:
+
+txPkts                 3839810610
+txBytes                2765385766183
+txMcastPkts            660
+txMcastBytes           134028
+txBcastPkts            16554
+txBcastBytes           993240
+txDrops                0
+txErrors               0
+rxPkts                 3839958946
+rxBytes                2738360000311
+rxMcastPkts            1345066
+rxMcastBytes           115869550
+rxBcastPkts            396953
+rxBcastBytes           22252184
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               43061
+spTxBytes              3017668
+spTxMcastPkts          660
+spTxMcastBytes         134028
+spTxBcastPkts          16554
+spTxBcastBytes         993240
+spTxDrops              0
+spTxErrors             0
+spRxPkts               50913
+spRxBytes              3639883
+spRxMcastPkts          1344388
+spRxMcastBytes         115783238
+spRxBcastPkts          396953
+spRxBcastBytes         22252184
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for Switch 0 port 1:
+
+txPkts                 0
+txBytes                0
+txMcastPkts            548
+txMcastBytes           124396
+txBcastPkts            10
+txBcastBytes           600
+txDrops                0
+txErrors               0
+rxPkts                 3779
+rxBytes                374806
+rxMcastPkts            1345125
+rxMcastBytes           115874730
+rxBcastPkts            397234
+rxBcastBytes           22269024
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               0
+spTxBytes              0
+spTxMcastPkts          548
+spTxMcastBytes         124396
+spTxBcastPkts          10
+spTxBcastBytes         600
+spTxDrops              0
+spTxErrors             0
+spRxPkts               3779
+spRxBytes              374806
+spRxMcastPkts          1345125
+spRxMcastBytes         115874730
+spRxBcastPkts          397234
+spRxBcastBytes         22269024
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for Switch 0 port 2:
+
+txPkts                 14000121388
+txBytes                10081370872437
+txMcastPkts            684
+txMcastBytes           136092
+txBcastPkts            1094
+txBcastBytes           65640
+txDrops                0
+txErrors               0
+rxPkts                 14000126708
+rxBytes                9982574178175
+rxMcastPkts            1345289
+rxMcastBytes           115888809
+rxBcastPkts            396288
+rxBcastBytes           22212104
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               190317
+spTxBytes              12887850
+spTxMcastPkts          684
+spTxMcastBytes         136092
+spTxBcastPkts          1094
+spTxBcastBytes         65640
+spTxDrops              0
+spTxErrors             0
+spRxPkts               194387
+spRxBytes              13100096
+spRxMcastPkts          1343296
+spRxMcastBytes         115634255
+spRxBcastPkts          396288
+spRxBcastBytes         22212104
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for Switch 0 port 3:
+
+txPkts                 14022956165
+txBytes                10097785778614
+txMcastPkts            1072
+txMcastBytes           169460
+txBcastPkts            1127
+txBcastBytes           67620
+txDrops                0
+txErrors               0
+rxPkts                 14022963388
+rxBytes                9998829834930
+rxMcastPkts            1344830
+rxMcastBytes           115849444
+rxBcastPkts            396283
+rxBcastBytes           22211812
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               225256
+spTxBytes              15817052
+spTxMcastPkts          1072
+spTxMcastBytes         169460
+spTxBcastPkts          1127
+spTxBcastBytes         67620
+spTxDrops              0
+spTxErrors             0
+spRxPkts               232689
+spRxBytes              16352979
+spRxMcastPkts          1342625
+spRxMcastBytes         115572472
+spRxBcastPkts          396283
+spRxBcastBytes         22211812
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for Switch 0 port 5:
+
+txPkts                 14001695619
+txBytes                9983650479519
+txMcastPkts            1309625
+txMcastBytes           106785830
+txBcastPkts            224336
+txBcastBytes           13460160
+txDrops                0
+txErrors               0
+rxPkts                 14001614799
+rxBytes                10082445855251
+rxMcastPkts            131
+rxMcastBytes           11266
+rxBcastPkts            1021
+rxBcastBytes           57176
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               191297
+spTxBytes              12784702
+spTxMcastPkts          1307673
+spTxMcastBytes         106536516
+spTxBcastPkts          224336
+spTxBcastBytes         13460160
+spTxDrops              0
+spTxErrors             0
+spRxPkts               190448
+spRxBytes              12898106
+spRxMcastPkts          131
+spRxMcastBytes         11266
+spRxBcastPkts          1021
+spRxBcastBytes         57176
+spRxDrops              0
+spRxErrors             0
+
+#### First sample for Switch 0 port 6:
+
+txPkts                 14024407289
+txBytes                9999863774266
+txMcastPkts            1321734
+txMcastBytes           107737728
+txBcastPkts            225617
+txBcastBytes           13537020
+txDrops                0
+txErrors               0
+rxPkts                 14024484868
+rxBytes                10098842630848
+rxMcastPkts            512
+rxMcastBytes           44032
+rxBcastPkts            1021
+rxBcastBytes           57176
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               225361
+spTxBytes              15730485
+spTxMcastPkts          1319703
+spTxMcastBytes         107482984
+spTxBcastPkts          225617
+spTxBcastBytes         13537020
+spTxDrops              0
+spTxErrors             0
+spRxPkts               224060
+spRxBytes              15745802
+spRxMcastPkts          512
+spRxMcastBytes         44032
+spRxBcastPkts          1021
+spRxBcastBytes         57176
+spRxDrops              0
+spRxErrors             0
+
+
+######################## Waiting 30 seconds ########################
+
+
+#### Second sample for Switch 0 port 0:
+
+txPkts                 3839810610
+txBytes                2765385766183
+txMcastPkts            662
+txMcastBytes           134482
+txBcastPkts            16554
+txBcastBytes           993240
+txDrops                0
+txErrors               0
+rxPkts                 3839958946
+rxBytes                2738360000311
+rxMcastPkts            1348644
+rxMcastBytes           116177819
+rxBcastPkts            398023
+rxBcastBytes           22312176
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               43061
+spTxBytes              3017668
+spTxMcastPkts          662
+spTxMcastBytes         134482
+spTxBcastPkts          16554
+spTxBcastBytes         993240
+spTxDrops              0
+spTxErrors             0
+spRxPkts               50913
+spRxBytes              3639883
+spRxMcastPkts          1347966
+spRxMcastBytes         116091507
+spRxBcastPkts          398023
+spRxBcastBytes         22312176
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for Switch 0 port 1:
+
+txPkts                 0
+txBytes                0
+txMcastPkts            550
+txMcastBytes           124850
+txBcastPkts            10
+txBcastBytes           600
+txDrops                0
+txErrors               0
+rxPkts                 3779
+rxBytes                374806
+rxMcastPkts            1348702
+rxMcastBytes           116182871
+rxBcastPkts            398302
+rxBcastBytes           22328904
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               0
+spTxBytes              0
+spTxMcastPkts          550
+spTxMcastBytes         124850
+spTxBcastPkts          10
+spTxBcastBytes         600
+spTxDrops              0
+spTxErrors             0
+spRxPkts               3779
+spRxBytes              374806
+spRxMcastPkts          1348702
+spRxMcastBytes         116182871
+spRxBcastPkts          398302
+spRxBcastBytes         22328904
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for Switch 0 port 2:
+
+txPkts                 14077458521
+txBytes                10137060765735
+txMcastPkts            686
+txMcastBytes           136405
+txBcastPkts            1101
+txBcastBytes           66060
+txDrops                0
+txErrors               0
+rxPkts                 14077463830
+rxBytes                10037718295161
+rxMcastPkts            1348772
+rxMcastBytes           116188911
+rxBcastPkts            397343
+rxBcastBytes           22271228
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               191193
+spTxBytes              12945902
+spTxMcastPkts          686
+spTxMcastBytes         136405
+spTxBcastPkts          1101
+spTxBcastBytes         66060
+spTxDrops              0
+spTxErrors             0
+spRxPkts               195271
+spRxBytes              13158742
+spRxMcastPkts          1346771
+spRxMcastBytes         115933335
+spRxBcastPkts          397343
+spRxBcastBytes         22271228
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for Switch 0 port 3:
+
+txPkts                 14100485886
+txBytes                10153614346382
+txMcastPkts            1075
+txMcastBytes           170000
+txBcastPkts            1135
+txBcastBytes           68100
+txDrops                0
+txErrors               0
+rxPkts                 14100493104
+rxBytes                10054111251866
+rxMcastPkts            1348314
+rxMcastBytes           116149632
+rxBcastPkts            397343
+rxBcastBytes           22271216
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               226284
+spTxBytes              15887920
+spTxMcastPkts          1075
+spTxMcastBytes         170000
+spTxBcastPkts          1135
+spTxBcastBytes         68100
+spTxDrops              0
+spTxErrors             0
+spRxPkts               233725
+spRxBytes              16425345
+spRxMcastPkts          1346101
+spRxMcastBytes         115871638
+spRxBcastPkts          397343
+spRxBcastBytes         22271216
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for Switch 0 port 5:
+
+txPkts                 14079015769
+txBytes                10038782446155
+txMcastPkts            1313050
+txMcastBytes           107080854
+txBcastPkts            225397
+txBcastBytes           13523820
+txDrops                0
+txErrors               0
+rxPkts                 14078934746
+rxBytes                10138123531695
+rxMcastPkts            132
+rxMcastBytes           11352
+rxBcastPkts            1028
+rxBcastBytes           57568
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               192181
+spTxBytes              12843348
+spTxMcastPkts          1311090
+spTxMcastBytes         106830518
+spTxBcastPkts          225397
+spTxBcastBytes         13523820
+spTxDrops              0
+spTxErrors             0
+spRxPkts               191327
+spRxBytes              12956356
+spRxMcastPkts          132
+spRxMcastBytes         11352
+spRxBcastPkts          1028
+spRxBcastBytes         57568
+spRxDrops              0
+spRxErrors             0
+
+#### Second sample for Switch 0 port 6:
+
+txPkts                 14101890936
+txBytes                10055112369472
+txMcastPkts            1325213
+txMcastBytes           108037396
+txBcastPkts            226673
+txBcastBytes           13600380
+txDrops                0
+txErrors               0
+rxPkts                 14101968789
+rxBytes                10154638072954
+rxMcastPkts            513
+rxMcastBytes           44118
+rxBcastPkts            1029
+rxBcastBytes           57624
+rxDrops                0
+rxErrors               0
+ 
+spTxPkts               226398
+spTxBytes              15802937
+spTxMcastPkts          1323174
+spTxMcastBytes         107781630
+spTxBcastPkts          226673
+spTxBcastBytes         13600380
+spTxDrops              0
+spTxErrors             0
+spRxPkts               225085
+spRxBytes              15816452
+spRxMcastPkts          513
+spRxMcastBytes         44118
+spRxBcastPkts          1029
+spRxBcastBytes         57624
+spRxDrops              0
+spRxErrors             0

@@ -1,0 +1,19 @@
+Opening file net-stats-DvsPortset-2-30sec.txt
+Stats for n294-esxi-ht-04.sc.sero.gic.ericsson.sepps=Packets Per Second
+Iteration Number=0
+|                  Port                 |    switch    |  txpps  | txeps |  txmbps | txsize | txq_cnt |  rxpps  | rxeps |  rxmbps | rxsize | rxq_cnt |
+|                 vmnic5                | DvsPortset-2 | 2042190 |  0.0  | 11764.5 |  720   |    1    | 2042309 |  0.0  | 11649.3 |  712   |    17   |
+|                 vmnic4                | DvsPortset-2 | 2039697 |  0.0  | 11750.2 |  720   |    1    | 2039814 |  0.0  | 11635.1 |  713   |    17   |
+|                 vmnic9                | DvsPortset-2 |    0    |  0.0  |   0.0   |  227   |    1    |   119   |  0.0  |   0.1   |   79   |    17   |
+|                 vmnic8                | DvsPortset-2 |    0    |  0.0  |   0.0   |  227   |    1    |   119   |  0.0  |   0.1   |   79   |    17   |
+|              vdr-vdrPort              | DvsPortset-2 |    0    |  0.0  |   0.0   |   0    |    NA   |    0    |  0.0  |   0.0   |   0    |    NA   |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth3 | DvsPortset-2 |    0    |  0.0  |   0.0   |   0    |    0    |    0    | 109.8 |   0.0   |   0    |    0    |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth2 | DvsPortset-2 |    0    |  0.0  |   0.0   |   0    |    0    |    0    | 472.8 |   0.0   |   0    |    0    |
+| standard5gc-htnp-b9f7d6d9b-dgf66.eth1 | DvsPortset-2 |    0    |  0.0  |   0.0   |   0    |    0    |    0    | 109.8 |   0.0   |   0    |    0    |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth3 | DvsPortset-2 |    0    |  0.0  |   0.0   |   0    |    0    |    0    | 472.8 |   0.0   |   0    |    0    |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth2 | DvsPortset-2 | 1971064 |  0.0  | 11386.2 |  722   |    7    | 2029128 |  0.0  | 11637.5 |  716   |    2    |
+| standard5gc-htnp-b9f7d6d9b-z574b.eth1 | DvsPortset-2 | 1975383 |  0.0  | 11402.3 |  721   |    7    | 2024501 |  0.0  | 11612.4 |  716   |    2    |
++------+--------+----+-----+--------+----------+--------+-----+---------+------+-------+--------+--------+-------+-------+--------+--------+-------+-----+-----------------+------+-------+---------+---------+-----+-------+----------+------+------+
+| name | switch | id | mac | rxmode | tunemode | uplink | ens | promisc | sink | txpps | txmbps | txsize | txeps | rxpps | rxmbps | rxsize | rxeps | upt | modeTransitions | intr | vmnic | txqueue | rxqueue | sys | lcore | coalesce | vnic | vcpu |
++------+--------+----+-----+--------+----------+--------+-----+---------+------+-------+--------+--------+-------+-------+--------+--------+-------+-----+-----------------+------+-------+---------+---------+-----+-------+----------+------+------+
++------+--------+----+-----+--------+----------+--------+-----+---------+------+-------+--------+--------+-------+-------+--------+--------+-------+-----+-----------------+------+-------+---------+---------+-----+-------+----------+------+------+

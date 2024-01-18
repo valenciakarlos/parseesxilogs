@@ -1,0 +1,156 @@
+#### First sample of pNIC RSS RX stats for vmnic4
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### First sample of pNIC RSS TX stats for vmnic4
+
+tx queues info {
+   # active queues:1
+   default queue id:0
+}
+#### First sample of pNIC RSS RX stats for vmnic5
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### First sample of pNIC RSS TX stats for vmnic5
+
+tx queues info {
+   # active queues:1
+   default queue id:0
+}
+#### First sample of pNIC RSS RX stats for vmnic8
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### First sample of pNIC RSS TX stats for vmnic8
+
+tx queues info {
+   # active queues:1
+   default queue id:0
+}
+#### First sample of pNIC RSS RX stats for vmnic9
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### First sample of pNIC RSS TX stats for vmnic9
+
+tx queues info {
+   # active queues:1
+   default queue id:0
+}
+/n/n#### Second sample of pNIC RSS RX stats for vmnic4
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### Second sample of pNIC RSS TX stats for vmnic4
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+/n/n#### Second sample of pNIC RSS RX stats for vmnic5
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### Second sample of pNIC RSS TX stats for vmnic5
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+/n/n#### Second sample of pNIC RSS RX stats for vmnic8
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### Second sample of pNIC RSS TX stats for vmnic8
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+/n/n#### Second sample of pNIC RSS RX stats for vmnic9
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
+#### Second sample of pNIC RSS TX stats for vmnic9
+
+rx queues info {
+   # queues supported:1
+   # rss engines supported:0
+   # filters supported:0
+   # active filters:0
+   # filters moved by load balancer:0
+   RX filter classes: 0 -> No matching defined enum value found.
+   Rx Queue features: 0 -> NONE
+}
