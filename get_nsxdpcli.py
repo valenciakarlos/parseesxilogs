@@ -71,7 +71,7 @@ COMMAND = 'nsxdp-cli ens flow-stats get'
 # Caveat: Doesnt handle scroll well
 
 ITERATIONS = 6
-DURATION = 5
+DURATION = 10
 
 
 curr_output = ""
