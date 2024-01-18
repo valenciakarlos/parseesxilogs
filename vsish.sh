@@ -1,5 +1,5 @@
 DURATION=60
-ITERATIONS=2
+ITERATIONS=10
 PORTS_FILE=ports_file.txt
 STATS_FILE=vsish_`date +"%d_%h_%T"`.txt
 
