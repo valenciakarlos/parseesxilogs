@@ -7,7 +7,7 @@ import re
 import json
 import pandas as pd
 import argparse
-import prettytable
+import pprint
 
 
 def validate_arguments():
@@ -45,6 +45,8 @@ def get_ratios(df_one,df_two):
         miss_to_hits_ratio=miss/(hits+localHits+miss)
         dict_ratios['miss_to_hits_ratio']=miss_to_hits_ratio
         print(f"Hits Ratio={hits_ratio:.2%} Slowpath ratio={slowpath_ratio:.2%} Miss ratio={miss_ratio:.2%} Hits to Miss ratio={hits_to_miss_ratio:.2%} Miss to Hits ratio={miss_to_hits_ratio:.2%} ")
+        print("Dictionary:")
+        pprint.pprint(dict_ratios)
 
     except KeyError:
         # Handle the case where the index does not exist
@@ -94,7 +96,7 @@ COMMAND = 'nsxdp-cli ens flow-stats get -l 6'
 # Caveat: Doesnt handle scroll well
 
 ITERATIONS = 6
-DURATION = 10
+DURATION = 5
 
 
 curr_output = ""
