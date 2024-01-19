@@ -116,7 +116,7 @@ ssh.connect(HOSTNAME,
 # Caveat: Doesnt handle scroll well
 
 ITERATIONS = 6
-DURATION = 10
+DURATION = 5
 
 
 curr_output = ""
