@@ -12,7 +12,9 @@ import prettytable
 
 def validate_arguments():
     parser = argparse.ArgumentParser(description="Arguments")
-    parser.add_argument("-n", "--hostname", help="Hostname to check", required=True)
+    # The first argument, input_file, is a positional argument (required).
+    parser.add_argument("hostname", help="Hostname to check")
+    parser.add_argument("-l", "--lcore", help="Lcore number", default=-1)
     args = parser.parse_args()
     return args
 
@@ -32,6 +34,21 @@ def get_ratios(df_one,df_two):
         # To calcuate slowpath to hits ratio we divide the total of slowpath by the total of all packets (hits, miss, localhits and slowpath)
         # hits_ratio=(diff of hits + Diff of local hits) / (diff of hits + diff of localHits + diff of misses + diff of slowpath)
         # slowpath_ratio= slowpath / (diff of hits + diff of localHits + diff of misses + diff of slowpath)
+        '''
+        From Jin:
+        
+        We can categorize packets into 4 groups.
+        1. Go to the slowpath without asking the flow table (counter: slowpath).
+        2. Look up the local cache and it is a hit (counter: hits)
+        3. Look up the real flow cache and it is a hit (counter: localHits)
+        4. Look up the real flow cache and it is a miss (counter: miss).
+
+        2 and 3 are disjointed. So the number of (total) flow hits = 2 + 3.
+
+        We can have two different hit ratios.
+        a. (2+3) / (1 + 2 + 3 + 4)
+        b. (2+3) / (2 + 3 + 4)
+        '''
         total_events=hits+miss+slowpath+localHits
         dict_ratios['total_events']=total_events
         slowpath_ratio=slowpath/total_events
@@ -55,7 +72,7 @@ def get_ratios(df_one,df_two):
 # Checks if input_str is json formatted and returns a dictionary if it is. Otherwise it returns an empty dictionary
 def is_json(input_str):
     dict={}
-    try: 
+    try:
         dict=json.loads(input_str)
         return dict  # Dictionary will have some data
     except json.JSONDecodeError:
@@ -78,6 +95,11 @@ integer_regex = r'^[+-]?\d+$'
 args = validate_arguments()
 HOSTNAME = args.hostname
 # Example n294-esxi-ht-01.sc.sero.gic.ericsson.se
+lcore=args.lcore
+if lcore==-1:
+    COMMAND = 'nsxdp-cli ens flow-stats get'
+else:
+    COMMAND = 'nsxdp-cli ens flow-stats get -l '+str(lcore)
 
 # Connect to the remote server
 ssh = paramiko.SSHClient()
@@ -87,7 +109,7 @@ ssh.connect(HOSTNAME,
 # COMMAND='netstat -i'
 # COMMAND='netstat -i| egrep "eno1|lo"'
 # COMMAND='netstat -s | grep -A5 Tcp'
-COMMAND = 'nsxdp-cli ens flow-stats get'
+
 #COMMAND = 'nsxdp-cli ens flow-stats get -l 9'
 #COMMAND = 'vsish -e get /net/portsets/DvsPortset-2/stats'
 
