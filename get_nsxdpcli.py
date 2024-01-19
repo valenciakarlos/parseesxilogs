@@ -15,6 +15,9 @@ def validate_arguments():
     # The first argument, input_file, is a positional argument (required).
     parser.add_argument("hostname", help="Hostname to check")
     parser.add_argument("-l", "--lcore", help="Lcore number", default=-1)
+    parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
+    parser.add_argument("-d", "--duration", type=int, help="Duration of each iteration", default=5)
+
     args = parser.parse_args()
     return args
 
@@ -114,8 +117,8 @@ ssh.connect(HOSTNAME,
 
 # Caveat: Doesnt handle scroll well
 
-ITERATIONS = 6
-DURATION = 5
+ITERATIONS = args.iterations
+DURATION = args.duration
 
 
 curr_output = ""
