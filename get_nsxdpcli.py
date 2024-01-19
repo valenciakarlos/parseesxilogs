@@ -29,7 +29,6 @@ def get_ratios(df_one,df_two):
         miss=df_two.loc['miss',0]-df_one.loc['miss',0]
         slowpath=df_two.loc['slowpath',0]-df_one.loc['slowpath',0]
         localHits=df_two.loc['localHits',0]-df_one.loc['localHits',0]
-        print("on the get slowpath ratio")
         print(f"Hits: '{hits}' Miss:'{miss}' Slowpath:'{slowpath}' localHits:'{localHits}' ")
         # To calcuate slowpath to hits ratio we divide the total of slowpath by the total of all packets (hits, miss, localhits and slowpath)
         # hits_ratio=(diff of hits + Diff of local hits) / (diff of hits + diff of localHits + diff of misses + diff of slowpath)
