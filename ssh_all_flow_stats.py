@@ -17,8 +17,9 @@ def validate_arguments():
     parser = argparse.ArgumentParser(description="SSH to a host and collects per lcore and aggregate flow stats")
     # The first argument, input_file, is a positional argument (required).
     parser.add_argument("hostname", help="Hostname to check")
-    parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
-    parser.add_argument("-d", "--duration", type=int, help="Duration of each iteration", default=5)
+    # For now will only do two iterations
+    #parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
+    parser.add_argument("-d", "--duration", type=int, help="Duration of sleeps between iterations", default=5)
 
     args = parser.parse_args()
     return args
@@ -72,6 +73,12 @@ def get_ratios(df_one,df_two):
         print("Error could not extract some indexes")
     return dict_ratios
 
+
+def get_nonzero_df(org_df):
+    non_zero_cols=org_df.columns[org_df.any()]
+    non_zero_df=org_df[non_zero_cols]
+    return non_zero_df
+
 def print_ratios(dict_ratios):
     # Gets a dictionary with ratios (all pct formatted) and prints it
     from prettytable import PrettyTable
@@ -109,7 +116,8 @@ integer_regex = r'^[+-]?\d+$'
 args = validate_arguments()
 HOSTNAME = args.hostname
 # Example n294-esxi-ht-01.sc.sero.gic.ericsson.se
-ITERATIONS = args.iterations
+#ITERATIONS = args.iterations
+ITERATIONS = 2
 DURATION = args.duration
 
 # Connect to the remote server
@@ -149,6 +157,8 @@ lcores=[match.group(1) for match in re.finditer(r'\b(\d+).*', lcores_table)]
 for ctr in range(1, ITERATIONS+1):
     print("Running iteration : " + str(ctr))
     curr_time = int(math.floor(time.time()))
+    # Create empty dataframe
+    agg_df = pd. DataFrame()
 
     # Execute a command on the remote server
     for lcore in lcores:
@@ -156,7 +166,7 @@ for ctr in range(1, ITERATIONS+1):
         print("Command is now"+COMMAND)
         stdin, stdout, stderr = ssh.exec_command(COMMAND)
         curr_output = stdout.read().decode()
-        print(curr_output)
+        #print(curr_output)
         dict_curr_output=is_json(curr_output)
         if dict_curr_output:
             dict_curr_output['Time']=curr_time
@@ -169,55 +179,37 @@ for ctr in range(1, ITERATIONS+1):
         #print("Current Output is :")
         #print(df_curr)
 
-        # Check if this is not the first pass
-        if (prev_output == ""):
-            first_output = curr_output
-            prev_output = curr_output
-
-            agg_df=df_curr
-            agg_df=agg_df.T
-            agg_df.set_index(['Time','lcoreID'], inplace=True)
-
-        else:
-            # Not the 1st pass let's compare the results
-            prev_output = curr_output
-
-            temp_df=df_curr
-            temp_df=temp_df.T
-            temp_df.set_index(['Time','lcoreID'], inplace=True)
-            # Create a DF with the difference between previous and current
-            agg_df=pd.concat([agg_df,temp_df])
+        temp_df=df_curr
+        temp_df=temp_df.T
+        temp_df.set_index(['lcoreID'], inplace=True)
+        # Create a DF with the difference between previous and current
+        agg_df=pd.concat([agg_df,temp_df])
 
 
+    # Running only two iterations here
+    if (ctr == 1):
+        first_df=agg_df
+        print("First DF =")
+        print(get_nonzero_df(first_df))
     if (ctr != ITERATIONS):
         print("Sleeping for (seconds):" + str(DURATION))
         time.sleep(DURATION)
         #os.system('cls' if os.name == 'nt' else 'clear')
     else:
-        print("Final Iteration. Calculating totals")
-        print("VERY FINAL DF:")
-        #print(agg_df)
+        print("Final DF")
+        second_df=agg_df
+        print(get_nonzero_df(second_df))
 
     
 # Accessing multi index dataframe now
-
+diff_df=second_df-first_df
 # To display only non-zero columns
 print("Non Zero Aggregare DF")
-non_zero_cols=agg_df.columns[agg_df.any()]
-non_zero_df=agg_df[non_zero_cols]
+non_zero_df=get_nonzero_df(diff_df)
 print(non_zero_df)
 # Dumping to a csv file
 non_zero_df.to_csv(HOSTNAME+".csv", index=True)
-print("DIFF")
-df_diff = non_zero_df.diff()
 
-grouped = non_zero_df.groupby(level=0)
-print("Grouped by Time")
-print(grouped)
-
-grouped = non_zero_df.groupby(level=1)
-print("Grouped by Lcore")
-print(grouped)
 # Close the SSH connection
 time.sleep(2)
 ssh.close()
