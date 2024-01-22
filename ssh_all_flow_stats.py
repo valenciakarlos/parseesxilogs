@@ -24,6 +24,32 @@ def validate_arguments():
     args = parser.parse_args()
     return args
 
+def calculate_ratios(lcore_idx, lcore_df):
+    # Receives a dataframe with counter for an lcore and returns a dictionary with the ratios
+    dict_ratios={}
+
+    hits = lcore_df.loc[lcore_idx,'hits']
+    miss = lcore_df.loc[lcore_idx,'miss']
+    slowpath = lcore_df.loc[lcore_idx,'slowpath']
+    localHits = lcore_df.loc[lcore_idx,'localHits']
+
+    total_events = hits + miss + slowpath + localHits
+    # dict_ratios['total_events']=total_events
+    slowpath_ratio = slowpath / total_events
+    dict_ratios['slowpath_ratio'] = slowpath_ratio
+    hits_ratio = (hits + localHits) / total_events
+    dict_ratios['hits_ratio'] = hits_ratio
+    miss_ratio = miss / total_events
+    dict_ratios['miss_ratio'] = miss_ratio
+    hits_to_miss_ratio = (hits + localHits) / (hits + localHits + miss)
+    dict_ratios['hits_to_miss_ratio'] = hits_to_miss_ratio
+    miss_to_hits_ratio = miss / (hits + localHits + miss)
+    dict_ratios['miss_to_hits_ratio'] = miss_to_hits_ratio
+    print(f"Lcore={lcore_idx} Hits Ratio={hits_ratio:.2%} Slowpath ratio={slowpath_ratio:.2%} Miss ratio={miss_ratio:.2%} Hits to Miss ratio={hits_to_miss_ratio:.2%} Miss to Hits ratio={miss_to_hits_ratio:.2%} ")
+
+    return dict_ratios
+
+
 # Does some calculations if the DF has all the info we need
 # Receives two data frames and provides the ratio of slow path to misses
 def get_ratios(df_one,df_two):
@@ -209,7 +235,12 @@ non_zero_df=get_nonzero_df(diff_df)
 print(non_zero_df)
 # Dumping to a csv file
 non_zero_df.to_csv(HOSTNAME+".csv", index=True)
-get_ratios(first_df,second_df)
+
+
+for lcore_idx, lcore_data in non_zero_df.iterrows():
+    dict=calculate_ratios(lcore_idx, grouped.get_group(lcore_idx))
+
+
 
 # Close the SSH connection
 time.sleep(2)
