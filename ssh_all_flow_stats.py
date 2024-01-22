@@ -235,6 +235,8 @@ non_zero_df=get_nonzero_df(diff_df)
 print(non_zero_df)
 # Dumping to a csv file
 non_zero_df.to_csv(HOSTNAME+".csv", index=True)
+# Group by lcore
+grouped = non_zero_df.groupby('lcoreID')
 
 
 for lcore_idx, lcore_data in non_zero_df.iterrows():
