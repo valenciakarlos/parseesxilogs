@@ -163,7 +163,7 @@ for ctr in range(1, ITERATIONS+1):
     # Execute a command on the remote server
     for lcore in lcores:
         COMMAND='nsxdp-cli ens flow-stats get -l '+lcore
-        print("Command is now"+COMMAND)
+        #print("Command is now"+COMMAND)
         stdin, stdout, stderr = ssh.exec_command(COMMAND)
         curr_output = stdout.read().decode()
         #print(curr_output)
@@ -209,6 +209,7 @@ non_zero_df=get_nonzero_df(diff_df)
 print(non_zero_df)
 # Dumping to a csv file
 non_zero_df.to_csv(HOSTNAME+".csv", index=True)
+get_ratios(first_df,second_df)
 
 # Close the SSH connection
 time.sleep(2)
