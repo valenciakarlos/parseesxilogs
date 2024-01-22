@@ -17,7 +17,6 @@ def validate_arguments():
     parser = argparse.ArgumentParser(description="SSH to a host and collects per lcore and aggregate flow stats")
     # The first argument, input_file, is a positional argument (required).
     parser.add_argument("hostname", help="Hostname to check")
-    parser.add_argument("-l", "--lcore", help="Lcore number", default=-1)
     parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
     parser.add_argument("-d", "--duration", type=int, help="Duration of each iteration", default=5)
 
@@ -112,11 +111,6 @@ HOSTNAME = args.hostname
 # Example n294-esxi-ht-01.sc.sero.gic.ericsson.se
 ITERATIONS = args.iterations
 DURATION = args.duration
-lcore=args.lcore
-if lcore==-1:
-    COMMAND = 'nsxdp-cli ens flow-stats get'
-else:
-    COMMAND = 'nsxdp-cli ens flow-stats get -l '+str(lcore)
 
 # Connect to the remote server
 ssh = paramiko.SSHClient()
@@ -154,34 +148,35 @@ lcores=[match.group(1) for match in re.finditer(r'\b(\d+).*', lcores_table)]
 
 for ctr in range(1, ITERATIONS+1):
     print("Running iteration : " + str(ctr))
+    curr_time = int(math.floor(time.time()))
+
     # Execute a command on the remote server
     for lcore in lcores:
         COMMAND='nsxdp-cli ens flow-stats get -l '+lcore
         print("Command is now"+COMMAND)
         stdin, stdout, stderr = ssh.exec_command(COMMAND)
         curr_output = stdout.read().decode()
+        print(curr_output)
         dict_curr_output=is_json(curr_output)
-        curr_time = int(math.floor(time.time()))
         if dict_curr_output:
             dict_curr_output['Time']=curr_time
             df_curr=pd.DataFrame.from_dict(dict_curr_output, orient='index')
-        
         else:
             print("Output is not JSON")
+            break 
 
-        # print(stdout.read().decode())
-        print("Current Output is :")
-        print(df_curr)
+        # We now want to store the dataframe as a time series
+        #print("Current Output is :")
+        #print(df_curr)
+
         # Check if this is not the first pass
         if (prev_output == ""):
             first_output = curr_output
             prev_output = curr_output
 
-            df_first=df_curr # Dataframe with the very first readings
-            agg_df=df_first
+            agg_df=df_curr
             agg_df=agg_df.T
             agg_df.set_index(['Time','lcoreID'], inplace=True)
-            df_b4=df_curr   # Store data of previous df
 
         else:
             # Not the 1st pass let's compare the results
@@ -190,43 +185,39 @@ for ctr in range(1, ITERATIONS+1):
             temp_df=df_curr
             temp_df=temp_df.T
             temp_df.set_index(['Time','lcoreID'], inplace=True)
-
-
-            agg_df.append(temp_df)
+            # Create a DF with the difference between previous and current
             agg_df=pd.concat([agg_df,temp_df])
-            # Use df to calculate the difference
-            diff_df=df_curr-df_b4
-            print("Dataframe difference calculations")
-            print(diff_df)
-            dict_ratios=get_ratios(df_b4, df_curr)
-            print("Ratios")
-            print_ratios(dict_ratios)
 
-            df_b4=df_curr
 
-        if (ctr != ITERATIONS):
-            print("Sleeping for (seconds):" + str(DURATION))
-            time.sleep(DURATION)
-            #os.system('cls' if os.name == 'nt' else 'clear')
-        else:
-            print("Final Iteration. Calculating totals")
-            print("First Run Numbers:")
-            print(first_output)
-            print("Last Run Numbers:")
-            print(curr_output)
+    if (ctr != ITERATIONS):
+        print("Sleeping for (seconds):" + str(DURATION))
+        time.sleep(DURATION)
+        #os.system('cls' if os.name == 'nt' else 'clear')
+    else:
+        print("Final Iteration. Calculating totals")
+        print("VERY FINAL DF:")
+        #print(agg_df)
 
-            # Calculate the difference based on first and last data frame
+    
+# Accessing multi index dataframe now
 
-            agg_diff_df=df_curr-df_first
-            print("Difference based on dataframes is:")
-            print(agg_diff_df)
-            dict_ratios=get_ratios(df_first, df_curr)
-            print("Ratios:")
-            print_ratios(dict_ratios)
+# To display only non-zero columns
+print("Non Zero Aggregare DF")
+non_zero_cols=agg_df.columns[agg_df.any()]
+non_zero_df=agg_df[non_zero_cols]
+print(non_zero_df)
+# Dumping to a csv file
+non_zero_df.to_csv(HOSTNAME+".csv", index=True)
+print("DIFF")
+df_diff = non_zero_df.diff()
 
-            print("VERY FINAL DF:")
-            print(agg_df)
-        
+grouped = non_zero_df.groupby(level=0)
+print("Grouped by Time")
+print(grouped)
+
+grouped = non_zero_df.groupby(level=1)
+print("Grouped by Lcore")
+print(grouped)
 # Close the SSH connection
 time.sleep(2)
 ssh.close()

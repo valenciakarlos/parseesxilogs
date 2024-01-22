@@ -1,0 +1,711 @@
+Running iteration : 1
+Command is nownsxdp-cli ens flow-stats get -l 0
+{
+   "lcoreID": 0,
+   "numFlows": 0,
+   "numFlowsCreated": 37372,
+   "hits": 1360144445,
+   "miss": 3641374072,
+   "slowpath": 263795196,
+   "fpoHits": 0,
+   "localHits": 10055472,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 1
+{
+   "lcoreID": 1,
+   "numFlows": 0,
+   "numFlowsCreated": 46427,
+   "hits": 1888759582,
+   "miss": 46427,
+   "slowpath": 12191584,
+   "fpoHits": 0,
+   "localHits": 50563553,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 2
+{
+   "lcoreID": 2,
+   "numFlows": 0,
+   "numFlowsCreated": 17354,
+   "hits": 1658198500,
+   "miss": 17361,
+   "slowpath": 14516259,
+   "fpoHits": 0,
+   "localHits": 30950417,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 3
+{
+   "lcoreID": 3,
+   "numFlows": 0,
+   "numFlowsCreated": 33666,
+   "hits": 1815718896,
+   "miss": 33666,
+   "slowpath": 14950325,
+   "fpoHits": 0,
+   "localHits": 69323649,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 4
+{
+   "lcoreID": 4,
+   "numFlows": 0,
+   "numFlowsCreated": 28506,
+   "hits": 1748998610,
+   "miss": 28510,
+   "slowpath": 12015427,
+   "fpoHits": 0,
+   "localHits": 34879273,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 5
+{
+   "lcoreID": 5,
+   "numFlows": 0,
+   "numFlowsCreated": 43356,
+   "hits": 1630173463,
+   "miss": 43356,
+   "slowpath": 15165168,
+   "fpoHits": 0,
+   "localHits": 27456987,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 6
+{
+   "lcoreID": 6,
+   "numFlows": 4,
+   "numFlowsCreated": 60334,
+   "hits": 1301422941,
+   "miss": 126439,
+   "slowpath": 35697352,
+   "fpoHits": 0,
+   "localHits": 1554034061,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 7
+{
+   "lcoreID": 7,
+   "numFlows": 2,
+   "numFlowsCreated": 47278,
+   "hits": 1812181899,
+   "miss": 531292811,
+   "slowpath": 141744705,
+   "fpoHits": 0,
+   "localHits": 58222937,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 8
+{
+   "lcoreID": 8,
+   "numFlows": 0,
+   "numFlowsCreated": 47112,
+   "hits": 1734730893,
+   "miss": 15490537,
+   "slowpath": 14843649,
+   "fpoHits": 0,
+   "localHits": 26354770,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 9
+{
+   "lcoreID": 9,
+   "numFlows": 4,
+   "numFlowsCreated": 35628,
+   "hits": 51192782,
+   "miss": 3760013069,
+   "slowpath": 113885657,
+   "fpoHits": 0,
+   "localHits": 2103651054,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 10
+{
+   "lcoreID": 10,
+   "numFlows": 0,
+   "numFlowsCreated": 17349,
+   "hits": 1532209329,
+   "miss": 25939,
+   "slowpath": 11826231,
+   "fpoHits": 0,
+   "localHits": 10315116,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 11
+{
+   "lcoreID": 11,
+   "numFlows": 0,
+   "numFlowsCreated": 71976,
+   "hits": 1669013218,
+   "miss": 71976,
+   "slowpath": 12701868,
+   "fpoHits": 0,
+   "localHits": 22216428,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Sleeping for (seconds):5
+Running iteration : 2
+Command is nownsxdp-cli ens flow-stats get -l 0
+{
+   "lcoreID": 0,
+   "numFlows": 0,
+   "numFlowsCreated": 37372,
+   "hits": 1360144445,
+   "miss": 3641374078,
+   "slowpath": 263798050,
+   "fpoHits": 0,
+   "localHits": 10055472,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 1
+{
+   "lcoreID": 1,
+   "numFlows": 0,
+   "numFlowsCreated": 46427,
+   "hits": 1888759582,
+   "miss": 46427,
+   "slowpath": 12191584,
+   "fpoHits": 0,
+   "localHits": 50563553,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 2
+{
+   "lcoreID": 2,
+   "numFlows": 0,
+   "numFlowsCreated": 17354,
+   "hits": 1658198500,
+   "miss": 17361,
+   "slowpath": 14516259,
+   "fpoHits": 0,
+   "localHits": 30950417,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 3
+{
+   "lcoreID": 3,
+   "numFlows": 0,
+   "numFlowsCreated": 33666,
+   "hits": 1815718896,
+   "miss": 33666,
+   "slowpath": 14950325,
+   "fpoHits": 0,
+   "localHits": 69323649,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 4
+{
+   "lcoreID": 4,
+   "numFlows": 0,
+   "numFlowsCreated": 28506,
+   "hits": 1748998610,
+   "miss": 28510,
+   "slowpath": 12015427,
+   "fpoHits": 0,
+   "localHits": 34879273,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 5
+{
+   "lcoreID": 5,
+   "numFlows": 0,
+   "numFlowsCreated": 43356,
+   "hits": 1630173463,
+   "miss": 43356,
+   "slowpath": 15165168,
+   "fpoHits": 0,
+   "localHits": 27456987,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 6
+{
+   "lcoreID": 6,
+   "numFlows": 4,
+   "numFlowsCreated": 60334,
+   "hits": 1302602290,
+   "miss": 126439,
+   "slowpath": 35697665,
+   "fpoHits": 0,
+   "localHits": 1554079496,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 7
+{
+   "lcoreID": 7,
+   "numFlows": 2,
+   "numFlowsCreated": 47278,
+   "hits": 1812181901,
+   "miss": 531292813,
+   "slowpath": 141747686,
+   "fpoHits": 0,
+   "localHits": 58222937,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 8
+{
+   "lcoreID": 8,
+   "numFlows": 0,
+   "numFlowsCreated": 47112,
+   "hits": 1734730893,
+   "miss": 15490537,
+   "slowpath": 14843649,
+   "fpoHits": 0,
+   "localHits": 26354770,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 9
+{
+   "lcoreID": 9,
+   "numFlows": 4,
+   "numFlowsCreated": 35628,
+   "hits": 52357331,
+   "miss": 3760013069,
+   "slowpath": 113885971,
+   "fpoHits": 0,
+   "localHits": 2103715101,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 10
+{
+   "lcoreID": 10,
+   "numFlows": 0,
+   "numFlowsCreated": 17349,
+   "hits": 1532209329,
+   "miss": 25939,
+   "slowpath": 11826231,
+   "fpoHits": 0,
+   "localHits": 10315116,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Command is nownsxdp-cli ens flow-stats get -l 11
+{
+   "lcoreID": 11,
+   "numFlows": 0,
+   "numFlowsCreated": 71976,
+   "hits": 1669013218,
+   "miss": 71976,
+   "slowpath": 12701868,
+   "fpoHits": 0,
+   "localHits": 22216428,
+   "keyInsertFailCount": 0,
+   "latSampleCount": 0,
+   "fpoCTHwPktQueued": 0,
+   "fpoCTHwPktDrop": 0,
+   "fpoCTPktsInjectedToHW": 0,
+   "fpoCTPktsContinuedInSW": 0,
+   "fpoCTHwContextFailed": 0,
+   "fpoCTHwFlowInval": 0,
+   "fpoMarkMismatched": 0,
+   "fpoPnicMismatched": 0,
+   "fpoDelayMarkMatching": 0,
+   "fpoEphemeralFlows": 0,
+   "fpoTransientFlows": 0,
+   "fpoBackoffTimes": 0,
+   "fpoTotalBackoffFlows": 0,
+   "fpoMaxBackoffFlows": 0
+}
+
+Final Iteration. Calculating totals
+VERY FINAL DF:
+Non Zero Aggregare DF
+                    numFlows  numFlowsCreated  ...   slowpath   localHits
+Time       lcoreID                             ...                       
+1705892311 0               0            37372  ...  263795196    10055472
+           1               0            46427  ...   12191584    50563553
+           2               0            17354  ...   14516259    30950417
+           3               0            33666  ...   14950325    69323649
+           4               0            28506  ...   12015427    34879273
+           5               0            43356  ...   15165168    27456987
+           6               4            60334  ...   35697352  1554034061
+           7               2            47278  ...  141744705    58222937
+           8               0            47112  ...   14843649    26354770
+           9               4            35628  ...  113885657  2103651054
+           10              0            17349  ...   11826231    10315116
+           11              0            71976  ...   12701868    22216428
+1705892321 0               0            37372  ...  263798050    10055472
+           1               0            46427  ...   12191584    50563553
+           2               0            17354  ...   14516259    30950417
+           3               0            33666  ...   14950325    69323649
+           4               0            28506  ...   12015427    34879273
+           5               0            43356  ...   15165168    27456987
+           6               4            60334  ...   35697665  1554079496
+           7               2            47278  ...  141747686    58222937
+           8               0            47112  ...   14843649    26354770
+           9               4            35628  ...  113885971  2103715101
+           10              0            17349  ...   11826231    10315116
+           11              0            71976  ...   12701868    22216428
+
+[24 rows x 6 columns]
+DIFF
+Grouped by Time
+<pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f97d9a57908>
+Grouped by Lcore
+<pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f97d9a57fd0>
