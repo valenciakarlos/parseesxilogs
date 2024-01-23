@@ -24,6 +24,19 @@ def validate_arguments():
     args = parser.parse_args()
     return args
 
+# Calculate vectorized which is supposed to be cleaner. Results are added to the DF. Called from within the dataframe with apply
+def calculate_ratios_vectorized(row):
+    total_events = row['hits'] + row['miss'] + row['slowpath'] + row['localHits']
+    return pd.Series({
+        'slowpath_ratio': row['slowpath'] / total_events,
+        'hits_ratio': (row['hits'] + row['localHits']) / total_events,
+        'miss_ratio': row['miss'] / total_events,
+        'hits_to_miss_ratio': (row['hits'] + row['localHits']) / (row['hits'] + row['localHits'] + row['miss']),
+        'miss_to_hits_ratio': row['miss'] / (row['hits'] + row['localHits'] + row['miss'])
+    })
+
+''' Not needed anymore. Leaving as legacy as it does work
+
 def calculate_ratios(lcore_idx, lcore_df):
     # Receives a dataframe with counter for an lcore and returns a dictionary with the ratios
     dict_ratios={}
@@ -48,7 +61,7 @@ def calculate_ratios(lcore_idx, lcore_df):
     print(f"Lcore={lcore_idx} Hits Ratio={hits_ratio:.2%} Slowpath ratio={slowpath_ratio:.2%} Miss ratio={miss_ratio:.2%} Hits to Miss ratio={hits_to_miss_ratio:.2%} Miss to Hits ratio={miss_to_hits_ratio:.2%} ")
 
     return dict_ratios
-
+'''
 
 # Does some calculations if the DF has all the info we need
 # Receives two data frames and provides the ratio of slow path to misses
@@ -230,11 +243,20 @@ for ctr in range(1, ITERATIONS+1):
 # Accessing multi index dataframe now
 diff_df=second_df-first_df
 # To display only non-zero columns
-print("Non Zero Aggregare DF")
-non_zero_df=get_nonzero_df(diff_df)
+#print("Non Zero Diff DF")
+non_zero_df=get_nonzero_df(diff_df).copy()
+#print(non_zero_df)
+# 
+# Apply the function calculate_ratios_vectorized and assign results to new columns in the copy
+non_zero_df.loc[:, ['slowpath_ratio', 'hits_ratio', 'miss_ratio', 'hits_to_miss_ratio', 'miss_to_hits_ratio']] = non_zero_df.apply(calculate_ratios_vectorized, axis=1)
+print("Final calculations")
 print(non_zero_df)
+
+print(f"Results saved to {HOSTNAME}.csv")
 # Dumping to a csv file
 non_zero_df.to_csv(HOSTNAME+".csv", index=True)
+''' Used with calculate_ratios but not needed now that vectorized function is working
+
 # Group by lcore
 grouped = non_zero_df.groupby('lcoreID')
 
@@ -243,6 +265,7 @@ for lcore_idx, lcore_data in non_zero_df.iterrows():
     dict=calculate_ratios(lcore_idx, grouped.get_group(lcore_idx))
 
 
+'''
 
 # Close the SSH connection
 time.sleep(2)
