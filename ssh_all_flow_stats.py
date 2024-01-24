@@ -20,6 +20,7 @@ def validate_arguments():
     # For now will only do two iterations
     #parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
     parser.add_argument("-d", "--duration", type=int, help="Duration of sleeps between iterations", default=5)
+    parser.add_argument("-p", "--password", type=str, help="Password to connect to the servers", default="N294-admin")
 
     args = parser.parse_args()
     return args
@@ -158,12 +159,13 @@ HOSTNAME = args.hostname
 #ITERATIONS = args.iterations
 ITERATIONS = 2
 DURATION = args.duration
+PASSWORD = args.password
 
 # Connect to the remote server
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect(HOSTNAME,
-            port='22', username='root', password='N294-admin')
+            port='22', username='root', password=PASSWORD)
 
 curr_output = ""
 prev_output = ""
