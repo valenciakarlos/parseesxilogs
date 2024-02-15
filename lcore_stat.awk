@@ -1,3 +1,6 @@
+# Use together with flow_stats.sh or offline_flow_stats.sh
+# For NSX-T 3.1.x calculates flow stats per lcore
+
 BEGIN {
   print "-------------------"
   print "Parsing for lcore="lcore
