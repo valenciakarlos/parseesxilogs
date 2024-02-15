@@ -23,16 +23,34 @@ $1~lcore { if (!($1 in arr)) {
 	}
 	
 END {
-  #for (i in curr_arr) 
-  #{
-  #  printf(curr_arr[i]"\t ")
-  #}
+  print("Difference:")
+  for (i in curr_arr)
+  {
+    printf(curr_arr[i]"\t ")
+  }
+  print("")
   hits=curr_arr[3]
   misses=curr_arr[4]
-  pct_hits=hits/(hits+misses) 
-  pct_misses=misses/(hits+misses) 
-  print("Hits \t: "hits"\t% of Hits:"pct_hits)
-  print("Misses\t: "misses"\t% of Misses:"pct_misses)
+  localhits=curr_arr[6]
+  totalhits=localhits+hits
+  grandtotal=totalhits+misses
+  print("Hits \t: "hits"\tLocal Hits \t:"localhits)
+  print("Total Hits \t:"totalhits)
+  print("Grand Total \t:"grandtotal)
+  print("Misses\t\t:"misses)
+
+  if (grandtotal!=0) {
+    pct_hits=hits/grandtotal*100
+    pct_misses=misses/grandtotal*100
+  }
+  else {
+    pct_hits=0
+    pct_misses=0
+  }
+
+
+  print("\t% of Hits:"pct_hits)
+  print("\t% of Misses:"pct_misses)
   print "-------------------"
 }
 
