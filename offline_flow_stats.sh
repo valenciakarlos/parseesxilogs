@@ -4,7 +4,8 @@ ENS_FLOW_STATS=$1
 
 echo "Parsing file $ENS_FLOW_STATS"
 lcores=`cat $ENS_FLOW_STATS | grep "^\d" | awk '!seen[$1]++ {print $1}'`
-HEADERS=`cat $ENS_FLOW_STATS | grep lCoreID | head -1`
+HEADERS=`cat $ENS_FLOW_STATS | grep lcoreID | head -1`
+echo $HEADERS
 echo "$HEADERS" > $STATS_FILE
 
 for lcore_id in $lcores
