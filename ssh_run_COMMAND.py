@@ -22,7 +22,11 @@ def validate_arguments():
     #parser.add_argument("-i", "--iterations", type=int, help="Number if Iterations", default=6)
     ##parser.add_argument("-d", "--duration", type=int, help="Duration of sleeps between iterations", default=5)
     parser.add_argument("-p", "--password", type=str, help="Password to connect to the servers", default="N294-admin")
-    COMMAND="for vm in `vmdumper -l | grep -o 'cfgFile=\"[^\"]*[\"]' | cut -d'\"' -f2`; do echo -n 'Checking VM:'; echo $vm; egrep 'displayName|generatedAdd|ctx|rss|pnic|lat|smt|numvcpu|sched.cpu|cpuid|vvtd' $vm; done"
+    # List all VMs and their main parameters
+    #COMMAND="for vm in `vmdumper -l | grep -o 'cfgFile=\"[^\"]*[\"]' | cut -d'\"' -f2`; do echo -n 'Checking VM:'; echo $vm; egrep 'displayName|generatedAdd|ctx|rss|pnic|lat|smt|numvcpu|sched.cpu|cpuid|vvtd' $vm; done"
+    # Checks errors on a particular vmnic
+    COMMAND="vsish -e get /net/pNics/vmnic4/stats | egrep -i 'Errors|[R|T]x Packets|outOfBuffer|\{|}'"
+
     parser.add_argument("-c", "--command", type=str, help="Command to execute:", default=COMMAND)
 
     args = parser.parse_args()
