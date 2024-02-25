@@ -1,3 +1,4 @@
+
 Set of scripts to parse esxi stats generated with net-stats (json format) and sched-stats (text format) command.
 To use these scripts ssh into an ESXi host and execute the following commands:
 **************** COMMANDS TO RUN *****************************************
