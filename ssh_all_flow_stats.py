@@ -252,6 +252,19 @@ non_zero_df=get_nonzero_df(diff_df).copy()
 # Apply the function calculate_ratios_vectorized and assign results to new columns in the copy
 non_zero_df.loc[:, ['slowpath_ratio', 'hits_ratio', 'miss_ratio', 'hits_to_miss_ratio', 'miss_to_hits_ratio']] = non_zero_df.apply(calculate_ratios_vectorized, axis=1)
 print("Final calculations")
+
+# Format the ratio columns as percentage and others as regular numbers 'Column1' as percentage and 'Column2' as general number
+# Some format examples: 
+# Regular number: 'Column2': "{:,}"
+# Set default precision for integer numbers
+# pd.options.display.precision = 0
+# Format for all floats:
+# pd.options.display.float_format = '{:.2%}' with PCT  
+# '{:,.0f}' Float with zero decimals
+
+format_mapping = {'slowpath_ratio': "{:.1%}", 'hits_ratio': "{:.1%}", 'miss_ratio': "{:.1%}", 'hits_to_miss_ratio': "{:.1%}", 'miss_to_hits_ratio': "{:.1%}"}
+
+non_zero_df.style.format(format_mapping)
 print(non_zero_df)
 
 print(f"Results saved to {HOSTNAME}.csv")

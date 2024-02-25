@@ -15,7 +15,23 @@ def is_json(input_str):
         dict=json.loads(input_str)
         return dict  # Dictionary will have some data
     except json.JSONDecodeError:
+        # Try to convert it. No error handling at the moment
+        dict=convert_to_json(input_str)
         return dict  # Dictionary would be empty
+
+# Function to try to convert an output to json (fornatted as:
+# entry {
+#  attrib: value
+# }
+def convert_to_json(input_str):
+    data={}
+    lines=input_str.strip().split('\n')
+    for line in lines[1:-1]:  # Skip first and last lines as they're not part of the key-value pairs
+        key, value = line.strip().split(':')
+        data[key.strip()] = int(value)
+    # Return dictionary
+    return data
+
 
 def find_number(string):
     # Extracts number for a like that looks like "string1: number string2"
@@ -44,11 +60,13 @@ ssh.connect('n294-esxi-ht-03.sc.sero.gic.ericsson.se',
 #COMMAND = 'vsish -e get /net/portsets/DvsPortset-2/stats'
 COMMAND='vsish -e cat /net/pNics/vmnic2/stats'
 COMMAND='vsish -e cat /net/pNics/vmnic2/stats |egrep "outOfBuffer|Rx Packets|Tx Packets|Rx Dropped|Tx Dropped"'
+# I think this one will produce json like
+COMMAND="vsish -e get /net/pNics/vmnic4/stats | egrep -i 'Errors|[R|T]x Packets|outOfBuffer|\{|}'"
 
 # Caveat: Doesnt handle scroll well
 
-ITERATIONS = 6
-DURATION = 10
+ITERATIONS = 2
+DURATION = 5
 
 
 curr_output = ""
@@ -185,7 +203,7 @@ for ctr in range(1, ITERATIONS+1):
         print("First Run Numbers:")
         print(first_output)
         print("Last Run Numbers:")
-        # print(curr_output)
+        print(curr_output)
 
         lines2 = curr_output.strip().split('\n')
         lines1 = first_output.strip().split('\n')
@@ -195,6 +213,7 @@ for ctr in range(1, ITERATIONS+1):
         diff = list(differ.compare(lines1, lines2))
         matcher = difflib.SequenceMatcher(None, lines1, lines2)
 
+        print("Differences:")
         for tag, i1, i2, j1, j2 in matcher.get_opcodes():
             # print(tag)
             if tag == 'equal':
