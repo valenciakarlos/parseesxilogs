@@ -1,0 +1,24 @@
+Instructions to push/pull to/from multiple repositories.
+
+The vmware repositories are internal so I cant pull from a remote location.
+
+The only way is to push from my mac to two repositories at once.
+
+To do so one can have multiple repositories added as such:
+
+git remote add gitlab <gitlab_repository_url>
+git remote add github <github_repository_url>
+
+
+and then to check:
+
+git remote -v
+
+And the nto push :
+git add <file> 
+git commit -m "reason"
+git push gitlab
+git push github
+
+
+
