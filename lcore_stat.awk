@@ -36,11 +36,12 @@ END {
   grandtotal=totalhits+misses
   print("Hits \t: "hits"\tLocal Hits \t:"localhits)
   print("Total Hits \t:"totalhits)
-  print("Grand Total \t:"grandtotal)
   print("Misses\t\t:"misses)
+  print("-----------------")
+  print("Grand Total \t:"grandtotal)
 
   if (grandtotal!=0) {
-    pct_hits=hits/grandtotal*100
+    pct_hits=totalhits/grandtotal*100
     pct_misses=misses/grandtotal*100
   }
   else {

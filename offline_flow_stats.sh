@@ -1,4 +1,5 @@
 export SCRIPT_PATH="/Users/vcarlos/PycharmProjects/parseesxilogs"
+# Applicable only to NSX-T 3.x.
 STATS_FILE=stats_flows.txt
 ENS_FLOW_STATS=$1
 
