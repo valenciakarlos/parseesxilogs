@@ -140,7 +140,7 @@ def is_json(input_str):
         return dict  # Dictionary would be empty
 
 def find_number(string):
-    # Extracts number for a like that looks like "string1: number string2"
+    # Extracts number for a string that looks like "string1: number string2"
     import re
     pattern = r'\b\d+\b'
     match=re.search(pattern,string)
