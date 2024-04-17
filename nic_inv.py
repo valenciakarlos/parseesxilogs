@@ -34,13 +34,20 @@ def main():
         print("Stats for " + theJSON["sysinfo"]["hostname"])
         for stat in theJSON["stats"]:
             print("Iteration Number=" + str(stat["iteration"]))
-            table = PrettyTable(['Port', 'switch', 'txpps', 'txmbps','txsize', 'rxpps', 'rxmbps','rxsize','rxmode','tunemode','ens','uplink','mac'])
+            table = PrettyTable(['Port', 'switch', 'txpps', 'txmbps','txsize', 'rxpps', 'rxmbps','rxsize','rxmode','tunemode','ens','uplink','mac','id','lcorein', 'lcoreout'])
             # We might want to display the lcores here as well
 
             for port in stat["ports"]:
-
+                if "lcore" in port:
+                    lcoresin=(port["lcore"][0]['in'])
+                    lcoresout = (port["lcore"][0]['out'])
+                    lcoresinstr=' '.join(lcoresin)
+                    lcoresoutstr = ' '.join(lcoresout)
+                else:
+                    lcoresinstr="NA"
+                    lcoresoutstr="NA"
                 table.add_row(
-                    [port["name"], port["switch"], port["txpps"], port["txmbps"],port['txsize'], port["rxpps"], port["rxmbps"],port["rxsize"],port["rxmode"],port["tunemode"],port["ens"],port["uplink"],port["mac"]])
+                    [port["name"], port["switch"], port["txpps"], port["txmbps"],port['txsize'], port["rxpps"], port["rxmbps"],port["rxsize"],port["rxmode"],port["tunemode"],port["ens"],port["uplink"],port["mac"],port["id"],lcoresinstr, lcoresoutstr])
             # Still trying to figure out this float format so I can put comma separators (ref https://www.geeksforgeeks.org/formatting-integer-column-of-dataframe-in-pandas/)
             # And : https://pypi.org/project/prettytable/
 
@@ -50,7 +57,7 @@ def main():
 
             from prettytable import MSWORD_FRIENDLY
             table.set_style(MSWORD_FRIENDLY)
-            print(table.get_string(fields=["Port","switch","rxmode","tunemode","ens","uplink","mac"]))
+            print(table.get_string(fields=["Port","switch","id","tunemode","ens","uplink","mac","lcorein","lcoreout"]))
 
 
 if __name__ == "__main__":
