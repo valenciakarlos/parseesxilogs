@@ -58,7 +58,9 @@ def main():
             from prettytable import MSWORD_FRIENDLY
             table.set_style(MSWORD_FRIENDLY)
             print(table.get_string(fields=["Port","switch","id","tunemode","ens","uplink","mac","lcorein","lcoreout"]))
-
+            # Dumping pretty table to a csv
+            with open('nic_inv.csv','w', newline='') as f_output:
+                f_output.write(table.get_csv_string())
 
 if __name__ == "__main__":
     main()
