@@ -188,6 +188,7 @@ with open(FILENAME, "r") as file:
     agg_df = pd.DataFrame()
 
 
+    # There are two samples really
     for index, sample in enumerate(samples):
         #print(sample)
         #json_entries = re.split("#### [First|Second] sample for Switch \d+ lcore \d+:", sample)
@@ -212,7 +213,7 @@ with open(FILENAME, "r") as file:
             if dict_curr_output:
                 #print("Output is json")
                 dict_curr_output['Sample'] = index
-                df_curr = pd.DataFrame.from_dict(dict_curr_output, orient='index')
+                df_curr = pd.DataFrame.from_dict(dict_curr_output, orient='index') # created a data frame based on the dictionary
 
                 # Dataframe created with a single column (0) and the rows are all the entries on the sample for that lcore
                 temp_df = df_curr
@@ -302,9 +303,7 @@ with open(FILENAME, "r") as file:
 
     # Dumping to a csv file
     #print( f"Results saved to {filename_without_extension}.csv" )
-    #non_zero_df.to_csv( filename_without_extension + ".csv", index=True )
-
-    # Dunping to an excel file
+    #non_zero_df.to_csv( filename_without_extension + ".csv", index=True ping to an excel file
 
     print( f"Results saved to {filename_without_extension}.xlsx" )
     non_zero_df.style.format( format_mapping ).to_excel( filename_without_extension + ".xlsx" )

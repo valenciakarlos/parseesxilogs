@@ -56,6 +56,7 @@ def main():
                 if key not in new_table.field_names:
                     new_table.add_column(key,[])
 
+    print("New automatic table (all values automatically added):")
     print(new_table)
     # Table has an attribute called field_names
     #print(new_table.field_names)
