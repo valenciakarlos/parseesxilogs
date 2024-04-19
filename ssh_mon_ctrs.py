@@ -27,6 +27,7 @@ def validate_arguments():
     parser.add_argument ( "-t", "--time", type=int, help="Duration of each iteration", default=5 )
     parser.add_argument ( "-c", "--command", type=str, help="Command to execute:" )
     parser.add_argument ("-d", "--diff", help="Calculate difference (otherwise it just highlights" )
+    parser.add_argument ( "-r", "--rate", help="`Calculate rate increase", default=0 )
 
     args = parser.parse_args ()
     return args
@@ -58,7 +59,10 @@ prev_output = ""
 os.system ( 'cls' if os.name == 'nt' else 'clear' )
 
 for ctr in range ( 1, ITERATIONS + 1 ):
-    print ( "Running iteration : " + str ( ctr ) )
+    if args.rate:
+        print ( "Rate increase selected. Running iteration : " + str ( ctr ) )
+    else:
+        print ( "Running iteration : " + str ( ctr ) )
     # Execute a command on the remote server
     stdin, stdout, stderr = ssh.exec_command ( COMMAND )
 
@@ -137,7 +141,12 @@ for ctr in range ( 1, ITERATIONS + 1 ):
                         org_value = int ( org_lines[index].split ( ':' )[-1].strip () )
                         diff_value = int ( diff_lines[index].split ( ':' )[-1].strip () )
                         if (org_counter == diff_counter):
-                            print ( '\033[33m' + org_counter + ": " + str ( diff_value - org_value ) + '\033[0m' )
+                            # If rate increase was selected obtain the percentage difference otherwise just show the difference
+                            if (args.rate):
+                                diff_rate= (diff_value - org_value) / DURATION
+                                print ( '\033[33m' + org_counter + ": " + str ( diff_rate ) + '\033[0m' )
+                            else:
+                                print ( '\033[33m' + org_counter + ": " + str ( diff_value - org_value ) + '\033[0m' )
                         index += 1
 
                 else:
