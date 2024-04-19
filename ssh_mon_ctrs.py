@@ -198,7 +198,11 @@ for ctr in range ( 1, ITERATIONS + 1 ):
                         org_value = int ( org_lines[index].split ( ':' )[-1].strip () )
                         diff_value = int ( diff_lines[index].split ( ':' )[-1].strip () )
                         if (org_counter == diff_counter):
-                            print ( '\033[33m' + org_counter + ": " + str ( diff_value - org_value ) + '\033[0m' )
+                            if (args.rate):
+                                diff_rate= (diff_value - org_value) / DURATION
+                                print ( '\033[33m' + org_counter + ": " + str ( diff_rate ) + '\033[0m' )
+                            else:
+                                print ( '\033[33m' + org_counter + ": " + str ( diff_value - org_value ) + '\033[0m' )
                         index += 1
                 else:
                     # Only highlight
