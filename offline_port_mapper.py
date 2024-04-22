@@ -22,7 +22,7 @@ import argparse
 def validate_arguments():
     parser = argparse.ArgumentParser(description="Calculates per port stats")
     # The first argument, filename, is a positional argument (required).
-    parser.add_argument("filename", help="Filename to parse")
+    parser.add_argument("filename", help="NIC Info CSV Filename to parse", default='nic_inv.csv')
     parser.add_argument( "-e", "--ensportinfo", type=str, help="Text file with ens port info ", default='ens-port-info.txt' )
     # File must have portID labeled as id
     # Might want to pass a file with the mapping of port name and switch name. see nic_inv.py for details
@@ -37,7 +37,7 @@ def extract_text_between_markers(file_path, start_marker, end_marker):
     :param start_marker: Start marker to match (can be a regular expression)
     :param end_marker:   End marker to match (can be a regular expression)
     :return: texto with info extracted
-    Exmaple here:
+    Example here:
 
 
     #### ENS port list for Switch DvsPortset-1 ###
@@ -110,7 +110,7 @@ and
 
 ens_port_info=extract_text_between_markers(ENS_PORT_INFO, "#### ENS port list for Switch DvsPortset-\d+ ###", "### TLB Configuration ###")
 print("Text is:")
-print(ens_port_info)
+#print(ens_port_info)
 
 # Regular expression to match portId and ensPID
 # portID      ensPID TxQ RxQ hwMAC             numMACs  type         Queue Placement(tx|rx)
@@ -127,7 +127,7 @@ portID_and_ensPID = [(match.group(1), match.group(2)) for line in ens_port_info.
 # Convert the list of tuples to a dictionary
 portID_and_ensPID_dict = dict(portID_and_ensPID)
 
-print(portID_and_ensPID_dict)
+#print(portID_and_ensPID_dict)
 
 
 # Iterate over DataFrame row by row and add the ensPID
@@ -139,7 +139,7 @@ for index, row in df.iterrows():
 
       df.at[index,'ensPID']=int(portID_and_ensPID_dict[str(index)])  # adding the ensPID to the dataframe
 
-print(df)
+#print(df)
 
 import os
 

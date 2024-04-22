@@ -55,6 +55,13 @@ def main():
             for key in port.keys():
                 if key not in new_table.field_names:
                     new_table.add_column(key,[])
+            if "vmnic" in port:
+                print("VMNIC:")
+                print(port["vmnic"])
+            if "vnic" in port:
+                print("vnic:")
+                print(port["vnic"])
+
 
     print("New automatic table (all values automatically added):")
     print(new_table)
