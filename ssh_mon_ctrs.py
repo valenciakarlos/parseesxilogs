@@ -3,7 +3,6 @@ import argparse
 import difflib
 import os
 import time
-
 import re
 
 '''
@@ -43,6 +42,13 @@ PASSWORD = args.password
 COMMAND = args.command
 ITERATIONS = args.iterations
 DURATION = args.time
+# Match a counter followed by a colon and a number. I.e.:
+# ctr: 1000
+MATCH_CTR_COL_VALUE=r'.*:\s*\d+$'
+# Match a counter followed by space and a number
+# ctr 1000
+MATCH_CTR_VALUE =r'.+\s+\d+$'
+
 
 # Connect to the remote server
 ssh = paramiko.SSHClient ()
@@ -136,6 +142,7 @@ for ctr in range ( 1, ITERATIONS + 1 ):
                         # print('Original: \t'+org_lines[index])
                         # print('New: \t\t'+ diff_lines[index])
                         # Not sure why -1 is used on the array. 0 should be var name and 1 the value but -1 works
+
                         org_counter = org_lines[index].split ( ':' )[0]
                         diff_counter = diff_lines[index].split ( ':' )[0]
                         org_value = int ( org_lines[index].split ( ':' )[-1].strip () )
