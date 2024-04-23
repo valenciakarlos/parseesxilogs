@@ -64,7 +64,7 @@ def populate_pretty_table(json_structure, auto_table):
     for key in json_structure.keys():
         #print("Evaluating key "+key)
         if key not in columns:
-            "ERROR"
+            print("Error key "+key+" not found")
         else:
             my_list.append(json_structure[key])
 
