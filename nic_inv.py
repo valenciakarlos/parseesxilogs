@@ -1,5 +1,6 @@
 import json
 import sys
+
 #Reference https://pypi.org/project/prettytable/
 from prettytable import PrettyTable
 # To change the Style
@@ -13,7 +14,7 @@ from prettytable import PrettyTable
 
 from prettytable import PLAIN_COLUMNS
 
-
+import helper_functions
 
 
 if (len(sys.argv) == 1):
@@ -30,6 +31,35 @@ def main():
         print("Opening file " + sys.argv[1])
         f = open(sys.argv[1])
     theJSON = json.load(f)
+
+
+
+    vnic_auto_table = PrettyTable ()
+    #vmnic_auto_table = PrettyTable ()
+    for stat in theJSON["stats"]:
+        for port in stat["ports"]:
+            if "vnic" in port:
+                vnic_auto_table=helper_functions.build_pretty_table(port, vnic_auto_table)
+
+    print("Generated automatic table for vnics is:")
+    print(vnic_auto_table)
+
+
+    for stat in theJSON["stats"]:
+        for port in stat["ports"]:
+            if "vnic" in port:
+                helper_functions.populate_pretty_table(port, vnic_auto_table)
+
+    print(vnic_auto_table.get_string(fields=["name", "id","lcore"]))
+    vnic_auto_table.get_string()
+
+
+
+
+
+
+
+
     if "hostname" in theJSON["sysinfo"]:
         print("Stats for " + theJSON["sysinfo"]["hostname"])
         for stat in theJSON["stats"]:

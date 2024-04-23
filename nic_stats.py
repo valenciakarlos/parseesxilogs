@@ -19,7 +19,7 @@ def main():
     f=open(sys.argv[1])
  theJSON=json.load(f)
  if "hostname" in theJSON["sysinfo"]:
-    print("Stats for " + theJSON["sysinfo"]["hostname"] + "pps=Packets Per Second")
+    print("Stats for " + theJSON["sysinfo"]["hostname"] + " pps=Packets Per Second")
     for stat in theJSON["stats"]:
         print("Iteration Number=" + str(stat["iteration"]))
         table = PrettyTable(['Port','switch','txpps','txeps','txmbps','txsize','txq_cnt','rxpps','rxeps','rxmbps','rxsize','rxq_cnt'])
