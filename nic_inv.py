@@ -3,6 +3,8 @@ import sys
 
 #Reference https://pypi.org/project/prettytable/
 from prettytable import PrettyTable
+from prettytable import MSWORD_FRIENDLY
+
 # To change the Style
 # Options are:
 #
@@ -30,6 +32,10 @@ def main():
     else:
         print("Opening file " + sys.argv[1])
         f = open(sys.argv[1])
+        import os
+        filename_without_extension, file_extension = os.path.splitext ( sys.argv[1] )
+
+
     theJSON = json.load(f)
 
 
@@ -50,8 +56,10 @@ def main():
             if "vnic" in port:
                 helper_functions.populate_pretty_table(port, vnic_auto_table)
 
-    print(vnic_auto_table.get_string(fields=["name", "id","lcore"]))
-    vnic_auto_table.get_string()
+    vnic_auto_table.set_style ( MSWORD_FRIENDLY )
+    print(vnic_auto_table.get_string(fields=["name", "id","lcore", "txpps", "rxpps", "txeps", "rxeps"]))
+
+
 
 
 
@@ -64,7 +72,7 @@ def main():
         print("Stats for " + theJSON["sysinfo"]["hostname"])
         for stat in theJSON["stats"]:
             print("Iteration Number=" + str(stat["iteration"]))
-            table = PrettyTable(['Port', 'switch', 'txpps', 'txmbps','txsize', 'rxpps', 'rxmbps','rxsize','rxmode','tunemode','ens','uplink','mac','id','lcorein', 'lcoreout'])
+            table = PrettyTable(['Port', 'switch', 'txpps', 'txmbps','txsize','txeps', 'rxpps', 'rxmbps','rxsize','rxeps','ens','uplink','mac','id','lcorein', 'lcoreout'])
             # We might want to display the lcores here as well
 
             for port in stat["ports"]:
@@ -77,7 +85,7 @@ def main():
                     lcoresinstr="NA"
                     lcoresoutstr="NA"
                 table.add_row(
-                    [port["name"], port["switch"], port["txpps"], port["txmbps"],port['txsize'], port["rxpps"], port["rxmbps"],port["rxsize"],port["rxmode"],port["tunemode"],port["ens"],port["uplink"],port["mac"],port["id"],lcoresinstr, lcoresoutstr])
+                    [port["name"], port["switch"], port["txpps"], port["txmbps"],port["txsize"], port["txeps"], port["rxpps"], port["rxmbps"],port["rxsize"],port["rxeps"],port["ens"],port["uplink"],port["mac"],port["id"],lcoresinstr, lcoresoutstr])
             # Still trying to figure out this float format so I can put comma separators (ref https://www.geeksforgeeks.org/formatting-integer-column-of-dataframe-in-pandas/)
             # And : https://pypi.org/project/prettytable/
 
@@ -85,12 +93,23 @@ def main():
 
             #table.set_style(PLAIN_COLUMNS)
 
-            from prettytable import MSWORD_FRIENDLY
+
             table.set_style(MSWORD_FRIENDLY)
-            print(table.get_string(fields=["Port","switch","id","tunemode","ens","uplink","mac","lcorein","lcoreout"]))
+            print(table)
+            #print(table.get_string(fields=["Port","switch","id","tunemode","ens","uplink","mac","lcorein","lcoreout"]))
             # Dumping pretty table to a csv
-            with open('nic_inv.csv','w', newline='') as f_output:
+
+
+
+            print ( f"Results saved to nic_inv_{filename_without_extension}.csv" )
+
+
+
+
+            with open('nic_inv_' + filename_without_extension + '.csv','w', newline='') as f_output:
                 f_output.write(table.get_csv_string())
+
+
 
 if __name__ == "__main__":
     main()
