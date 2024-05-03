@@ -38,7 +38,8 @@ def main():
 
     theJSON = json.load(f)
 
-
+    #Commenting out autotable for now 
+    '''
 
     vnic_auto_table = PrettyTable ()
     #vmnic_auto_table = PrettyTable ()
@@ -58,6 +59,7 @@ def main():
 
     vnic_auto_table.set_style ( MSWORD_FRIENDLY )
     print(vnic_auto_table.get_string(fields=["name", "id","lcore", "txpps", "rxpps", "txeps", "rxeps"]))
+    '''
 
 
 
