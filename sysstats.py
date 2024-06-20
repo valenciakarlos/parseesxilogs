@@ -35,13 +35,27 @@ def main():
                     pps=sys_attrib["pps"]
                 else:
                     pps="-"
-                table.add_row(
-                    [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
-                     sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
-                if not sys_attrib["exclaff"] == -1:
-                    table_exclaff.add_row(
-                        [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], sys_attrib["latencySensitivity"],
+
+                if "latencySensitivity" in sys_attrib:
+                    latsen=sys_attrib["latencySensitivity"]
+                else:
+                    latsen="-"
+
+
+                if "exclaff" in sys_attrib:
+                    exclaff=sys_attrib["exclaff"]
+                    if not exclaff == -1:
+                      table_exclaff.add_row(
+                        [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], latsen,
                          sys_attrib["exclaff"], sys_attrib["sysoverlap"],lcoreusage,pps])
+                else:
+                    exclaff="-"
+
+                table.add_row(
+                    [sys_attrib["name"], sys_attrib["id"], sys_attrib["used"], latsen,
+                     exclaff, sys_attrib["sysoverlap"],lcoreusage,pps])
+
+ 
 
             from prettytable import MSWORD_FRIENDLY
             table.set_style(MSWORD_FRIENDLY)
