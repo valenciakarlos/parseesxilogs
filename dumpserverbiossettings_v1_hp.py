@@ -3,15 +3,30 @@ import json
 import yaml
 import urllib3
 from urllib3.exceptions import InsecureRequestWarning
+import argparse
+
+def validate_arguments():
+    parser = argparse.ArgumentParser(description="Access HPE server via iLO IP using redfis to collect BIOS information")
+    # The first argument, input_file, is a positional argument (required).
+    parser.add_argument("hostname", help="iLO IP Address")
+    parser.add_argument("-u", "--username", help="iLO Username")
+    parser.add_argument("-p", "--password", help="iLO Password")
+
+
+    args = parser.parse_args()
+    return args
+
+##### MAIN ######
+
 
 # Suppress insecure request warnings (not recommended for production)
 urllib3.disable_warnings(InsecureRequestWarning)
 
-# Replace with your server's details
-
-ip_address = "10.208.64.50"
-username = "novmware"
-password = "Welcome01"
+# Call arguments validation script
+args = validate_arguments()
+ip_address = args.hostname
+username = args.username
+password = args.password
 
 # URL for accessing BIOS settings
 bios_url = f"https://{ip_address}/redfish/v1/Systems/1/Bios/Settings"
