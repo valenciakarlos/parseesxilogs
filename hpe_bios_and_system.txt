@@ -1,0 +1,643 @@
+**BIOS Settings:**
+- AccessControlService: Enabled
+- AcpiHpet: Enabled
+- AcpiRootBridgePxm: Enabled
+- AcpiSlit: Enabled
+- AdjSecPrefetch: Enabled
+- AdminEmail: 
+- AdminName: 
+- AdminOtherInfo: 
+- AdminPhone: 
+- AdvCrashDumpMode: Disabled
+- AdvancedMemProtection: AdvancedEcc
+- AllowLoginWithIlo: Disabled
+- AssetTagProtection: Unlocked
+- AutoPowerOn: RestoreLastState
+- BootOrderPolicy: RetryIndefinitely
+- CollabPowerControl: Disabled
+- ConsistentDevNaming: LomsAndSlots
+- CpuCrashLogFeature: Disabled
+- CustomPostMessage: 
+- DaylightSavingsTime: DaylightSavingsTimeDisabled
+- DcuIpPrefetcher: Enabled
+- DcuStreamPrefetcher: Enabled
+- DeadBlockPredictor: Disabled
+- DfxTdxDisable1MbCmrExclude: Disabled
+- Dhcpv4: Enabled
+- DisableDynamicLoadlineSwitch: NotDisableDLLSwitch
+- DramRapl: 0
+- DramRaplLimit: Disabled
+- DramRaplReport: Enabled
+- DynamicIntelSpeedSelectMode: Disabled
+- DynamicPowerCapping: Disabled
+- EmbSata1Aspm: Disabled
+- EmbSata1Enable: Auto
+- EmbSata1PCIeOptionROM: Enabled
+- EmbVideoConnection: Auto
+- EmbeddedDiagnostics: Enabled
+- EmbeddedIpxe: Enabled
+- EmbeddedSata: Ahci
+- EmbeddedSerialPort: Com2Irq3
+- EmbeddedUefiShell: Enabled
+- EmsConsole: Disabled
+- EnabledCoresPerProc: 0
+- EnergyEfficientTurbo: Disabled
+- EnergyPerfBias: MaxPerf
+- EnergyPerformancePreference: Disabled
+- EppProfile: Disabled
+- EraseUserDefaults: No
+- ExtendedAmbientTemp: Disabled
+- ExtendedMemTest: Disabled
+- F11BootMenu: Enabled
+- FCScanPolicy: CardConfig
+- FanFailPolicy: Shutdown
+- FanInstallReq: EnableMessaging
+- FilterNonbootableDrive: Auto
+- HourFormat: 24Hours
+- HttpSupport: Auto
+- HwPrefetcher: Enabled
+- IODCConfiguration: Auto
+- IntelDmiLinkFreq: Auto
+- IntelNicDmaChannels: Enabled
+- IntelPchVmdSupport: Disabled
+- IntelPriorityCorePower: Disabled
+- IntelProcVtd: Enabled
+- IntelSpeedSelectConfigLevel: Base
+- IntelTxt: Disabled
+- IntelVmdDirectAssign: VmdDirectAssignEnabledAll
+- IntelVrocSupport: None
+- IntelligentProvisioning: Enabled
+- IoatSnoopResponseHoldOff: 7
+- IpmiWatchdogTimerAction: PowerCycle
+- IpmiWatchdogTimerStatus: IpmiWatchdogTimerOff
+- IpmiWatchdogTimerTimeout: Timeout30Min
+- Ipv4Address: 0.0.0.0
+- Ipv4Gateway: 0.0.0.0
+- Ipv4PrimaryDNS: 0.0.0.0
+- Ipv4SubnetMask: 0.0.0.0
+- Ipv6Address: ::
+- Ipv6ConfigPolicy: Automatic
+- Ipv6Duid: Auto
+- Ipv6Gateway: ::
+- Ipv6PrimaryDNS: ::
+- IpxeAutoStartScriptLocation: Auto
+- IpxeBootOrder: Disabled
+- IpxeScriptAutoStart: Disabled
+- IpxeScriptVerification: Disabled
+- IpxeStartupUrl: 
+- KeySplit: 1
+- LLCDeadLineAllocation: Enabled
+- LlcPrefetch: Disabled
+- MaxMemBusFreqMHz: Auto
+- MaxPcieSpeed: PerPortCtrl
+- MemClearWarmReset: Disabled
+- MemFastTraining: Enabled
+- MemMirrorMode: Full
+- MemPatrolScrubbing: Disabled
+- MemRefreshRate: Refreshx1
+- MemoryConfigurationViolationReporting: Enabled
+- MemoryPermanentFaultDetect: Enabled
+- MemoryRemap: NoAction
+- MicrosoftSecuredCoreSupport: Disabled
+- MinProcIdlePkgState: NoState
+- MinProcIdlePower: C6
+- MixedPowerSupplyReporting: Enabled
+- MkTme: Disabled
+- NetworkBootRetry: Enabled
+- NetworkBootRetryCount: 20
+- Numa: Enabled
+- NumaGroupSizeOpt: Clustered
+- NvmeOfSoftwareInitiator: Enabled
+- NvmeOptionRom: Enabled
+- Ocp1AuxiliaryPower: Enabled
+- OmitBootDeviceEvent: Disabled
+- OptimizedPowerMode: Disabled
+- OsbLocalRemoteRead: Auto
+- PatrolScrubDuration: 24
+- PchCrashLogFeature: Disabled
+- PciResourcePadding: Disabled
+- PciSlot14Aspm: Disabled
+- PciSlot14Bifurcation: NoBifurcation
+- PciSlot14Enable: Auto
+- PciSlot14LinkSpeed: Auto
+- PciSlot14OptionROM: Enabled
+- PciSlot17LinkSpeed: Auto
+- PciSlot1Aspm: Disabled
+- PciSlot1Bifurcation: NoBifurcation
+- PciSlot1Enable: Auto
+- PciSlot1LinkSpeed: Auto
+- PciSlot1OptionROM: Enabled
+- PciSlot2Aspm: Disabled
+- PciSlot2Bifurcation: NoBifurcation
+- PciSlot2Enable: Auto
+- PciSlot2LinkSpeed: Auto
+- PciSlot2OptionROM: Enabled
+- PciSlot3Aspm: Disabled
+- PciSlot3Bifurcation: NoBifurcation
+- PciSlot3Enable: Auto
+- PciSlot3LinkSpeed: Auto
+- PciSlot3OptionROM: Enabled
+- PcieHotPlugErrControl: HotplugSurprise
+- PcuPMax: 0
+- PersistentMemAddressRangeScrub: Enabled
+- PersistentMemBackupPowerPolicy: WaitForBackupPower
+- PersistentMemNumaAffinity: IsolatedNumaDomains
+- PersistentMemScanMem: Enabled
+- PlatformCertificate: Enabled
+- PlatformRASPolicy: FirmwareFirst
+- PostAsr: PostAsrOff
+- PostAsrDelay: Delay30Min
+- PostBootProgress: Disabled
+- PostDiscoveryMode: Auto
+- PostF1Prompt: Delayed20Sec
+- PostScreenMode: VerboseMode
+- PostVideoSupport: DisplayAll
+- PowerButton: Enabled
+- PowerOnDelay: NoDelay
+- PowerRegulator: OsControl
+- PreBootNetwork: Auto
+- PrebootNetworkEnvPolicy: Auto
+- PrebootNetworkProxy: 
+- ProcAes: Enabled
+- ProcHyperthreading: Enabled
+- ProcRapl: 0
+- ProcTurbo: Enabled
+- ProcVirtualization: Enabled
+- ProcX2Apic: ForceEnabled
+- ProcessorConfigTDPLevel: Level2
+- ProcessorPhysicalAddress: Limited
+- ProcessorUuidControl: LockDisable
+- ProductId: P54277-B21
+- RedundantPowerSupplySystemDomain: BalancedMode
+- RestoreDefaults: No
+- RestoreManufacturingDefaults: No
+- RomSelection: CurrentRom
+- SataSanitize: Disabled
+- SataSecureErase: Disabled
+- SaveUserDefaults: No
+- SciRasSupport: Ghesv2Support
+- SecStartBackupImage: Disabled
+- SecureBootStatus: Disabled
+- SerialConsoleBaudRate: BaudRate115200
+- SerialConsoleEmulation: Vt100Plus
+- SerialConsolePort: Auto
+- SerialNumber: CZ24090HYS
+- SerialPortDtrSupport: Disabled
+- ServerAssetTag: 
+- ServerConfigLockStatus: Disabled
+- ServerName: 
+- ServerOtherInfo: 
+- ServerPrimaryOs: 
+- ServiceEmail: 
+- ServiceName: 
+- ServiceOtherInfo: 
+- ServicePhone: 
+- SetupBrowserSelection: Auto
+- SgxAutoMpRegistrationAgent: Enabled
+- SgxEnable: Disabled
+- SgxFactoryReset: Disabled
+- SgxLaunchControlPolicy: IntelLocked
+- SgxLePublicKeyHash0: 
+- SgxLePublicKeyHash1: 
+- SgxLePublicKeyHash2: 
+- SgxLePublicKeyHash3: 
+- SgxLePublicKeyWriteEnable: Enabled
+- SgxPrmrrSize: 2Gb
+- Slot14DataLinkFeatureExchange: Enabled
+- Slot14EoiBroadcastSupport: Disabled
+- Slot14MctpBroadcastSupport: Enabled
+- Slot14NicBoot1: NetworkBoot
+- Slot14NicBoot2: Disabled
+- Slot14NicBoot3: Disabled
+- Slot14NicBoot4: Disabled
+- Slot1DataLinkFeatureExchange: Enabled
+- Slot1EoiBroadcastSupport: Disabled
+- Slot1MctpBroadcastSupport: Enabled
+- Slot1NicBoot1: NetworkBoot
+- Slot1NicBoot2: Disabled
+- Slot1NicBoot3: Disabled
+- Slot1NicBoot4: Disabled
+- Slot2DataLinkFeatureExchange: Enabled
+- Slot2EoiBroadcastSupport: Disabled
+- Slot2MctpBroadcastSupport: Enabled
+- Slot2NicBoot1: NetworkBoot
+- Slot2NicBoot2: Disabled
+- Slot2NicBoot3: Disabled
+- Slot2NicBoot4: Disabled
+- Slot3DataLinkFeatureExchange: Enabled
+- Slot3EoiBroadcastSupport: Disabled
+- Slot3MctpBroadcastSupport: Enabled
+- Slot3NicBoot1: NetworkBoot
+- Slot3NicBoot2: Disabled
+- Slot3NicBoot3: Disabled
+- Slot3NicBoot4: Disabled
+- SnoopResponseHoldOff: 9
+- Sriov: Enabled
+- StaleAtoS: Auto
+- SubNumaClustering: Disabled
+- TPM2EndorsementDisable: Enabled
+- TPM2StorageDisable: Enabled
+- TdxEnable: Disabled
+- TdxSeamldrEnable: Disabled
+- ThermalConfig: OptimalCooling
+- ThermalShutdown: Enabled
+- TimeFormat: Local
+- TimeZone: Unspecified
+- Tme: Disabled
+- TmeExclusiveBase: 
+- TmeExclusiveLen: 
+- Tpm20SoftwareInterfaceStatus: Fifo
+- Tpm2Operation: NoAction
+- TpmActivePcrs: Sha256Sha384
+- TpmChipId: STMicroGen11
+- TpmState: PresentEnabled
+- TpmUefiOpromMeasuring: Enabled
+- TpmVisibility: Visible
+- Tsx: Enabled
+- UefiSerialDebugLevel: ErrorsOnly
+- UefiShellBootOrder: Disabled
+- UefiShellPhysicalPresenceKeystroke: Enabled
+- UefiShellScriptVerification: Disabled
+- UefiShellStartup: Disabled
+- UefiShellStartupLocation: Auto
+- UefiShellStartupUrl: 
+- UefiShellStartupUrlFromDhcp: Disabled
+- UefiVariableAccessFwControl: Disabled
+- UncoreFreqScaling: Custom
+- UncoreFrequencyMAX: 0
+- UncoreFrequencyMIN: 0
+- Upi3Link: Disabled
+- UrlBootFile: 
+- UrlBootFile2: 
+- UrlBootFile3: 
+- UrlBootFile4: 
+- UsbBoot: Enabled
+- UsbControl: UsbEnabled
+- UserDefaultsState: Disabled
+- UtilityLang: English
+- VirtualNuma: Disabled
+- VirtualSerialPort: Com1Irq4
+- VlanControl: Disabled
+- VlanId: 0
+- VlanPriority: 0
+- WakeOnLan: Enabled
+- WorkloadProfile: vRAN
+- iSCSISoftwareInitiator: Enabled
+---------- System Settings ---------------------------
+{
+        "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+        "@odata.etag": "W/\"4D05847A\"",
+        "@odata.id": "/redfish/v1/Systems/1",
+        "@odata.type": "#ComputerSystem.v1_17_0.ComputerSystem",
+        "Id": "1",
+        "Actions": {
+                "#ComputerSystem.Reset": {
+                        "ResetType@Redfish.AllowableValues": [
+                                "On",
+                                "ForceOff",
+                                "GracefulShutdown",
+                                "ForceRestart",
+                                "Nmi",
+                                "PushPowerButton",
+                                "GracefulRestart"
+                        ],
+                        "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset"
+                }
+        },
+        "AssetTag": "",
+        "Bios": {
+                "@odata.id": "/redfish/v1/systems/1/bios"
+        },
+        "BiosVersion": "U62 v2.16 (03/01/2024)",
+        "Boot": {
+                "BootOptions": {
+                        "@odata.id": "/redfish/v1/Systems/1/BootOptions"
+                },
+                "BootOrder": [
+                        "Boot0022",
+                        "Boot001C",
+                        "Boot000F",
+                        "Boot000E",
+                        "Boot0012",
+                        "Boot0014",
+                        "Boot0016",
+                        "Boot0018",
+                        "Boot001E",
+                        "Boot0020",
+                        "Boot001A",
+                        "Boot0013",
+                        "Boot0015",
+                        "Boot0017",
+                        "Boot0019",
+                        "Boot001F",
+                        "Boot0021",
+                        "Boot001B",
+                        "Boot001D",
+                        "Boot0011",
+                        "Boot0010"
+                ],
+                "BootSourceOverrideEnabled": "Disabled",
+                "BootSourceOverrideMode": "UEFI",
+                "BootSourceOverrideTarget": "None",
+                "BootSourceOverrideTarget@Redfish.AllowableValues": [
+                        "None",
+                        "Cd",
+                        "Hdd",
+                        "Usb",
+                        "SDCard",
+                        "Utilities",
+                        "Diags",
+                        "BiosSetup",
+                        "Pxe",
+                        "UefiShell",
+                        "UefiHttp",
+                        "UefiTarget"
+                ],
+                "UefiTargetBootSourceOverride": "None",
+                "UefiTargetBootSourceOverride@Redfish.AllowableValues": [
+                        "HD(1,GPT,93B53D7D-F5CA-4DF6-9C46-77F5F9199047,0x40,0x32000)/\\EFI\\VMware\\safeboot64.efi",
+                        "PciRoot(0x3)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(40A6B79C48A8,0x1)/IPv4(0.0.0.0)",
+                        "PciRoot(0x0)/Pci(0x8,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)",
+                        "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+                        "PciRoot(0x1)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F4B9C88,0x1)/IPv4(0.0.0.0)",
+                        "PciRoot(0x1)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F4B9C88,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
+                        "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(6CFE546302F0,0x1)/IPv4(0.0.0.0)",
+                        "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(6CFE546302F0,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
+                        "PciRoot(0x4)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F5B07D4,0x1)/IPv4(0.0.0.0)",
+                        "PciRoot(0x4)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F5B07D4,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
+                        "PciRoot(0x3)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(40A6B79C48A8,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
+                        "PciRoot(0x1)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F4B9C88,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
+                        "PciRoot(0x1)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F4B9C88,0x1)/IPv4(0.0.0.0)/Uri()",
+                        "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(6CFE546302F0,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
+                        "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(6CFE546302F0,0x1)/IPv4(0.0.0.0)/Uri()",
+                        "PciRoot(0x4)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F5B07D4,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
+                        "PciRoot(0x4)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(507C6F5B07D4,0x1)/IPv4(0.0.0.0)/Uri()",
+                        "PciRoot(0x3)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(40A6B79C48A8,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
+                        "PciRoot(0x3)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(40A6B79C48A8,0x1)/IPv4(0.0.0.0)/Uri()",
+                        "PciRoot(0x0)/Pci(0xA,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)",
+                        "PciRoot(0x0)/Pci(0x9,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)"
+                ]
+        },
+        "EthernetInterfaces": {
+                "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+        },
+        "HostName": "",
+        "Links": {
+                "ManagedBy": [
+                        {
+                                "@odata.id": "/redfish/v1/Managers/1"
+                        }
+                ],
+                "Chassis": [
+                        {
+                                "@odata.id": "/redfish/v1/Chassis/1"
+                        }
+                ]
+        },
+        "LocationIndicatorActive": false,
+        "LogServices": {
+                "@odata.id": "/redfish/v1/Systems/1/LogServices"
+        },
+        "Manufacturer": "HPE",
+        "Memory": {
+                "@odata.id": "/redfish/v1/Systems/1/Memory"
+        },
+        "MemoryDomains": {
+                "@odata.id": "/redfish/v1/Systems/1/MemoryDomains"
+        },
+        "MemorySummary": {
+                "Status": {
+                        "HealthRollup": "OK"
+                },
+                "TotalSystemMemoryGiB": 128,
+                "TotalSystemPersistentMemoryGiB": 0
+        },
+        "Model": "ProLiant DL110 Gen11",
+        "Name": "Computer System",
+        "NetworkInterfaces": {
+                "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces"
+        },
+        "Oem": {
+                "Hpe": {
+                        "@odata.context": "/redfish/v1/$metadata#HpeComputerSystemExt.HpeComputerSystemExt",
+                        "@odata.type": "#HpeComputerSystemExt.v2_12_0.HpeComputerSystemExt",
+                        "Actions": {
+                                "#HpeComputerSystemExt.PowerButton": {
+                                        "PushType@Redfish.AllowableValues": [
+                                                "Press",
+                                                "PressAndHold"
+                                        ],
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.PowerButton"
+                                },
+                                "#HpeComputerSystemExt.RestoreManufacturingDefaults": {
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.RestoreManufacturingDefaults"
+                                },
+                                "#HpeComputerSystemExt.RestoreSystemDefaults": {
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.RestoreSystemDefaults"
+                                },
+                                "#HpeComputerSystemExt.SecureSystemErase": {
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.SecureSystemErase"
+                                },
+                                "#HpeComputerSystemExt.ServerIntelligentDiagnosticsMode": {
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.ServerIntelligentDiagnosticsMode"
+                                },
+                                "#HpeComputerSystemExt.ServerSafeMode": {
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.ServerSafeMode"
+                                },
+                                "#HpeComputerSystemExt.SystemReset": {
+                                        "ResetType@Redfish.AllowableValues": [
+                                                "ColdBoot",
+                                                "AuxCycle"
+                                        ],
+                                        "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.SystemReset"
+                                }
+                        },
+                        "AggregateHealthStatus": {
+                                "AgentlessManagementService": "Unavailable",
+                                "AggregateServerHealth": "OK",
+                                "BiosOrHardwareHealth": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "FanRedundancy": "Redundant",
+                                "Fans": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "Memory": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "Network": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "PowerSupplies": {
+                                        "PowerSuppliesMismatch": false,
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "PowerSupplyRedundancy": "Redundant",
+                                "Processors": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "Storage": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                },
+                                "Temperatures": {
+                                        "Status": {
+                                                "Health": "OK"
+                                        }
+                                }
+                        },
+                        "Bios": {
+                                "Backup": {
+                                        "Date": "10/05/2023",
+                                        "Family": "U62",
+                                        "VersionString": "U62 v1.48 (10/05/2023)"
+                                },
+                                "Current": {
+                                        "Date": "03/01/2024",
+                                        "Family": "U62",
+                                        "VersionString": "U62 v2.16 (03/01/2024)"
+                                },
+                                "UefiClass": 3
+                        },
+                        "CriticalTempRemainOff": false,
+                        "CurrentPowerOnTimeSeconds": 1197072,
+                        "DeviceDiscoveryComplete": {
+                                "AMSDeviceDiscovery": "NoAMS",
+                                "DeviceDiscovery": "vMainDeviceDiscoveryComplete"
+                        },
+                        "ElapsedEraseTimeInMinutes": 0,
+                        "EndOfPostDelaySeconds": 0,
+                        "EstimatedEraseTimeInMinutes": 0,
+                        "IndicatorLED": "Off",
+                        "IntelligentProvisioningAlwaysOn": true,
+                        "IntelligentProvisioningIndex": 6,
+                        "IntelligentProvisioningLocation": "System Board",
+                        "IntelligentProvisioningVersion": "4.20.11",
+                        "IsColdBooting": false,
+                        "Links": {
+                                "SUT": {
+                                        "@odata.id": "/redfish/v1/systems/1/hpsut"
+                                },
+                                "PCISlots": {
+                                        "@odata.id": "/redfish/v1/Systems/1/PCISlots"
+                                },
+                                "USBPorts": {
+                                        "@odata.id": "/redfish/v1/Systems/1/USBPorts"
+                                },
+                                "USBDevices": {
+                                        "@odata.id": "/redfish/v1/Systems/1/USBDevices"
+                                },
+                                "EthernetInterfaces": {
+                                        "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+                                },
+                                "WorkloadPerformanceAdvisor": {
+                                        "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor"
+                                },
+                                "SecureEraseReportService": {
+                                        "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService"
+                                },
+                                "PCIDevices": [
+                                        {
+                                                "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
+                                        }
+                                ]
+                        },
+                        "PCAPartNumber": "P48420-001",
+                        "PCASerialNumber": "PXWDB0FLMIY01B",
+                        "PostDiscoveryCompleteTimeStamp": "2024-07-02T19:29:45Z",
+                        "PostDiscoveryMode": "Auto",
+                        "PostMode": "Normal",
+                        "PostState": "FinishedPost",
+                        "PowerAllocationLimit": 1400,
+                        "PowerAutoOn": "Restore",
+                        "PowerOnDelay": "Minimum",
+                        "PowerOnMinutes": 158900,
+                        "PowerRegulatorMode": "OSControl",
+                        "PowerRegulatorModesSupported": [
+                                "OSControl",
+                                "Dynamic",
+                                "Max",
+                                "Min"
+                        ],
+                        "SMBIOS": {
+                                "extref": "/smbios"
+                        },
+                        "ServerFQDN": "",
+                        "ServerIntelligentDiagnosticsModeEnabled": false,
+                        "ServerSafeModeEnabled": false,
+                        "SystemROMAndiLOEraseComponentStatus": {
+                                "BIOSSettingsEraseStatus": "Idle",
+                                "iLOSettingsEraseStatus": "Idle"
+                        },
+                        "SystemROMAndiLOEraseStatus": "Idle",
+                        "SystemUsage": {
+                                "AvgCPU0Freq": 44,
+                                "CPU0Power": 73,
+                                "CPUICUtil": 0,
+                                "CPUUtil": 3,
+                                "IOBusUtil": 0,
+                                "JitterCount": 118,
+                                "MemoryBusUtil": 0
+                        },
+                        "UserDataEraseComponentStatus": {},
+                        "UserDataEraseStatus": "Idle",
+                        "VirtualProfile": "Inactive"
+                }
+        },
+        "PowerState": "On",
+        "ProcessorSummary": {
+                "Count": 1,
+                "Model": "Intel(R) Xeon(R) Gold 6433N",
+                "Status": {
+                        "HealthRollup": "OK"
+                }
+        },
+        "Processors": {
+                "@odata.id": "/redfish/v1/Systems/1/Processors"
+        },
+        "SKU": "P54277-B21",
+        "SecureBoot": {
+                "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
+        },
+        "SerialNumber": "CZ24090HYS",
+        "Status": {
+                "Health": "OK",
+                "HealthRollup": "OK",
+                "State": "Enabled"
+        },
+        "Storage": {
+                "@odata.id": "/redfish/v1/Systems/1/Storage"
+        },
+        "SystemType": "Physical",
+        "TrustedModules": [
+                {
+                        "FirmwareVersion": "1.512",
+                        "InterfaceType": "TPM2_0",
+                        "Oem": {
+                                "Hpe": {
+                                        "@odata.context": "/redfish/v1/$metadata#HpeTrustedModuleExt.HpeTrustedModuleExt",
+                                        "@odata.type": "#HpeTrustedModuleExt.v2_0_0.HpeTrustedModuleExt",
+                                        "VendorName": "STMicro"
+                                }
+                        },
+                        "Status": {
+                                "Health": "OK",
+                                "State": "Enabled"
+                        }
+                }
+        ],
+        "UUID": "32343550-3737-5A43-3234-303930485953"
+}

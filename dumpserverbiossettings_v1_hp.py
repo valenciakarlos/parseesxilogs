@@ -31,11 +31,13 @@ password = args.password
 # URL for accessing BIOS settings
 bios_url = f"https://{ip_address}/redfish/v1/Systems/1/Bios/Settings"
 
+
 # Headers for authentication
 headers = {'Content-Type': 'application/json'}
 
 # Send a GET request to retrieve BIOS settings
 response = requests.get(bios_url, auth=(username, password), headers=headers, verify=False)
+
 
 # Check for successful response
 if response.status_code == 200:
@@ -54,8 +56,16 @@ else:
     try:
         formatted_response = yaml.dump(yaml.safe_load(response.content), default_flow_style=False)
     except yaml.YAMLError:
-        formatted_response = json.dumps(response.json(), indent=4)  # Use response.json() for automatic JSON parsing
+        formatted_response = json.dumps(response.json(), indent=6)  # Use response.json() for automatic JSON parsing
 
-    print("Response text:")
+    print("------------ BIOS Settings ----------------")
     print(formatted_response)
 
+systems_url = f"https://{ip_address}/redfish/v1/Systems/1"
+
+response = requests.get(systems_url, auth=(username, password), headers=headers, verify=False)
+
+if response.status_code == 200:
+    print("---------- System Settings ---------------------------")
+    formatted_response=json.dumps(response.json(), indent=8)
+    print(formatted_response)
